@@ -11,4 +11,24 @@ func routes(_ app: Application) throws {
     app.get { req async in
         app.routes.all.map({ $0.description })
     }
+
+    /*
+
+    /businesses
+    /businesses/:uuid
+    /businesses/:uuid/reviews
+    /businesses/:uuid/customers
+    /businesses/:uuid/customers/:uuid
+    /businesses/:uuid/orders
+    /businesses/:uuid/orders/:uuid
+
+    /customers/:uuid
+    /customers/:uuid/orders
+    /customers/:uuid/orders/:uuid
+    /customers/:uuid/chats
+    /customers/:uuid/chats/:uuid
+
+    /postal_areas
+
+    */
 }

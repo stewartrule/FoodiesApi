@@ -26,7 +26,7 @@ public func configure(_ app: Application) async throws {
 
     app.asyncCommands.use(SeedCommand(), as: "seed")
 
-    //    app.logger.logLevel = .debug
+    // app.logger.logLevel = .debug
 
     let migrations: [AsyncMigration] = [
         CreateProductType(),
@@ -55,9 +55,6 @@ public func configure(_ app: Application) async throws {
     for migration in migrations {
         app.migrations.add(migration)
     }
-
-    let jsonResource = JsonResource(app: app, fileManager: FileManager.default)
-    app.migrations.add(CreateSeed(jsonResource: jsonResource))
 
     try routes(app)
 }

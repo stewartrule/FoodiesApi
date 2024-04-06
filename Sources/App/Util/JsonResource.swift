@@ -1,33 +1,5 @@
 import Vapor
 
-extension Task where Success == Never, Failure == Never {
-    static func sleep(seconds: Double) async throws {
-        let duration = UInt64(seconds * 1_000_000_000)
-        try await Task.sleep(nanoseconds: duration)
-    }
-}
-
-struct SeedCommand: AsyncCommand {
-    struct Signature: CommandSignature {}
-
-    var help: String {
-        "Seed database with mock data"
-    }
-
-    func run(using context: CommandContext, signature: Signature) async throws {
-        let progressBar = context.console.progressBar(title: "cuisines")
-        let width = 400
-        let items = Array(1...width)
-        let f = 1.0 / Double(width)
-        progressBar.start()
-        for i in items {
-            progressBar.activity.currentProgress = f * Double(i)
-            try await Task.sleep(seconds: 0.01)
-        }
-        progressBar.succeed()
-    }
-}
-
 class JsonResource {
     enum ProvinceName: String, Codable {
         case drenthe = "Drenthe"

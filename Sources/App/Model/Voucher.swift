@@ -1,7 +1,7 @@
 import Fluent
 import Vapor
 
-// fixme!
+// @todo
 final class Voucher: Model, Content {
     static let schema = "vouchers"
 
@@ -29,7 +29,6 @@ final class Voucher: Model, Content {
     @Parent(key: "customer_id")
     var customer: Customer
 
-    //
     @Timestamp(key: "redeemed_at", on: .none)
     var deliveredAt: Date?
 

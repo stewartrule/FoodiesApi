@@ -2,18 +2,22 @@ import Fakery
 import Fluent
 import Vapor
 
-struct CreateSeed: AsyncMigration {
-    let jsonResource: JsonResource
+struct SeedCommand: AsyncCommand {
+    struct Signature: CommandSignature {}
 
-    init(jsonResource: JsonResource) {
-        self.jsonResource = jsonResource
+    var help: String {
+        "Seed database with mock data"
     }
 
-    func prepare(on database: Database) async throws {
+    func run(using context: CommandContext, signature: Signature) async throws {
         let faker = Faker()
+        let app = context.application
+        let database = context.application.db
+        let console = context.console
+        let jsonResource = JsonResource(app: app, fileManager: FileManager.default)
 
-        // 4 / 22
-        let postalCodes = try jsonResource.getPostalCode().filter({ $0.postalCode % 22 == 0 })
+        // 4 / 11 / 22
+        let postalCodes = try jsonResource.getPostalCode().filter({ $0.postalCode % 11 == 0 })
         let restaurants = try jsonResource.getRestaurants()
         let dishes = try jsonResource.getDishes()
 
@@ -24,7 +28,7 @@ struct CreateSeed: AsyncMigration {
             .map({ ProductType(name: $0) })
 
         try await productTypes.create(on: database)
-        print("productTypes")
+        console.output("Created productTypes")
 
         let provinces =
             postalCodes
@@ -33,7 +37,7 @@ struct CreateSeed: AsyncMigration {
             .map({ Province(name: $0) })
 
         try await provinces.create(on: database)
-        print("provinces")
+        console.output("Created provinces")
 
         let cities = try provinces.flatMap { province in
             try postalCodes
@@ -46,7 +50,7 @@ struct CreateSeed: AsyncMigration {
         }
 
         try await cities.create(on: database)
-        print("cities")
+        console.output("Created cities")
 
         let postalAreas = try cities.flatMap { city in
             try postalCodes
@@ -62,7 +66,7 @@ struct CreateSeed: AsyncMigration {
         }
 
         try await postalAreas.create(on: database)
-        print("postalAreas")
+        console.output("Created postalAreas")
 
         var addresses: [Address] = []
         let letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -80,7 +84,7 @@ struct CreateSeed: AsyncMigration {
             addresses.append(address)
         }
         try await addresses.create(on: database)
-        print("addresses")
+        console.output("Created addresses")
 
         let cuisines =
             restaurants
@@ -89,7 +93,7 @@ struct CreateSeed: AsyncMigration {
             .map({ Cuisine(name: $0) })
 
         try await cuisines.create(on: database)
-        print("cuisines")
+        console.output("Created cuisines")
 
         let businessTypeNames = [
             "Bistro", "Brasserie", "Café", "Grand café", "Restaurant",
@@ -98,8 +102,12 @@ struct CreateSeed: AsyncMigration {
             BusinessType(name: name)
         }
         try await businessTypes.create(on: database)
-        print("businessTypes")
+        console.output("Created businessTypes")
 
+        var progressBar = context.console.progressBar(title: "Creating businesses")
+        var factor = 1.0 / Double(addresses.count)
+        var counter = 0
+        progressBar.start()
         for address in addresses {
             let cuisine = cuisines.randomElement()!
             let businessType = businessTypes.randomElement()!
@@ -144,7 +152,14 @@ struct CreateSeed: AsyncMigration {
             }
 
             try await business.save(on: database)
+
+            progressBar.activity.currentProgress = factor * Double(counter)
+            counter += 1
         }
+        progressBar.succeed()
+
+        let combo = ProductType(name: "Combo")
+        try await combo.save(on: database)
 
         let businesses: [Business] = try await Business.query(on: database)
             .with(\.$cuisines)
@@ -155,10 +170,11 @@ struct CreateSeed: AsyncMigration {
                 }
             }
             .all()
-        print("businesses")
 
-        let combo = ProductType(name: "Combo")
-        try await combo.save(on: database)
+        progressBar = context.console.progressBar(title: "Adding a lot of data")
+        factor = 1.0 / Double(businesses.count)
+        counter = 0
+        progressBar.start()
 
         for business in businesses {
             let cuisines = business.cuisines
@@ -183,7 +199,6 @@ struct CreateSeed: AsyncMigration {
                 }
 
             try await products.create(on: database)
-            print("products")
 
             let percentage = faker.number.randomInt(min: 1, max: 4) * 10
             let discount = Discount(
@@ -204,7 +219,6 @@ struct CreateSeed: AsyncMigration {
                     )
                 }
             try await discounted.create(on: database)
-            print("discounts")
 
             let usedProductTypeIds =
                 products
@@ -238,8 +252,6 @@ struct CreateSeed: AsyncMigration {
                         on: database
                     )
                     try await parent.save(on: database)
-
-                    print("combos \(i)")
                 }
             }
 
@@ -280,7 +292,6 @@ struct CreateSeed: AsyncMigration {
                 )
                 try await customer.save(on: database)
                 customers.append(customer)
-                print("customer")
 
                 // Add courier for this customer.
                 let courier = Courier(
@@ -290,7 +301,6 @@ struct CreateSeed: AsyncMigration {
                         "06\(faker.number.randomInt(min: 12_345_678, max: 98_765_432))"
                 )
                 try await courier.save(on: database)
-                print("courier")
 
                 // Add orders for every customer.
                 let localBusinesses =
@@ -362,31 +372,21 @@ struct CreateSeed: AsyncMigration {
                         try await chat.save(on: database)
                     }
                 }
-
-                print("order + review")
             }
+
+            progressBar.activity.currentProgress = factor * Double(counter)
+            counter += 1
         }
-    }
-
-    func revert(on database: Database) async throws {
-        try await BusinessReview.query(on: database).delete()
-        try await ProductOrder.query(on: database).delete()
-        try await Order.query(on: database).delete()
-        try await ProductCombo.query(on: database).delete()
-        try await Product.query(on: database).delete()
-        try await ProductType.query(on: database).delete()
-        try await CustomerAddress.query(on: database).delete()
-
-        try await BusinessCuisine.query(on: database).delete()
-        try await Business.query(on: database).delete()
-        try await Cuisine.query(on: database).delete()
-        try await Address.query(on: database).delete()
-        try await PostalArea.query(on: database).delete()
-        try await City.query(on: database).delete()
-        try await BusinessType.query(on: database).delete()
-        try await Province.query(on: database).delete()
-
-        try await Customer.query(on: database).delete()
-        try await Courier.query(on: database).delete()
+        progressBar.succeed()
     }
 }
+
+//        let width = 400
+//        let items = Array(1...width)
+//        let f = 1.0 / Double(width)
+//        progressBar.start()
+//        for i in items {
+//            progressBar.activity.currentProgress = f * Double(i)
+//            try await Task.sleep(seconds: 0.01)
+//        }
+//        progressBar.succeed()

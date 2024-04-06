@@ -1,6 +1,7 @@
 import Fluent
 import Vapor
 
+// @todo
 final class Image: Model, Content {
     static let schema = "images"
 
