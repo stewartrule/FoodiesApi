@@ -2,10 +2,8 @@ import Fluent
 
 struct CreateProductOrder: AsyncMigration {
     func prepare(on database: Database) async throws {
-        try await database.schema(ProductOrder.schema)
-            .id()
-            .field("quantity", .int, .required)
-            .field("price", .int, .required)
+        try await database.schema(ProductOrder.schema).id()
+            .field("quantity", .int, .required).field("price", .int, .required)
             .field(
                 "order_id",
                 .uuid,
@@ -18,12 +16,10 @@ struct CreateProductOrder: AsyncMigration {
                 .required,
                 .references(Product.schema, "id")
             )
-            .unique(on: "order_id", "product_id")
-            .create()
+            .unique(on: "order_id", "product_id").create()
     }
 
     func revert(on database: Database) async throws {
-        try await database.schema(ProductOrder.schema)
-            .delete()
+        try await database.schema(ProductOrder.schema).delete()
     }
 }

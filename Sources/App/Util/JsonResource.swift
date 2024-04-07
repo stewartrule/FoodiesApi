@@ -24,8 +24,7 @@ class JsonResource {
 
         enum CodingKeys: String, CodingKey {
             case postalCode = "postal_code"
-            case latitude, longitude, city, municipality,
-                province
+            case latitude, longitude, city, municipality, province
         }
     }
 
@@ -54,36 +53,22 @@ class JsonResource {
         self.fileManager = fileManager
     }
 
-    func getPostalCode() throws -> [PostalCode] {
-        try load("postalCodes")
-    }
+    func getPostalCode() throws -> [PostalCode] { try load("postalCodes") }
 
     func getRestaurants() throws -> [RestaurantPhoto] {
         try load("restaurants")
     }
 
-    func getDishes() throws -> [DishPhoto] {
-        try load("dishes")
-    }
+    func getDishes() throws -> [DishPhoto] { try load("dishes") }
 
-    private func load<T: Codable>(_ json: String) throws
-        -> T
-    {
-        let path =
-            "\(app.directory.resourcesDirectory)\(json).json"
+    private func load<T: Codable>(_ json: String) throws -> T {
+        let path = "\(app.directory.resourcesDirectory)\(json).json"
         guard fileManager.fileExists(atPath: path) else {
             fatalError("\(path) does not exist")
         }
-        guard
-            let jsonData = fileManager.contents(
-                atPath: path
-            )
-        else {
+        guard let jsonData = fileManager.contents(atPath: path) else {
             fatalError("\(path) could not be read")
         }
-        return try JSONDecoder().decode(
-            T.self,
-            from: jsonData
-        )
+        return try JSONDecoder().decode(T.self, from: jsonData)
     }
 }

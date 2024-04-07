@@ -4,26 +4,19 @@ import Vapor
 final class Address: Model, Content, Locatable {
     static let schema = "addresses"
 
-    @ID(key: .id)
-    var id: UUID?
+    @ID(key: .id) var id: UUID?
 
-    @Field(key: "street")
-    var street: String
+    @Field(key: "street") var street: String
 
-    @Field(key: "postal_code_suffix")
-    var postalCodeSuffix: String
+    @Field(key: "postal_code_suffix") var postalCodeSuffix: String
 
-    @Field(key: "house_number")
-    var houseNumber: Int
+    @Field(key: "house_number") var houseNumber: Int
 
-    @Field(key: "latitude")
-    var latitude: Double
+    @Field(key: "latitude") var latitude: Double
 
-    @Field(key: "longitude")
-    var longitude: Double
+    @Field(key: "longitude") var longitude: Double
 
-    @Parent(key: "postal_area_id")
-    var postalArea: PostalArea
+    @Parent(key: "postal_area_id") var postalArea: PostalArea
 
     init() {}
 

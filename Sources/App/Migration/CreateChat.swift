@@ -2,15 +2,11 @@ import Fluent
 
 struct CreateChat: AsyncMigration {
     func prepare(on database: Database) async throws {
-        let sender = try await database.enum("sender")
-            .case("customer")
-            .case("courier")
-            .create()
+        let sender = try await database.enum("sender").case("customer")
+            .case("courier").create()
 
-        try await database.schema(Chat.schema)
-            .id()
-            .field("created_at", .datetime)
-            .field("seen_at", .datetime)
+        try await database.schema(Chat.schema).id()
+            .field("created_at", .datetime).field("seen_at", .datetime)
             .field("message", .string, .required)
             .field(
                 "order_id",
@@ -24,13 +20,8 @@ struct CreateChat: AsyncMigration {
                 .required,
                 .references(Customer.schema, "id")
             )
-            .field(
-                "courier_id",
-                .uuid,
-                .references(Courier.schema, "id")
-            )
-            .field("sender", sender, .required)
-            .create()
+            .field("courier_id", .uuid, .references(Courier.schema, "id"))
+            .field("sender", sender, .required).create()
     }
 
     func revert(on database: Database) async throws {

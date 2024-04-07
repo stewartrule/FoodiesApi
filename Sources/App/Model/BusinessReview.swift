@@ -4,29 +4,21 @@ import Vapor
 final class BusinessReview: Model, Content {
     static let schema = "business_review"
 
-    @ID(key: .id)
-    var id: UUID?
+    @ID(key: .id) var id: UUID?
 
-    @Timestamp(key: "created_at", on: .create)
-    var createdAt: Date?
+    @Timestamp(key: "created_at", on: .create) var createdAt: Date?
 
-    @Field(key: "review")
-    var review: String
+    @Field(key: "review") var review: String
 
-    @Field(key: "rating")
-    var rating: Double
+    @Field(key: "rating") var rating: Double
 
-    @Field(key: "is_anonymous")
-    var isAnonymous: Bool
+    @Field(key: "is_anonymous") var isAnonymous: Bool
 
-    @Parent(key: "business_id")
-    var business: Business
+    @Parent(key: "business_id") var business: Business
 
-    @Parent(key: "customer_id")
-    var customer: Customer
+    @Parent(key: "customer_id") var customer: Customer
 
-    @Parent(key: "order_id")
-    var order: Order
+    @Parent(key: "order_id") var order: Order
 
     init() {}
 

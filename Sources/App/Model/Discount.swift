@@ -4,23 +4,17 @@ import Vapor
 final class Discount: Model, Content {
     static let schema = "discounts"
 
-    @ID(key: .id)
-    var id: UUID?
+    @ID(key: .id) var id: UUID?
 
-    @Field(key: "name")
-    var name: String
+    @Field(key: "name") var name: String
 
-    @Field(key: "percentage")
-    var percentage: Int
+    @Field(key: "percentage") var percentage: Int
 
-    @Parent(key: "business_id")
-    var business: Business
+    @Parent(key: "business_id") var business: Business
 
-    @Timestamp(key: "online_date", on: .none)
-    var onlineDate: Date?
+    @Timestamp(key: "online_date", on: .none) var onlineDate: Date?
 
-    @Timestamp(key: "offline_date", on: .none)
-    var offlineDate: Date?
+    @Timestamp(key: "offline_date", on: .none) var offlineDate: Date?
 
     init() {}
 

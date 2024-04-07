@@ -4,14 +4,11 @@ import Vapor
 final class ProductDiscount: Model, Content {
     static let schema = "product_discount"
 
-    @ID(key: .id)
-    var id: UUID?
+    @ID(key: .id) var id: UUID?
 
-    @Parent(key: "product_id")
-    var product: Product
+    @Parent(key: "product_id") var product: Product
 
-    @Parent(key: "discount_id")
-    var discount: Discount
+    @Parent(key: "discount_id") var discount: Discount
 
     init() {}
 

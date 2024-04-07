@@ -4,11 +4,9 @@ import Vapor
 final class ProductType: Model, Content {
     static let schema = "product_types"
 
-    @ID(key: .id)
-    var id: UUID?
+    @ID(key: .id) var id: UUID?
 
-    @Field(key: "name")
-    var name: String
+    @Field(key: "name") var name: String
 
     init() {}
 

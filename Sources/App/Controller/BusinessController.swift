@@ -8,9 +8,7 @@ struct BusinessController: RouteCollection {
         var limit: Int? = 100
         var offset: Int? = 0
 
-        static func validations(
-            _ validations: inout Validations
-        ) {
+        static func validations(_ validations: inout Validations) {
             validations.add(
                 "postalCode",
                 as: Int.self,
@@ -70,17 +68,13 @@ struct BusinessController: RouteCollection {
                 isAnonymous: review.isAnonymous,
                 review: review.review,
                 rating: review.rating,
-                customer: CustomerContent.from(
-                    customer: review.customer
-                )
+                customer: CustomerContent.from(customer: review.customer)
             )
         }
     }
 
     func boot(routes: RoutesBuilder) throws {
-        let group = routes.grouped(
-            .constant(Business.schema)
-        )
+        let group = routes.grouped(.constant(Business.schema))
         group.get(use: filter)
         group.group(":businessID") { subgroup in
             subgroup.get(use: detail)
@@ -88,34 +82,22 @@ struct BusinessController: RouteCollection {
         }
     }
 
-    func detail(req: Request) async throws
-        -> BusinessContent
-    {
-        guard
-            let businessID = req.parameters.get(
-                "businessID",
-                as: UUID.self
-            )
-        else {
-            throw Abort(.badRequest)
-        }
+    func detail(req: Request) async throws -> BusinessContent {
+        guard let businessID = req.parameters.get("businessID", as: UUID.self)
+        else { throw Abort(.badRequest) }
 
         guard
-            let business = try await req.businessRepository
-                .find(
-                    businessID: businessID
-                )
-        else {
-            throw Abort(.notFound)
-        }
+            let business = try await req.businessRepository.find(
+                businessID: businessID
+            )
+        else { throw Abort(.notFound) }
 
         let now = Date()
         let isOpen = business.isOpenAt(date: now)
-        let reviewCount =
-            try await req.businessReviewRepository
-            .getCountFor(business: business)
-        let averageRating =
-            try await req.businessReviewRepository
+        let reviewCount = try await req.businessReviewRepository.getCountFor(
+            business: business
+        )
+        let averageRating = try await req.businessReviewRepository
             .getAverageRatingFor(business: business)
 
         return BusinessContent(
@@ -128,63 +110,41 @@ struct BusinessController: RouteCollection {
         )
     }
 
-    func reviews(req: Request) async throws -> Page<
-        ReviewContent
-    > {
-        guard
-            let businessID = req.parameters.get(
-                "businessID",
-                as: UUID.self
-            )
-        else {
-            throw Abort(.badRequest)
-        }
+    func reviews(req: Request) async throws -> Page<ReviewContent> {
+        guard let businessID = req.parameters.get("businessID", as: UUID.self)
+        else { throw Abort(.badRequest) }
 
-        let paginator =
-            try await req.businessReviewRepository
-            .paginateFor(businessID: businessID)
+        let paginator = try await req.businessReviewRepository.paginateFor(
+            businessID: businessID
+        )
 
-        return paginator.map { review in
-            ReviewContent.from(review: review)
-        }
+        return paginator.map { review in ReviewContent.from(review: review) }
     }
 
-    func filter(req: Request) async throws
-        -> [BusinessContent]
-    {
+    func filter(req: Request) async throws -> [BusinessContent] {
         try Filter.validate(query: req)
         let filter = try req.query.decode(Filter.self)
         let postalCode = filter.postalCode
         let distance = filter.distance ?? 10
 
         guard
-            let postalArea =
-                try await PostalArea
-                .query(on: req.db)
-                .filter(\.$postalCode == postalCode)
-                .first()
-        else {
-            throw Abort(.notFound)
-        }
+            let postalArea = try await PostalArea.query(on: req.db)
+                .filter(\.$postalCode == postalCode).first()
+        else { throw Abort(.notFound) }
 
-        let businesses = try await req.businessRepository
-            .find(
-                near: postalArea,
-                upto: distance
-            )
+        let businesses = try await req.businessRepository.find(
+            near: postalArea,
+            upto: distance
+        )
 
         let now = Date()
         var aggregates: [BusinessContent] = []
         for business in businesses {
             let isOpen = business.isOpenAt(date: now)
-            let distance = business.address.getDistanceTo(
-                postalArea
-            )
-            let reviewCount =
-                try await req.businessReviewRepository
+            let distance = business.address.getDistanceTo(postalArea)
+            let reviewCount = try await req.businessReviewRepository
                 .getCountFor(business: business)
-            let averageRating =
-                try await req.businessReviewRepository
+            let averageRating = try await req.businessReviewRepository
                 .getAverageRatingFor(business: business)
 
             aggregates.append(
@@ -199,8 +159,6 @@ struct BusinessController: RouteCollection {
             )
         }
 
-        return aggregates.sorted { lhs, rhs in
-            lhs.distance < rhs.distance
-        }
+        return aggregates.sorted { lhs, rhs in lhs.distance < rhs.distance }
     }
 }

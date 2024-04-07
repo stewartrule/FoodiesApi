@@ -2,8 +2,7 @@ import Fluent
 
 struct CreateDiscount: AsyncMigration {
     func prepare(on database: Database) async throws {
-        try await database.schema(Discount.schema)
-            .id()
+        try await database.schema(Discount.schema).id()
             .field("name", .string, .required)
             .field("percentage", .int, .required)
             .field("online_date", .datetime, .required)

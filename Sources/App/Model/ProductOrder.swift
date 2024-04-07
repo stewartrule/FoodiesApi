@@ -4,20 +4,15 @@ import Vapor
 final class ProductOrder: Model, Content {
     static let schema = "product_order"
 
-    @ID(key: .id)
-    var id: UUID?
+    @ID(key: .id) var id: UUID?
 
-    @Field(key: "quantity")
-    var quantity: Int
+    @Field(key: "quantity") var quantity: Int
 
-    @Field(key: "price")
-    var price: Int
+    @Field(key: "price") var price: Int
 
-    @Parent(key: "product_id")
-    var product: Product
+    @Parent(key: "product_id") var product: Product
 
-    @Parent(key: "order_id")
-    var order: Order
+    @Parent(key: "order_id") var order: Order
 
     init() {}
 

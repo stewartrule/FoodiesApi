@@ -2,8 +2,7 @@ import Fluent
 
 struct CreateAddress: AsyncMigration {
     func prepare(on database: Database) async throws {
-        try await database.schema(Address.schema)
-            .id()
+        try await database.schema(Address.schema).id()
             .field("street", .string, .required)
             .field("postal_code_suffix", .string, .required)
             .field("house_number", .int, .required)

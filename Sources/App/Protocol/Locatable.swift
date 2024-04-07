@@ -20,8 +20,7 @@ extension Locatable {
         let rLat2 = deg2rad(locatable.latitude)
 
         let a =
-            sin(dLat / 2) * sin(dLat / 2) + sin(dLon / 2)
-            * sin(dLon / 2)
+            sin(dLat / 2) * sin(dLat / 2) + sin(dLon / 2) * sin(dLon / 2)
             * cos(rLat1) * cos(rLat2)
 
         let c = 2 * atan2(sqrt(a), sqrt(1 - a))

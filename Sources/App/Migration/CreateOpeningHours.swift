@@ -2,8 +2,7 @@ import Fluent
 
 struct CreateOpeningHours: AsyncMigration {
     func prepare(on database: Database) async throws {
-        try await database.schema(OpeningHours.schema)
-            .id()
+        try await database.schema(OpeningHours.schema).id()
             .field(
                 "business_id",
                 .uuid,
@@ -13,12 +12,10 @@ struct CreateOpeningHours: AsyncMigration {
             .field("weekday", .int16, .required)
             .field("start_time", .int16, .required)
             .field("end_time", .int16, .required)
-            .field("is_closed", .bool, .required)
-            .create()
+            .field("is_closed", .bool, .required).create()
     }
 
     func revert(on database: Database) async throws {
-        try await database.schema(OpeningHours.schema)
-            .delete()
+        try await database.schema(OpeningHours.schema).delete()
     }
 }

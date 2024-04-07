@@ -4,23 +4,17 @@ import Vapor
 final class OpeningHours: Model, Content {
     static let schema = "opening_hours"
 
-    @ID(key: .id)
-    var id: UUID?
+    @ID(key: .id) var id: UUID?
 
-    @Field(key: "weekday")
-    var weekday: Int
+    @Field(key: "weekday") var weekday: Int
 
-    @Field(key: "start_time")
-    var startTime: Int
+    @Field(key: "start_time") var startTime: Int
 
-    @Field(key: "end_time")
-    var endTime: Int
+    @Field(key: "end_time") var endTime: Int
 
-    @Field(key: "is_closed")
-    var isClosed: Bool
+    @Field(key: "is_closed") var isClosed: Bool
 
-    @Parent(key: "business_id")
-    var business: Business
+    @Parent(key: "business_id") var business: Business
 
     init() {}
 

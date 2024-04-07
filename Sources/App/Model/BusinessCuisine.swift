@@ -4,14 +4,11 @@ import Vapor
 final class BusinessCuisine: Model, Content {
     static let schema = "business_cuisine"
 
-    @ID(key: .id)
-    var id: UUID?
+    @ID(key: .id) var id: UUID?
 
-    @Parent(key: "business_id")
-    var business: Business
+    @Parent(key: "business_id") var business: Business
 
-    @Parent(key: "cuisine_id")
-    var cuisine: Cuisine
+    @Parent(key: "cuisine_id") var cuisine: Cuisine
 
     init() {}
 

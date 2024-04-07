@@ -4,39 +4,26 @@ import Vapor
 final class Business: Model, Content {
     static let schema = "businesses"
 
-    @ID(key: .id)
-    var id: UUID?
+    @ID(key: .id) var id: UUID?
 
-    @Field(key: "name")
-    var name: String
+    @Field(key: "name") var name: String
 
-    @Field(key: "description")
-    var description: String
+    @Field(key: "description") var description: String
 
-    @Field(key: "delivery_charge")
-    var deliveryCharge: Int
+    @Field(key: "delivery_charge") var deliveryCharge: Int
 
-    @Field(key: "minimum_order_amount")
-    var minimumOrderAmount: Int
+    @Field(key: "minimum_order_amount") var minimumOrderAmount: Int
 
-    @Siblings(
-        through: BusinessCuisine.self,
-        from: \.$business,
-        to: \.$cuisine
-    )
+    @Siblings(through: BusinessCuisine.self, from: \.$business, to: \.$cuisine)
     var cuisines: [Cuisine]
 
-    @Parent(key: "address_id")
-    var address: Address
+    @Parent(key: "address_id") var address: Address
 
-    @Parent(key: "business_type_id")
-    var businessType: BusinessType
+    @Parent(key: "business_type_id") var businessType: BusinessType
 
-    @Children(for: \.$business)
-    var products: [Product]
+    @Children(for: \.$business) var products: [Product]
 
-    @Children(for: \.$business)
-    var openingHours: [OpeningHours]
+    @Children(for: \.$business) var openingHours: [OpeningHours]
 
     init() {}
 
@@ -60,28 +47,17 @@ final class Business: Model, Content {
 
     func isOpenAt(date: Date) -> Bool {
         let calendar = Calendar.current
-        let weekday = calendar.component(
-            .weekday,
-            from: date
-        )
+        let weekday = calendar.component(.weekday, from: date)
 
         return openingHours.contains { today in
-            if today.weekday != weekday {
-                return false
-            }
+            if today.weekday != weekday { return false }
 
-            if today.isClosed {
-                return false
-            }
+            if today.isClosed { return false }
 
             let hour = calendar.component(.hour, from: date)
-            let minute = calendar.component(
-                .minute,
-                from: date
-            )
+            let minute = calendar.component(.minute, from: date)
             let minutes = 60 * hour + minute
-            return minutes >= today.startTime
-                && minutes < today.endTime
+            return minutes >= today.startTime && minutes < today.endTime
         }
     }
 }
