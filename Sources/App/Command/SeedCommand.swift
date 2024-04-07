@@ -10,35 +10,62 @@ struct SeedCommand: AsyncCommand {
     }
 
     func run(using context: CommandContext, signature: Signature) async throws {
-        let faker = Faker()
+        let faker = Faker(locale: "nl")
         let app = context.application
-        let database = context.application.db
+        let database = app.db
         let console = context.console
-        let jsonResource = JsonResource(app: app, fileManager: FileManager.default)
 
-        // 4 / 11 / 22
-        let postalCodes = try jsonResource.getPostalCode().filter({ $0.postalCode % 11 == 0 })
+        // Gather input data.
+        let jsonResource = JsonResource(app: app, fileManager: FileManager.default)
+        var postalCodes = try jsonResource.getPostalCode()
         let restaurants = try jsonResource.getRestaurants()
         let dishes = try jsonResource.getDishes()
+        let provincesNames =
+            postalCodes
+            .map({ $0.province.rawValue })
+            .uniqued()
+            .map({ $0 })
 
+        // Determine density of the seed.
+        let province = console.choose(
+            "Province(s)",
+            from: ["All"] + provincesNames
+        )
+        if province == "All" {
+            let density = console.choose(
+                "Density",
+                from: ["Low", "Medium", "High", "Very high"]
+            )
+            let divisor =
+                switch density {
+                    case "Low": 22
+                    case "Medium": 11
+                    case "High": 4
+                    case "Very high": 1
+                    default: 11
+                }
+            postalCodes = postalCodes.filter({ $0.postalCode % divisor == 0 })
+        } else {
+            postalCodes = postalCodes.filter({ $0.province.rawValue == province })
+        }
+
+        // Create product types
         let productTypes =
             dishes
             .map({ $0.dishtype })
             .uniqued()
             .map({ ProductType(name: $0) })
-
         try await productTypes.create(on: database)
         console.output("Created productTypes")
 
+        // Create provinces
         let provinces =
-            postalCodes
-            .map({ $0.province.rawValue })
-            .uniqued()
+            provincesNames
             .map({ Province(name: $0) })
-
         try await provinces.create(on: database)
         console.output("Created provinces")
 
+        // Create cities
         let cities = try provinces.flatMap { province in
             try postalCodes
                 .filter({ $0.province.rawValue == province.name })
@@ -48,10 +75,10 @@ struct SeedCommand: AsyncCommand {
                     City(name: cityName, provinceID: try province.requireID())
                 }
         }
-
         try await cities.create(on: database)
         console.output("Created cities")
 
+        // Create postal areas
         let postalAreas = try cities.flatMap { city in
             try postalCodes
                 .filter({ $0.city == city.name })
@@ -64,10 +91,10 @@ struct SeedCommand: AsyncCommand {
                     )
                 }
         }
-
         try await postalAreas.create(on: database)
         console.output("Created postalAreas")
 
+        // Create addresses
         var addresses: [Address] = []
         let letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         for postalArea in postalAreas {
@@ -86,15 +113,16 @@ struct SeedCommand: AsyncCommand {
         try await addresses.create(on: database)
         console.output("Created addresses")
 
+        // Create cuisines
         let cuisines =
             restaurants
             .map({ $0.cuisine })
             .uniqued()
             .map({ Cuisine(name: $0) })
-
         try await cuisines.create(on: database)
         console.output("Created cuisines")
 
+        // Create business types
         let businessTypeNames = [
             "Bistro", "Brasserie", "Café", "Grand café", "Restaurant",
         ]
@@ -104,6 +132,7 @@ struct SeedCommand: AsyncCommand {
         try await businessTypes.create(on: database)
         console.output("Created businessTypes")
 
+        // Create businesses
         var progressBar = context.console.progressBar(title: "Creating businesses")
         var factor = 1.0 / Double(addresses.count)
         var counter = 0
@@ -131,7 +160,7 @@ struct SeedCommand: AsyncCommand {
 
             // Set opening hours.
             let businessID = try business.requireID()
-            let closedWeekday = faker.number.randomInt(min: 0, max: 7)
+            let closedWeekday = faker.number.randomInt(min: 1, max: 7)
             let weekdays: [Int] = Array(1...7)
             var startTime = 60 * faker.number.randomInt(min: 16, max: 18)
             var endTime = 60 * faker.number.randomInt(min: 22, max: 23)
@@ -150,7 +179,6 @@ struct SeedCommand: AsyncCommand {
                 )
                 try await hours.create(on: database)
             }
-
             try await business.save(on: database)
 
             progressBar.activity.currentProgress = factor * Double(counter)
@@ -171,12 +199,14 @@ struct SeedCommand: AsyncCommand {
             }
             .all()
 
-        progressBar = context.console.progressBar(title: "Adding a lot of data")
+        // Create all of the relations.
+        progressBar = context.console.progressBar(title: "Adding relations")
         factor = 1.0 / Double(businesses.count)
         counter = 0
         progressBar.start()
 
         for business in businesses {
+            // Add products to business.
             let cuisines = business.cuisines
             let products =
                 try dishes
@@ -197,9 +227,9 @@ struct SeedCommand: AsyncCommand {
 
                     return nil
                 }
-
             try await products.create(on: database)
 
+            // Add a discount to some of the products.
             let percentage = faker.number.randomInt(min: 1, max: 4) * 10
             let discount = Discount(
                 name: "\(percentage)% Off",
@@ -220,6 +250,7 @@ struct SeedCommand: AsyncCommand {
                 }
             try await discounted.create(on: database)
 
+            // Add combo products (which hold other products).
             let usedProductTypeIds =
                 products
                 .map(\.$productType.id)
@@ -238,7 +269,6 @@ struct SeedCommand: AsyncCommand {
                         })
 
                     let total = children.map(\.price).reduce(0, +)
-
                     let parent = Product(
                         name: "Combo \(i)",
                         description: "\(cuisine.name) combo",
@@ -255,7 +285,7 @@ struct SeedCommand: AsyncCommand {
                 }
             }
 
-            // Create some customers across the country.
+            // Create some customers in the same city as the business.
             var customers: [Customer] = []
             let randomAreas = postalAreas.filter({
                 $0.$city.id == business.address.postalArea.city.id
@@ -293,7 +323,7 @@ struct SeedCommand: AsyncCommand {
                 try await customer.save(on: database)
                 customers.append(customer)
 
-                // Add courier for this customer.
+                // Create courier for this customer.
                 let courier = Courier(
                     firstName: faker.name.firstName(),
                     lastName: faker.name.lastName(),
@@ -302,7 +332,7 @@ struct SeedCommand: AsyncCommand {
                 )
                 try await courier.save(on: database)
 
-                // Add orders for every customer.
+                // Add some orders for every customer.
                 let localBusinesses =
                     businesses
                     .filter { business in
@@ -380,13 +410,3 @@ struct SeedCommand: AsyncCommand {
         progressBar.succeed()
     }
 }
-
-//        let width = 400
-//        let items = Array(1...width)
-//        let f = 1.0 / Double(width)
-//        progressBar.start()
-//        for i in items {
-//            progressBar.activity.currentProgress = f * Double(i)
-//            try await Task.sleep(seconds: 0.01)
-//        }
-//        progressBar.succeed()
