@@ -9,14 +9,20 @@ struct SeedCommand: AsyncCommand {
         "Seed database with mock data"
     }
 
-    func run(using context: CommandContext, signature: Signature) async throws {
+    func run(
+        using context: CommandContext,
+        signature: Signature
+    ) async throws {
         let faker = Faker(locale: "nl")
         let app = context.application
         let database = app.db
         let console = context.console
 
         // Gather input data.
-        let jsonResource = JsonResource(app: app, fileManager: FileManager.default)
+        let jsonResource = JsonResource(
+            app: app,
+            fileManager: FileManager.default
+        )
         var postalCodes = try jsonResource.getPostalCode()
         let restaurants = try jsonResource.getRestaurants()
         let dishes = try jsonResource.getDishes()
@@ -34,7 +40,9 @@ struct SeedCommand: AsyncCommand {
         if province == "All" {
             let density = console.choose(
                 "Density",
-                from: ["Low", "Medium", "High", "Very high"]
+                from: [
+                    "Low", "Medium", "High", "Very high",
+                ]
             )
             let divisor =
                 switch density {
@@ -44,9 +52,13 @@ struct SeedCommand: AsyncCommand {
                     case "Very high": 1
                     default: 11
                 }
-            postalCodes = postalCodes.filter({ $0.postalCode % divisor == 0 })
+            postalCodes = postalCodes.filter({
+                $0.postalCode % divisor == 0
+            })
         } else {
-            postalCodes = postalCodes.filter({ $0.province.rawValue == province })
+            postalCodes = postalCodes.filter({
+                $0.province.rawValue == province
+            })
         }
 
         // Create product types
@@ -68,11 +80,16 @@ struct SeedCommand: AsyncCommand {
         // Create cities
         let cities = try provinces.flatMap { province in
             try postalCodes
-                .filter({ $0.province.rawValue == province.name })
+                .filter({
+                    $0.province.rawValue == province.name
+                })
                 .map({ $0.city })
                 .uniqued()
                 .compactMap { cityName in
-                    City(name: cityName, provinceID: try province.requireID())
+                    City(
+                        name: cityName,
+                        provinceID: try province.requireID()
+                    )
                 }
         }
         try await cities.create(on: database)
@@ -102,8 +119,13 @@ struct SeedCommand: AsyncCommand {
             let longitude = postalArea.longitude
             let address = Address(
                 street: faker.address.streetName(),
-                postalCodeSuffix: String(letters.randomSample(count: 2)),
-                houseNumber: faker.number.randomInt(min: 4, max: 200),
+                postalCodeSuffix: String(
+                    letters.randomSample(count: 2)
+                ),
+                houseNumber: faker.number.randomInt(
+                    min: 4,
+                    max: 200
+                ),
                 latitude: latitude,
                 longitude: longitude,
                 postalAreaID: try postalArea.requireID()
@@ -124,7 +146,8 @@ struct SeedCommand: AsyncCommand {
 
         // Create business types
         let businessTypeNames = [
-            "Bistro", "Brasserie", "Café", "Grand café", "Restaurant",
+            "Bistro", "Brasserie", "Café", "Grand café",
+            "Restaurant",
         ]
         let businessTypes = businessTypeNames.map { name in
             BusinessType(name: name)
@@ -133,25 +156,38 @@ struct SeedCommand: AsyncCommand {
         console.output("Created businessTypes")
 
         // Create businesses
-        var progressBar = context.console.progressBar(title: "Creating businesses")
+        var progressBar = context.console.progressBar(
+            title: "Creating businesses"
+        )
         var factor = 1.0 / Double(addresses.count)
         var counter = 0
         progressBar.start()
         for address in addresses {
             let cuisine = cuisines.randomElement()!
-            let businessType = businessTypes.randomElement()!
-            let photo = restaurants.filter({ $0.cuisine == cuisine.name })
-                .randomElement()!
+            let businessType =
+                businessTypes.randomElement()!
+            let photo = restaurants.filter({
+                $0.cuisine == cuisine.name
+            })
+            .randomElement()!
             let business = Business(
-                name: "\(cuisine.name) \(businessType.name)",
+                name:
+                    "\(cuisine.name) \(businessType.name)",
                 description: photo.alt,
-                deliveryCharge: faker.number.randomInt(min: 2, max: 7) * 50,
-                minimumOrderAmount: faker.number.randomInt(min: 1, max: 4)
+                deliveryCharge: faker.number.randomInt(
+                    min: 2,
+                    max: 7
+                ) * 50,
+                minimumOrderAmount: faker.number.randomInt(
+                    min: 1,
+                    max: 4
+                )
                     * 500,
                 addressID: try address.requireID(),
                 businessTypeID: try businessType.requireID()
             )
 
+            // Set cuisine.
             try await business.create(on: database)
             try await business.$cuisines.attach(
                 [cuisine],
@@ -160,13 +196,30 @@ struct SeedCommand: AsyncCommand {
 
             // Set opening hours.
             let businessID = try business.requireID()
-            let closedWeekday = faker.number.randomInt(min: 1, max: 7)
+            let closedWeekday = faker.number.randomInt(
+                min: 1,
+                max: 7
+            )
             let weekdays: [Int] = Array(1...7)
-            var startTime = 60 * faker.number.randomInt(min: 16, max: 18)
-            var endTime = 60 * faker.number.randomInt(min: 22, max: 23)
+            var startTime =
+                60
+                * faker.number.randomInt(min: 16, max: 18)
+            var endTime =
+                60
+                * faker.number.randomInt(min: 22, max: 23)
             if businessType.name == "Bistro" {
-                startTime = 60 * faker.number.randomInt(min: 10, max: 14)
-                endTime = 60 * faker.number.randomInt(min: 18, max: 20)
+                startTime =
+                    60
+                    * faker.number.randomInt(
+                        min: 10,
+                        max: 14
+                    )
+                endTime =
+                    60
+                    * faker.number.randomInt(
+                        min: 18,
+                        max: 20
+                    )
             }
 
             for weekday in weekdays {
@@ -181,7 +234,8 @@ struct SeedCommand: AsyncCommand {
             }
             try await business.save(on: database)
 
-            progressBar.activity.currentProgress = factor * Double(counter)
+            progressBar.activity.currentProgress =
+                factor * Double(counter)
             counter += 1
         }
         progressBar.succeed()
@@ -189,7 +243,8 @@ struct SeedCommand: AsyncCommand {
         let combo = ProductType(name: "Combo")
         try await combo.save(on: database)
 
-        let businesses: [Business] = try await Business.query(on: database)
+        let businesses: [Business] =
+            try await Business.query(on: database)
             .with(\.$cuisines)
             .with(\.$products)
             .with(\.$address) { a in
@@ -200,7 +255,9 @@ struct SeedCommand: AsyncCommand {
             .all()
 
         // Create all of the relations.
-        progressBar = context.console.progressBar(title: "Adding relations")
+        progressBar = context.console.progressBar(
+            title: "Adding a lot of relations"
+        )
         factor = 1.0 / Double(businesses.count)
         counter = 0
         progressBar.start()
@@ -210,18 +267,27 @@ struct SeedCommand: AsyncCommand {
             let cuisines = business.cuisines
             let products =
                 try dishes
-                .filter({ $0.cuisine == cuisines.first?.name })
+                .filter({
+                    $0.cuisine == cuisines.first?.name
+                })
                 .compactMap { dish in
-                    if let productType = productTypes.first(where: {
-                        $0.name == dish.dishtype
-                    }) {
+                    if let productType = productTypes.first(
+                        where: {
+                            $0.name == dish.dishtype
+                        })
+                    {
                         return Product(
                             name: productType.name,
                             description: dish.alt,
-                            price: (faker.number.randomInt(min: 3, max: 21)
+                            price: (faker.number.randomInt(
+                                min: 3,
+                                max: 21
+                            )
                                 * 100) + 99,
-                            businessID: try business.requireID(),
-                            productTypeID: try productType.requireID()
+                            businessID:
+                                try business.requireID(),
+                            productTypeID:
+                                try productType.requireID()
                         )
                     }
 
@@ -230,18 +296,21 @@ struct SeedCommand: AsyncCommand {
             try await products.create(on: database)
 
             // Add a discount to some of the products.
-            let percentage = faker.number.randomInt(min: 1, max: 4) * 10
+            let percentage =
+                faker.number.randomInt(min: 1, max: 4) * 10
             let discount = Discount(
                 name: "\(percentage)% Off",
                 percentage: percentage,
                 businessID: try business.requireID(),
-                onlineDate: faker.date.backward(days: 2),
-                offlineDate: faker.date.forward(3)
+                onlineDate: faker.date.backward(days: 1),
+                offlineDate: faker.date.forward(13)
             )
             try await discount.create(on: database)
             let discounted =
                 try products
-                .filter({ _ in faker.number.randomInt(min: 1, max: 5) == 3
+                .filter({ _ in
+                    faker.number.randomInt(min: 1, max: 7)
+                        == 3
                 }).map { product in
                     ProductDiscount(
                         productID: try product.requireID(),
@@ -264,16 +333,20 @@ struct SeedCommand: AsyncCommand {
                         .randomSample(count: 3)
                         .compactMap({ productType in
                             products.first(where: {
-                                $0.$productType.id == productType
+                                $0.$productType.id
+                                    == productType
                             })
                         })
 
-                    let total = children.map(\.price).reduce(0, +)
+                    let total = children.map(\.price)
+                        .reduce(0, +)
                     let parent = Product(
                         name: "Combo \(i)",
-                        description: "\(cuisine.name) combo",
+                        description:
+                            "\(cuisine.name) combo",
                         price: total - 300,
-                        businessID: try business.requireID(),
+                        businessID:
+                            try business.requireID(),
                         productTypeID: try combo.requireID()
                     )
                     try await parent.create(on: database)
@@ -288,7 +361,8 @@ struct SeedCommand: AsyncCommand {
             // Create some customers in the same city as the business.
             var customers: [Customer] = []
             let randomAreas = postalAreas.filter({
-                $0.$city.id == business.address.postalArea.city.id
+                $0.$city.id
+                    == business.address.postalArea.city.id
             }).randomSample(count: 2)
             for postalArea in randomAreas {
                 // Create customer.
@@ -309,8 +383,13 @@ struct SeedCommand: AsyncCommand {
                 // Add one address to each customer.
                 let address = Address(
                     street: faker.address.streetName(),
-                    postalCodeSuffix: String(letters.randomSample(count: 2)),
-                    houseNumber: faker.number.randomInt(min: 4, max: 200),
+                    postalCodeSuffix: String(
+                        letters.randomSample(count: 2)
+                    ),
+                    houseNumber: faker.number.randomInt(
+                        min: 4,
+                        max: 200
+                    ),
                     latitude: postalArea.latitude,
                     longitude: postalArea.longitude,
                     postalAreaID: try postalArea.requireID()
@@ -344,44 +423,77 @@ struct SeedCommand: AsyncCommand {
                 for business in localBusinesses {
                     // Create order.
                     let order = Order(
-                        customerID: try customer.requireID(),
-                        businessID: try business.requireID(),
+                        customerID:
+                            try customer.requireID(),
+                        businessID:
+                            try business.requireID(),
                         addressID: try address.requireID()
                     )
                     let createdAt = faker.date.backward(
-                        days: faker.number.randomInt(min: 3, max: 21)
+                        days: faker.number.randomInt(
+                            min: 3,
+                            max: 21
+                        )
                     ).addingTimeInterval(
-                        faker.number.randomDouble(min: 0, max: 60) * 120.0
+                        faker.number.randomDouble(
+                            min: 0,
+                            max: 60
+                        ) * 120.0
                     )
-                    let sentAt = createdAt.addingTimeInterval(20.0 * 60)
+                    let sentAt =
+                        createdAt.addingTimeInterval(
+                            20.0 * 60
+                        )
                     order.createdAt = createdAt
                     order.$courier.id = courier.id
-                    order.preparedAt = createdAt.addingTimeInterval(5.0 * 60)
+                    order.preparedAt =
+                        createdAt.addingTimeInterval(
+                            5.0 * 60
+                        )
                     order.sentAt = sentAt
-                    order.deliveredAt = createdAt.addingTimeInterval(30.0 * 60)
+                    order.deliveredAt =
+                        createdAt.addingTimeInterval(
+                            30.0 * 60
+                        )
                     try await order.save(on: database)
                     order.createdAt = createdAt
                     try await order.save(on: database)
 
                     // Add products to order.
-                    let selection = products.randomSample(count: 5)
+                    let selection = products.randomSample(
+                        count: 5
+                    )
                     for product in selection {
                         let orderedProduct = ProductOrder(
-                            quantity: faker.number.randomInt(min: 1, max: 4),
+                            quantity: faker.number
+                                .randomInt(min: 1, max: 4),
                             price: product.price,
-                            productID: try product.requireID(),
+                            productID:
+                                try product.requireID(),
                             orderID: try order.requireID()
                         )
-                        try await orderedProduct.save(on: database)
+                        try await orderedProduct.save(
+                            on: database
+                        )
                     }
 
                     // Add review for every order.
                     let review = BusinessReview(
-                        review: faker.lorem.paragraph(sentencesAmount: 2),
-                        rating: Double(faker.number.randomInt(min: 1, max: 5)),
-                        isAnonymous: faker.number.randomBool(),
-                        businessID: try business.requireID(),
-                        customerID: try customer.requireID(),
+                        review: faker.lorem.paragraph(
+                            sentencesAmount: 2
+                        ),
+                        rating: Double(
+                            faker.number.randomInt(
+                                min: 1,
+                                max: 5
+                            )
+                        ),
+                        isAnonymous: faker.number
+                            .randomBool(),
+                        businessID:
+                            try business.requireID(),
+                        customerID:
+                            try customer.requireID(),
                         orderID: try order.requireID()
                     )
                     try await review.save(on: database)
@@ -390,21 +502,33 @@ struct SeedCommand: AsyncCommand {
                     for i in 0...3 {
                         let chat = Chat(
                             orderID: try order.requireID(),
-                            customerID: try customer.requireID(),
-                            courierID: try courier.requireID(),
+                            customerID:
+                                try customer.requireID(),
+                            courierID:
+                                try courier.requireID(),
                             message: faker.lorem.sentence(),
-                            sender: i % 2 == 0 ? .customer : .courier
+                            sender: i % 2 == 0
+                                ? .customer : .courier
                         )
 
                         try await chat.save(on: database)
-                        chat.createdAt = sentAt.addingTimeInterval(Double(i + 2) * 60)
-                        chat.seenAt = i < 3 ? sentAt.addingTimeInterval(Double(i + 3) * 60) : nil
+                        chat.createdAt =
+                            sentAt.addingTimeInterval(
+                                Double(i + 2) * 60
+                            )
+                        chat.seenAt =
+                            i < 3
+                            ? sentAt.addingTimeInterval(
+                                Double(i + 3) * 60
+                            )
+                            : nil
                         try await chat.save(on: database)
                     }
                 }
             }
 
-            progressBar.activity.currentProgress = factor * Double(counter)
+            progressBar.activity.currentProgress =
+                factor * Double(counter)
             counter += 1
         }
         progressBar.succeed()

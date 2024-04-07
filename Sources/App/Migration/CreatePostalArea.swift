@@ -7,11 +7,17 @@ struct CreatePostalArea: AsyncMigration {
             .field("postal_code", .int, .required)
             .field("latitude", .double, .required)
             .field("longitude", .double, .required)
-            .field("city_id", .uuid, .required, .references(City.schema, "id"))
+            .field(
+                "city_id",
+                .uuid,
+                .required,
+                .references(City.schema, "id")
+            )
             .create()
     }
 
     func revert(on database: Database) async throws {
-        try await database.schema(PostalArea.schema).delete()
+        try await database.schema(PostalArea.schema)
+            .delete()
     }
 }

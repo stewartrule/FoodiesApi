@@ -26,7 +26,11 @@ struct CreateOrder: AsyncMigration {
                 .required,
                 .references(Business.schema, "id")
             )
-            .field("courier_id", .uuid, .references(Courier.schema, "id"))
+            .field(
+                "courier_id",
+                .uuid,
+                .references(Courier.schema, "id")
+            )
             .create()
     }
 

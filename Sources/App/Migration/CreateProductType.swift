@@ -9,6 +9,7 @@ struct CreateProductType: AsyncMigration {
     }
 
     func revert(on database: Database) async throws {
-        try await database.schema(ProductType.schema).delete()
+        try await database.schema(ProductType.schema)
+            .delete()
     }
 }

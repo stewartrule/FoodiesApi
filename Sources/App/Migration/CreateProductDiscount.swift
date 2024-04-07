@@ -21,6 +21,7 @@ struct CreateProductDiscount: AsyncMigration {
     }
 
     func revert(on database: Database) async throws {
-        try await database.schema(ProductDiscount.schema).delete()
+        try await database.schema(ProductDiscount.schema)
+            .delete()
     }
 }

@@ -26,11 +26,16 @@ struct CreateBusinessReview: AsyncMigration {
                 .required,
                 .references(Order.schema, "id")
             )
-            .unique(on: "business_id", "customer_id", "order_id")
+            .unique(
+                on: "business_id",
+                "customer_id",
+                "order_id"
+            )
             .create()
     }
 
     func revert(on database: Database) async throws {
-        try await database.schema(BusinessReview.schema).delete()
+        try await database.schema(BusinessReview.schema)
+            .delete()
     }
 }

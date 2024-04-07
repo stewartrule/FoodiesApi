@@ -21,6 +21,7 @@ struct CreateCustomerAddress: AsyncMigration {
     }
 
     func revert(on database: Database) async throws {
-        try await database.schema(CustomerAddress.schema).delete()
+        try await database.schema(CustomerAddress.schema)
+            .delete()
     }
 }

@@ -5,7 +5,9 @@ struct PostalAreaController: RouteCollection {
     struct Filter: Content, Validatable {
         var postalCode: Int
 
-        static func validations(_ validations: inout Validations) {
+        static func validations(
+            _ validations: inout Validations
+        ) {
             validations.add(
                 "postalCode",
                 as: Int.self,
@@ -16,7 +18,9 @@ struct PostalAreaController: RouteCollection {
     }
 
     func boot(routes: RoutesBuilder) throws {
-        let group = routes.grouped(.constant(PostalArea.schema))
+        let group = routes.grouped(
+            .constant(PostalArea.schema)
+        )
         group.get(use: index)
     }
 

@@ -19,7 +19,11 @@ final class Business: Model, Content {
     @Field(key: "minimum_order_amount")
     var minimumOrderAmount: Int
 
-    @Siblings(through: BusinessCuisine.self, from: \.$business, to: \.$cuisine)
+    @Siblings(
+        through: BusinessCuisine.self,
+        from: \.$business,
+        to: \.$cuisine
+    )
     var cuisines: [Cuisine]
 
     @Parent(key: "address_id")
@@ -56,7 +60,10 @@ final class Business: Model, Content {
 
     func isOpenAt(date: Date) -> Bool {
         let calendar = Calendar.current
-        let weekday = calendar.component(.weekday, from: date)
+        let weekday = calendar.component(
+            .weekday,
+            from: date
+        )
 
         return openingHours.contains { today in
             if today.weekday != weekday {
@@ -68,9 +75,13 @@ final class Business: Model, Content {
             }
 
             let hour = calendar.component(.hour, from: date)
-            let minute = calendar.component(.minute, from: date)
+            let minute = calendar.component(
+                .minute,
+                from: date
+            )
             let minutes = 60 * hour + minute
-            return minutes >= today.startTime && minutes < today.endTime
+            return minutes >= today.startTime
+                && minutes < today.endTime
         }
     }
 }

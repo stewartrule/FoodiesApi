@@ -22,7 +22,11 @@ final class Customer: Model, Content {
     @Timestamp(key: "created_at", on: .create)
     var createdAt: Date?
 
-    @Siblings(through: CustomerAddress.self, from: \.$customer, to: \.$address)
+    @Siblings(
+        through: CustomerAddress.self,
+        from: \.$customer,
+        to: \.$address
+    )
     var addresses: [Address]
 
     init() {}

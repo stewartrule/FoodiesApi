@@ -21,6 +21,7 @@ struct CreateBusinessCuisine: AsyncMigration {
     }
 
     func revert(on database: Database) async throws {
-        try await database.schema(BusinessCuisine.schema).delete()
+        try await database.schema(BusinessCuisine.schema)
+            .delete()
     }
 }

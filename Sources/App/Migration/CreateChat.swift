@@ -24,7 +24,11 @@ struct CreateChat: AsyncMigration {
                 .required,
                 .references(Customer.schema, "id")
             )
-            .field("courier_id", .uuid, .references(Courier.schema, "id"))
+            .field(
+                "courier_id",
+                .uuid,
+                .references(Courier.schema, "id")
+            )
             .field("sender", sender, .required)
             .create()
     }

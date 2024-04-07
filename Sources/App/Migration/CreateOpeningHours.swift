@@ -18,6 +18,7 @@ struct CreateOpeningHours: AsyncMigration {
     }
 
     func revert(on database: Database) async throws {
-        try await database.schema(OpeningHours.schema).delete()
+        try await database.schema(OpeningHours.schema)
+            .delete()
     }
 }

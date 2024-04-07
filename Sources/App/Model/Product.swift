@@ -22,10 +22,18 @@ final class Product: Model, Content {
     @Parent(key: "product_type_id")
     var productType: ProductType
 
-    @Siblings(through: ProductCombo.self, from: \.$parent, to: \.$child)
+    @Siblings(
+        through: ProductCombo.self,
+        from: \.$parent,
+        to: \.$child
+    )
     var products: [Product]
 
-    @Siblings(through: ProductDiscount.self, from: \.$product, to: \.$discount)
+    @Siblings(
+        through: ProductDiscount.self,
+        from: \.$product,
+        to: \.$discount
+    )
     var discounts: [Discount]
 
     init() {}
