@@ -24,6 +24,7 @@ struct BusinessRepository {
                 }
             )
             .with(\.$businessType).with(\.$openingHours).with(\.$cuisines)
+            .with(\.$productTypes)
             .with(
                 \.$products,
                 { p1 in
@@ -34,7 +35,7 @@ struct BusinessRepository {
             .first()
     }
 
-    func find(
+    func list(
         near location: Locatable,
         upto distance: Int = 5
     ) async throws -> [Business] {
@@ -52,7 +53,8 @@ struct BusinessRepository {
                 PostalArea.self,
                 on: \Address.$postalArea.$id == \PostalArea.$id
             )
-            .with(\.$cuisines).with(\.$businessType).with(\.$openingHours)
+            .with(\.$productTypes).with(\.$cuisines).with(\.$businessType)
+            .with(\.$openingHours)
             .with(\.$address) { address in
                 address.with(\.$postalArea) { postalArea in
                     postalArea.with(\.$city)

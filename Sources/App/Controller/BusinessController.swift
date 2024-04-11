@@ -38,11 +38,19 @@ struct BusinessController: RouteCollection {
 
     struct BusinessContent: Content {
         let id: Business.IDValue
-        let business: Business
+        let name: String
+        let deliveryCharge: Int
+        let minimumOrderAmount: Int
+        let address: Address
+        let businessType: BusinessType
+        let cuisines: [Cuisine]
+        let openingHours: [OpeningHours]
         let isOpen: Bool
         let distance: Double
         let reviewCount: Int
         let averageRating: Double
+        let productTypes: [ProductType]
+        let products: [Product]
     }
 
     struct CustomerContent: Content {
@@ -75,7 +83,7 @@ struct BusinessController: RouteCollection {
 
     func boot(routes: RoutesBuilder) throws {
         let group = routes.grouped(.constant(Business.schema))
-        group.get(use: filter)
+        group.get(use: list)
         group.group(":businessID") { subgroup in
             subgroup.get(use: detail)
             subgroup.get("reviews", use: reviews)
@@ -102,11 +110,19 @@ struct BusinessController: RouteCollection {
 
         return BusinessContent(
             id: try business.requireID(),
-            business: business,
+            name: business.name,
+            deliveryCharge: business.deliveryCharge,
+            minimumOrderAmount: business.minimumOrderAmount,
+            address: business.address,
+            businessType: business.businessType,
+            cuisines: business.cuisines,
+            openingHours: business.openingHours,
             isOpen: isOpen,
             distance: 0,
             reviewCount: reviewCount,
-            averageRating: averageRating
+            averageRating: averageRating,
+            productTypes: business.productTypes,
+            products: business.products
         )
     }
 
@@ -121,7 +137,17 @@ struct BusinessController: RouteCollection {
         return paginator.map { review in ReviewContent.from(review: review) }
     }
 
-    func filter(req: Request) async throws -> [BusinessContent] {
+    struct Coordinate: Content, Locatable {
+        var latitude: Double
+        var longitude: Double
+    }
+
+    struct BusinessListing: Content {
+        let center: Coordinate
+        let businesses: [BusinessContent]
+    }
+
+    func list(req: Request) async throws -> BusinessListing {
         try Filter.validate(query: req)
         let filter = try req.query.decode(Filter.self)
         let postalCode = filter.postalCode
@@ -132,7 +158,7 @@ struct BusinessController: RouteCollection {
                 .filter(\.$postalCode == postalCode).first()
         else { throw Abort(.notFound) }
 
-        let businesses = try await req.businessRepository.find(
+        let businesses = try await req.businessRepository.list(
             near: postalArea,
             upto: distance
         )
@@ -150,15 +176,31 @@ struct BusinessController: RouteCollection {
             aggregates.append(
                 BusinessContent(
                     id: try business.requireID(),
-                    business: business,
+                    name: business.name,
+                    deliveryCharge: business.deliveryCharge,
+                    minimumOrderAmount: business.minimumOrderAmount,
+                    address: business.address,
+                    businessType: business.businessType,
+                    cuisines: business.cuisines,
+                    openingHours: business.openingHours,
                     isOpen: isOpen,
                     distance: distance,
                     reviewCount: reviewCount,
-                    averageRating: averageRating
+                    averageRating: averageRating,
+                    productTypes: business.productTypes,
+                    products: []
                 )
             )
         }
 
-        return aggregates.sorted { lhs, rhs in lhs.distance < rhs.distance }
+        return BusinessListing(
+            center: .init(
+                latitude: postalArea.latitude,
+                longitude: postalArea.longitude
+            ),
+            businesses: aggregates.sorted { lhs, rhs in
+                lhs.distance < rhs.distance
+            }
+        )
     }
 }
