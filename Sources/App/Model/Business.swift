@@ -25,6 +25,8 @@ final class Business: Model, Content {
 
     @Children(for: \.$business) var openingHours: [OpeningHours]
 
+    @Children(for: \.$business) var productTypes: [ProductType]
+
     init() {}
 
     init(

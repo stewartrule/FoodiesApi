@@ -8,10 +8,13 @@ final class ProductType: Model, Content {
 
     @Field(key: "name") var name: String
 
+    @Parent(key: "business_id") var business: Business
+
     init() {}
 
-    init(id: UUID? = nil, name: String) {
+    init(id: UUID? = nil, name: String, businessID: Business.IDValue) {
         self.id = id
         self.name = name
+        self.$business.id = businessID
     }
 }
