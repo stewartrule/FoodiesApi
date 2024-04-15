@@ -51,4 +51,8 @@ Density
 >
 ```
 
+### Run app
 
+```bash
+swift run App
+```

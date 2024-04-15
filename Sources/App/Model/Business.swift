@@ -21,6 +21,8 @@ final class Business: Model, Content {
 
     @Parent(key: "business_type_id") var businessType: BusinessType
 
+    @Parent(key: "image_id") var image: Image
+
     @Children(for: \.$business) var products: [Product]
 
     @Children(for: \.$business) var openingHours: [OpeningHours]
@@ -36,7 +38,8 @@ final class Business: Model, Content {
         deliveryCharge: Int,
         minimumOrderAmount: Int,
         addressID: Address.IDValue,
-        businessTypeID: BusinessType.IDValue
+        businessTypeID: BusinessType.IDValue,
+        imageID: Image.IDValue
     ) {
         self.id = id
         self.name = name
@@ -45,6 +48,7 @@ final class Business: Model, Content {
         self.minimumOrderAmount = minimumOrderAmount
         self.$address.id = addressID
         self.$businessType.id = businessTypeID
+        self.$image.id = imageID
     }
 
     func isOpenAt(date: Date) -> Bool {

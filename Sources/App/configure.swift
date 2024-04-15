@@ -1,11 +1,21 @@
 import Fluent
 import FluentPostgresDriver
-import NIOSSL
 import Vapor
 
+extension Request {
+    var baseUrl: String {
+        let configuration = application.http.server.configuration
+        let scheme = configuration.tlsConfiguration == nil ? "http" : "https"
+        let host = configuration.hostname
+        let port = configuration.port
+        return "\(scheme)://\(host):\(port)"
+    }
+}
+
 public func configure(_ app: Application) async throws {
-    // uncomment to serve files from /Public folder
-    // app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
+    app.middleware.use(
+        FileMiddleware(publicDirectory: app.directory.publicDirectory)
+    )
 
     app.databases.use(
         .postgres(
@@ -27,8 +37,8 @@ public func configure(_ app: Application) async throws {
     app.asyncCommands.use(SeedCommand(), as: "seed")
 
     let migrations: [AsyncMigration] = [
-        CreateBusinessType(), CreateCuisine(), CreateProvince(), CreateCity(),
-        CreatePostalArea(), CreateAddress(), CreateBusiness(),
+        CreateImage(), CreateBusinessType(), CreateCuisine(), CreateProvince(),
+        CreateCity(), CreatePostalArea(), CreateAddress(), CreateBusiness(),
         CreateProductType(), CreateBusinessCuisine(), CreateProduct(),
         CreateProductCombo(), CreateCustomer(), CreateCustomerAddress(),
         CreateCourier(), CreateOrder(), CreateProductOrder(),

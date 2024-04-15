@@ -23,13 +23,19 @@ struct BusinessRepository {
                     )
                 }
             )
-            .with(\.$businessType).with(\.$openingHours).with(\.$cuisines)
-            .with(\.$productTypes)
+            .with(\.$businessType).with(\.$image).with(\.$openingHours)
+            .with(\.$cuisines).with(\.$productTypes)
             .with(
                 \.$products,
                 { p1 in
-                    p1.with(\.$productType).with(\.$discounts)
-                        .with(\.$products, { p2 in p2.with(\.$productType) })
+                    p1.with(\.$productType).with(\.$discounts).with(\.$image)
+                        .with(
+                            \.$products,
+                            { p2 in
+                                p2.with(\.$productType).with(\.$products)
+                                    .with(\.$image).with(\.$discounts)
+                            }
+                        )
                 }
             )
             .first()
@@ -37,7 +43,8 @@ struct BusinessRepository {
 
     func list(
         near location: Locatable,
-        upto distance: Int = 5
+        upto distance: Int = 5,
+        with limit: Int = 100
     ) async throws -> [Business] {
         let kmInDegree = 111.0
         let offset = 1.0 / (kmInDegree / Double(distance))
@@ -53,8 +60,8 @@ struct BusinessRepository {
                 PostalArea.self,
                 on: \Address.$postalArea.$id == \PostalArea.$id
             )
-            .with(\.$productTypes).with(\.$cuisines).with(\.$businessType)
-            .with(\.$openingHours)
+            .with(\.$image).with(\.$productTypes).with(\.$cuisines)
+            .with(\.$businessType).with(\.$openingHours)
             .with(\.$address) { address in
                 address.with(\.$postalArea) { postalArea in
                     postalArea.with(\.$city)
@@ -63,6 +70,6 @@ struct BusinessRepository {
             .filter(Address.self, \.$latitude > lat1)
             .filter(Address.self, \.$latitude < lat2)
             .filter(Address.self, \.$longitude > lon1)
-            .filter(Address.self, \.$longitude < lon2).limit(100).all()
+            .filter(Address.self, \.$longitude < lon2).limit(limit).all()
     }
 }

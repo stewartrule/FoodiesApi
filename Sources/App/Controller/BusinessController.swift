@@ -36,51 +36,6 @@ struct BusinessController: RouteCollection {
         }
     }
 
-    struct BusinessContent: Content {
-        let id: Business.IDValue
-        let name: String
-        let deliveryCharge: Int
-        let minimumOrderAmount: Int
-        let address: Address
-        let businessType: BusinessType
-        let cuisines: [Cuisine]
-        let openingHours: [OpeningHours]
-        let isOpen: Bool
-        let distance: Double
-        let reviewCount: Int
-        let averageRating: Double
-        let productTypes: [ProductType]
-        let products: [Product]
-    }
-
-    struct CustomerContent: Content {
-        let firstName: String
-        let lastName: String
-
-        static func from(customer: Customer) -> Self {
-            CustomerContent(
-                firstName: customer.firstName,
-                lastName: customer.lastName
-            )
-        }
-    }
-
-    struct ReviewContent: Content {
-        let isAnonymous: Bool
-        let review: String
-        let rating: Double
-        let customer: CustomerContent
-
-        static func from(review: BusinessReview) -> Self {
-            return ReviewContent(
-                isAnonymous: review.isAnonymous,
-                review: review.review,
-                rating: review.rating,
-                customer: CustomerContent.from(customer: review.customer)
-            )
-        }
-    }
-
     func boot(routes: RoutesBuilder) throws {
         let group = routes.grouped(.constant(Business.schema))
         group.get(use: list)
@@ -101,6 +56,7 @@ struct BusinessController: RouteCollection {
         else { throw Abort(.notFound) }
 
         let now = Date()
+        let image = business.image
         let isOpen = business.isOpenAt(date: now)
         let reviewCount = try await req.businessReviewRepository.getCountFor(
             business: business
@@ -114,6 +70,7 @@ struct BusinessController: RouteCollection {
             deliveryCharge: business.deliveryCharge,
             minimumOrderAmount: business.minimumOrderAmount,
             address: business.address,
+            image: try ImageContent.from(req: req, image: image),
             businessType: business.businessType,
             cuisines: business.cuisines,
             openingHours: business.openingHours,
@@ -122,7 +79,9 @@ struct BusinessController: RouteCollection {
             reviewCount: reviewCount,
             averageRating: averageRating,
             productTypes: business.productTypes,
-            products: business.products
+            products: try business.products.map { product in
+                try ProductContent.from(req: req, product: product)
+            }
         )
     }
 
@@ -137,17 +96,7 @@ struct BusinessController: RouteCollection {
         return paginator.map { review in ReviewContent.from(review: review) }
     }
 
-    struct Coordinate: Content, Locatable {
-        var latitude: Double
-        var longitude: Double
-    }
-
-    struct BusinessListing: Content {
-        let center: Coordinate
-        let businesses: [BusinessContent]
-    }
-
-    func list(req: Request) async throws -> BusinessListing {
+    func list(req: Request) async throws -> BusinessListingContent {
         try Filter.validate(query: req)
         let filter = try req.query.decode(Filter.self)
         let postalCode = filter.postalCode
@@ -164,8 +113,9 @@ struct BusinessController: RouteCollection {
         )
 
         let now = Date()
-        var aggregates: [BusinessContent] = []
+        var items: [BusinessContent] = []
         for business in businesses {
+            let image = business.image
             let isOpen = business.isOpenAt(date: now)
             let distance = business.address.getDistanceTo(postalArea)
             let reviewCount = try await req.businessReviewRepository
@@ -173,13 +123,14 @@ struct BusinessController: RouteCollection {
             let averageRating = try await req.businessReviewRepository
                 .getAverageRatingFor(business: business)
 
-            aggregates.append(
+            items.append(
                 BusinessContent(
                     id: try business.requireID(),
                     name: business.name,
                     deliveryCharge: business.deliveryCharge,
                     minimumOrderAmount: business.minimumOrderAmount,
                     address: business.address,
+                    image: try ImageContent.from(req: req, image: image),
                     businessType: business.businessType,
                     cuisines: business.cuisines,
                     openingHours: business.openingHours,
@@ -193,14 +144,12 @@ struct BusinessController: RouteCollection {
             )
         }
 
-        return BusinessListing(
+        return BusinessListingContent(
             center: .init(
                 latitude: postalArea.latitude,
                 longitude: postalArea.longitude
             ),
-            businesses: aggregates.sorted { lhs, rhs in
-                lhs.distance < rhs.distance
-            }
+            businesses: items.sorted { lhs, rhs in lhs.distance < rhs.distance }
         )
     }
 }

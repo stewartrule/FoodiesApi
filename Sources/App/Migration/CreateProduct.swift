@@ -18,6 +18,12 @@ struct CreateProduct: AsyncMigration {
                 .required,
                 .references(ProductType.schema, "id")
             )
+            .field(
+                "image_id",
+                .uuid,
+                .required,
+                .references(Image.schema, "id")
+            )
             .create()
     }
 

@@ -27,7 +27,7 @@ struct SeedCommand: AsyncCommand {
         // MARK: Determine density
         let province = console.choose(
             "Province(s)",
-            from: ["All"] + provincesNames
+            from: provincesNames + ["All"]
         )
         if province == "All" {
             let density = console.choose(
@@ -78,6 +78,28 @@ struct SeedCommand: AsyncCommand {
         try await postalAreas.create(on: database)
         console.output("Created postalAreas")
 
+        // MARK: Create business images
+        let businessImages = restaurants.map { photo in
+            Image(
+                name: photo.alt,
+                originalId: photo.original_id,
+                avgColor: photo.avg_color
+            )
+        }
+        try await businessImages.create(on: database)
+        console.output("Created business images")
+
+        // MARK: Create product images
+        let productImages = allDishes.map { photo in
+            Image(
+                name: photo.alt,
+                originalId: photo.original_id,
+                avgColor: photo.avg_color
+            )
+        }
+        try await productImages.create(on: database)
+        console.output("Created product images")
+
         // MARK: Create addresses
         var addresses: [Address] = []
         let letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -125,6 +147,9 @@ struct SeedCommand: AsyncCommand {
             let businessType = businessTypes.randomElement()!
             let photo = restaurants.filter({ $0.cuisine == cuisine.name })
                 .randomElement()!
+            let image = businessImages.first(where: {
+                $0.originalId == photo.original_id
+            })!
             let business = Business(
                 name:
                     "\(cuisine.name.capitalized) \(businessType.name.lowercased())",
@@ -133,7 +158,8 @@ struct SeedCommand: AsyncCommand {
                 minimumOrderAmount: faker.number.randomInt(min: 1, max: 4)
                     * 500,
                 addressID: try address.requireID(),
-                businessTypeID: try businessType.requireID()
+                businessTypeID: try businessType.requireID(),
+                imageID: try image.requireID()
             )
 
             // MARK: Set cuisine
@@ -208,6 +234,10 @@ struct SeedCommand: AsyncCommand {
 
             // Add products to business.
             let products = try dishes.compactMap { dish in
+                let image = productImages.first(where: {
+                    $0.originalId == dish.original_id
+                })!
+
                 if let productType = productTypes.first(where: {
                     $0.name == dish.dishtype
                 }) {
@@ -217,7 +247,8 @@ struct SeedCommand: AsyncCommand {
                         price: (faker.number.randomInt(min: 3, max: 21) * 100)
                             + 99,
                         businessID: try business.requireID(),
-                        productTypeID: try productType.requireID()
+                        productTypeID: try productType.requireID(),
+                        imageID: try image.requireID()
                     )
                 }
 
@@ -260,17 +291,24 @@ struct SeedCommand: AsyncCommand {
                             })
                         })
 
-                    let total = children.map(\.price).reduce(0, +)
-                    let parent = Product(
-                        name: "Combo \(i)",
-                        description: "\(cuisine.name) combo",
-                        price: total - 300,
-                        businessID: try business.requireID(),
-                        productTypeID: try combo.requireID()
-                    )
-                    try await parent.create(on: database)
-                    try await parent.$products.attach(children, on: database)
-                    try await parent.save(on: database)
+                    if let imageID = children.first?.$image.id {
+                        let total = children.map(\.price).reduce(0, +)
+                        let parent = Product(
+                            name: "Combo \(i)",
+                            description: "\(cuisine.name) combo",
+                            price: total - 300,
+                            businessID: try business.requireID(),
+                            productTypeID: try combo.requireID(),
+                            imageID: imageID
+                        )
+                        try await parent.create(on: database)
+                        try await parent.$products.attach(
+                            children,
+                            on: database
+                        )
+                        try await parent.save(on: database)
+                    }
+
                 }
             }
 
@@ -281,6 +319,7 @@ struct SeedCommand: AsyncCommand {
                     $0.$city.id == business.address.postalArea.city.id
                 })
                 .randomSample(count: 2)
+
             for postalArea in randomAreas {
                 // MARK: Create customer
                 let firstName = faker.name.firstName()

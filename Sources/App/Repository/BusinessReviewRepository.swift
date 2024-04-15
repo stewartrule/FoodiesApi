@@ -14,9 +14,9 @@ struct BusinessReviewRepository {
         BusinessReview.query(on: req.db)
     }
 
-    func paginateFor(
-        businessID: Business.IDValue
-    ) async throws -> Page<BusinessReview> {
+    func paginateFor(businessID: Business.IDValue) async throws -> Page<
+        BusinessReview
+    > {
         return try await query().filter(\.$business.$id == businessID)
             .with(\.$customer).sort(\.$createdAt).paginate(for: req)
     }
@@ -25,9 +25,9 @@ struct BusinessReviewRepository {
         return try await query().filter(\.$business.$id == businessID).count()
     }
 
-    func getAverageRatingFor(
-        businessID: Business.IDValue
-    ) async throws -> Double {
+    func getAverageRatingFor(businessID: Business.IDValue) async throws
+        -> Double
+    {
         return try await query().filter(\.$business.$id == businessID)
             .average(\.$rating) ?? 0
     }

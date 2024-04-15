@@ -16,6 +16,8 @@ final class Product: Model, Content {
 
     @Parent(key: "product_type_id") var productType: ProductType
 
+    @Parent(key: "image_id") var image: Image
+
     @Siblings(through: ProductCombo.self, from: \.$parent, to: \.$child)
     var products: [Product]
 
@@ -30,7 +32,8 @@ final class Product: Model, Content {
         description: String,
         price: Int,
         businessID: Business.IDValue,
-        productTypeID: ProductType.IDValue
+        productTypeID: ProductType.IDValue,
+        imageID: Image.IDValue
     ) {
         self.id = id
         self.name = name
@@ -38,5 +41,6 @@ final class Product: Model, Content {
         self.price = price
         self.$business.id = businessID
         self.$productType.id = productTypeID
+        self.$image.id = imageID
     }
 }

@@ -19,6 +19,12 @@ struct CreateBusiness: AsyncMigration {
                 .required,
                 .references(BusinessType.schema, "id")
             )
+            .field(
+                "image_id",
+                .uuid,
+                .required,
+                .references(Image.schema, "id")
+            )
             .create()
     }
 
