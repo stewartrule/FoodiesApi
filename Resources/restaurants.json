@@ -1,310 +1,9 @@
 [
   {
-    "original_id": 726001,
-    "alt": "Pastry With Cream in Ceramic Saucer",
-    "src": "https://images.pexels.com/photos/726001/pexels-photo-726001.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#846D63",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 13741816,
-    "alt": "Acropolis Greek Restaurant in Tampa Florida",
-    "src": "https://images.pexels.com/photos/13741816/pexels-photo-13741816.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#695F5E",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 9412023,
-    "alt": "Vegetarian Meal on Table",
-    "src": "https://images.pexels.com/photos/9412023/pexels-photo-9412023.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#58504E",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 18026037,
-    "alt": "food show",
-    "src": "https://images.pexels.com/photos/18026037/pexels-photo-18026037.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#746B62",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17942483,
-    "alt": "Healthy Salads",
-    "src": "https://images.pexels.com/photos/17942483/pexels-photo-17942483.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8A6451",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17929442,
-    "alt": "A restaurant with green and white awnings at night",
-    "src": "https://images.pexels.com/photos/17929442/pexels-photo-17929442.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#51412A",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17851172,
-    "alt": "Neon light",
-    "src": "https://images.pexels.com/photos/17851172/pexels-photo-17851172.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#0E0403",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 18007684,
-    "alt": "A wooden cutting board with fries and a burrito",
-    "src": "https://images.pexels.com/photos/18007684/pexels-photo-18007684.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#573220",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 18007675,
-    "alt": "A bowl of food on a wooden table",
-    "src": "https://images.pexels.com/photos/18007675/pexels-photo-18007675.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#61452F",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 18007685,
-    "alt": "A wooden cutting board with food on it",
-    "src": "https://images.pexels.com/photos/18007685/pexels-photo-18007685.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#41291F",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17969300,
-    "alt": "Smiling Black Woman with Dreadlocks in Restaurant ",
-    "src": "https://images.pexels.com/photos/17969300/pexels-photo-17969300.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#AEA5A0",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17942484,
-    "alt": "Healthy Salads",
-    "src": "https://images.pexels.com/photos/17942484/pexels-photo-17942484.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#916C5A",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17883473,
-    "alt": "Panorama restaurant and bar",
-    "src": "https://images.pexels.com/photos/17883473/pexels-photo-17883473.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#867563",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17840550,
-    "alt": "Chair ",
-    "src": "https://images.pexels.com/photos/17840550/pexels-photo-17840550.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7B6454",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17840651,
-    "alt": "Outdoors ",
-    "src": "https://images.pexels.com/photos/17840651/pexels-photo-17840651.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#846E56",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17777928,
-    "alt": "Outdoor seating in Mendoza ",
-    "src": "https://images.pexels.com/photos/17777928/pexels-photo-17777928.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#61605E",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17761197,
-    "alt": "Abstract ",
-    "src": "https://images.pexels.com/photos/17761197/pexels-photo-17761197.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#080202",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17776655,
-    "alt": "A building with a sign that says japanese restaurant",
-    "src": "https://images.pexels.com/photos/17776655/pexels-photo-17776655.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#636C71",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17748657,
-    "alt": "A restaurant with wooden tables and chairs",
-    "src": "https://images.pexels.com/photos/17748657/pexels-photo-17748657.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#69553C",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17748655,
-    "alt": "A large open space with a circular ceiling",
-    "src": "https://images.pexels.com/photos/17748655/pexels-photo-17748655.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#725D48",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17748656,
-    "alt": "A restaurant with wooden tables and chairs",
-    "src": "https://images.pexels.com/photos/17748656/pexels-photo-17748656.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5E4D3B",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17748651,
-    "alt": "A restaurant with wooden tables and chairs",
-    "src": "https://images.pexels.com/photos/17748651/pexels-photo-17748651.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5E5141",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17748652,
-    "alt": "A restaurant with wooden walls and tables",
-    "src": "https://images.pexels.com/photos/17748652/pexels-photo-17748652.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#826955",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 17712384,
-    "alt": "Brick building ",
-    "src": "https://images.pexels.com/photos/17712384/pexels-photo-17712384.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5C4438",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 1015568,
-    "alt": "Photograph of Men Having Conversation Seating on Chair",
-    "src": "https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5B4B42",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 2167395,
-    "alt": "White Head Bust in Museum",
-    "src": "https://images.pexels.com/photos/2167395/pexels-photo-2167395.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#747B84",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 1537635,
-    "alt": "Woman Eating Bruschetta",
-    "src": "https://images.pexels.com/photos/1537635/pexels-photo-1537635.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A97753",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 1579739,
-    "alt": "Empty Dining Tables and Chairs",
-    "src": "https://images.pexels.com/photos/1579739/pexels-photo-1579739.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6C5A53",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 414628,
-    "alt": "Teacup of Latte Beside Macbook Pro",
-    "src": "https://images.pexels.com/photos/414628/pexels-photo-414628.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6F6D69",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 2338113,
-    "alt": "Lighted Vending Machines on Street",
-    "src": "https://images.pexels.com/photos/2338113/pexels-photo-2338113.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#262220",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 696218,
-    "alt": "People Drinking Liquor and Talking on Dining Table Close-up Photo",
-    "src": "https://images.pexels.com/photos/696218/pexels-photo-696218.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#71564B",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 1267696,
-    "alt": "Two Smiling Women Sitting on Wooden Bench",
-    "src": "https://images.pexels.com/photos/1267696/pexels-photo-1267696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5B5F5B",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 826349,
-    "alt": "Woman Wearing Purple Shirt Holding Smartphone White Sitting on Chair",
-    "src": "https://images.pexels.com/photos/826349/pexels-photo-826349.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A59383",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 1267320,
-    "alt": "Chef Preparing Vegetable Dish on Tree Slab",
-    "src": "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#977963",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 853151,
-    "alt": "Man in Red Long-sleeved Shirt",
-    "src": "https://images.pexels.com/photos/853151/pexels-photo-853151.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#674645",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 935949,
-    "alt": "Photo of Men Having Conversation",
-    "src": "https://images.pexels.com/photos/935949/pexels-photo-935949.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#999081",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 3262277,
-    "alt": "Brown Bar Stools in Front of Rectangular Table",
-    "src": "https://images.pexels.com/photos/3262277/pexels-photo-3262277.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#4E5345",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 260922,
-    "alt": "Empty Bar Filled With Lights",
-    "src": "https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#3E250D",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 262978,
-    "alt": "Person Holding Pastry Dishes on White Ceramic Plates",
-    "src": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#665242",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 1267697,
-    "alt": "Four Women Chatting While Sitting on Bench",
-    "src": "https://images.pexels.com/photos/1267697/pexels-photo-1267697.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#3C4546",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 1058277,
-    "alt": "Group of People Gathering Inside Bar",
-    "src": "https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#73523E",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 2284166,
-    "alt": "Person Holding Sliced Vegetable",
-    "src": "https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8C826A",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 2303337,
-    "alt": "People Walking on Street Near Buildings",
-    "src": "https://images.pexels.com/photos/2303337/pexels-photo-2303337.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#44353A",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 683039,
-    "alt": "Assorted Decors With Brown Rack Inside Store",
-    "src": "https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#594539",
+    "original_id": 18720456,
+    "alt": "A restaurant with tables and chairs outside",
+    "src": "https://images.pexels.com/photos/18720456/pexels-photo-18720456.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#565C50",
     "cuisine": "greek"
   },
   {
@@ -315,94 +14,10 @@
     "cuisine": "greek"
   },
   {
-    "original_id": 4577179,
-    "alt": "Row of stools next to long table covered with tablecloth in dark hall",
-    "src": "https://images.pexels.com/photos/4577179/pexels-photo-4577179.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#0D100E",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 2074130,
-    "alt": "Person Sitting Near Table With Teacups and Plates",
-    "src": "https://images.pexels.com/photos/2074130/pexels-photo-2074130.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5C524E",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 2696064,
-    "alt": "Man and Woman Wearing Black and White Striped Aprons Cooking",
-    "src": "https://images.pexels.com/photos/2696064/pexels-photo-2696064.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8F837A",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 958545,
-    "alt": "White and Brown Cooked Dish on White Ceramic Bowls",
-    "src": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#705433",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 2983101,
-    "alt": "Hamburger and Fries Photo",
-    "src": "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5D3B1B",
-    "cuisine": "greek"
-  },
-  {
     "original_id": 3201921,
     "alt": "Chairs and Tables in Hotel",
     "src": "https://images.pexels.com/photos/3201921/pexels-photo-3201921.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#867363",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 905847,
-    "alt": "Baked Pizza on Pizza Peel in Oven",
-    "src": "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#844D2A",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 4947396,
-    "alt": "Cafe with setting on ornamental tables near chairs under decorative lamps in backyard on summer day",
-    "src": "https://images.pexels.com/photos/4947396/pexels-photo-4947396.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#475746",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 18275923,
-    "alt": "Glass on a Table in a Restaurant",
-    "src": "https://images.pexels.com/photos/18275923/pexels-photo-18275923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#B38A6A",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 1633791,
-    "alt": "Photo of People Walking on Alleyway",
-    "src": "https://images.pexels.com/photos/1633791/pexels-photo-1633791.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#441F09",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 750843,
-    "alt": "Pendant Bulb Photo",
-    "src": "https://images.pexels.com/photos/750843/pexels-photo-750843.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#38341F",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 3968061,
-    "alt": "Brown Wooden Table and Chairs",
-    "src": "https://images.pexels.com/photos/3968061/pexels-photo-3968061.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#785D4B",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 842548,
-    "alt": "Man Holding Mug in Front of Laptop",
-    "src": "https://images.pexels.com/photos/842548/pexels-photo-842548.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#703B29",
     "cuisine": "greek"
   },
   {
@@ -413,108 +28,17 @@
     "cuisine": "greek"
   },
   {
-    "original_id": 219095,
-    "alt": "White Motor Scooter Near Open Door",
-    "src": "https://images.pexels.com/photos/219095/pexels-photo-219095.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#662411",
+    "original_id": 4947396,
+    "alt": "Cafe with setting on ornamental tables near chairs under decorative lamps in backyard on summer day",
+    "src": "https://images.pexels.com/photos/4947396/pexels-photo-4947396.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#475746",
     "cuisine": "greek"
   },
   {
-    "original_id": 2070033,
-    "alt": "Crowd Surrounded by Buildings during Night Time",
-    "src": "https://images.pexels.com/photos/2070033/pexels-photo-2070033.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#784D3B",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 1024359,
-    "alt": "Pink Rose in Vase Centerpiece on Brown Wooden Table",
-    "src": "https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#B1A6A1",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 1850595,
-    "alt": "Woman Holding Wine Glass Selective Focus Photography",
-    "src": "https://images.pexels.com/photos/1850595/pexels-photo-1850595.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8B5447",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 373290,
-    "alt": "Photo of Alley",
-    "src": "https://images.pexels.com/photos/373290/pexels-photo-373290.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#473727",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 331107,
-    "alt": "Kitchen Bar Interior Design of Modern Business",
-    "src": "https://images.pexels.com/photos/331107/pexels-photo-331107.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6B422E",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 3201920,
-    "alt": "Empty Tables and Chairs",
-    "src": "https://images.pexels.com/photos/3201920/pexels-photo-3201920.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#856E4D",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 1487511,
-    "alt": "Flat Lay Photography of Pasta Served in White Plate",
-    "src": "https://images.pexels.com/photos/1487511/pexels-photo-1487511.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#B6A398",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 205961,
-    "alt": "Donuts and Bagel Display",
-    "src": "https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#746460",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 3745525,
-    "alt": "Design of modern bar counter in cafe",
-    "src": "https://images.pexels.com/photos/3745525/pexels-photo-3745525.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8A817B",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 3201922,
-    "alt": "Interior Design Of A Glass Wall Restaurant ",
-    "src": "https://images.pexels.com/photos/3201922/pexels-photo-3201922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#898178",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 3756623,
-    "alt": "Crop man pouring red wine in glass in restaurant",
-    "src": "https://images.pexels.com/photos/3756623/pexels-photo-3756623.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A59589",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 4695783,
-    "alt": "Woman in Beige Long Sleeve Shirt Holding Wine Glass",
-    "src": "https://images.pexels.com/photos/4695783/pexels-photo-4695783.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#4A3E2C",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 1484516,
-    "alt": "Clear Long-stemmed Wine Glass on Brown Table",
-    "src": "https://images.pexels.com/photos/1484516/pexels-photo-1484516.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5B493B",
-    "cuisine": "greek"
-  },
-  {
-    "original_id": 2253831,
-    "alt": "Assorted Flowers on Table",
-    "src": "https://images.pexels.com/photos/2253831/pexels-photo-2253831.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#978069",
+    "original_id": 259585,
+    "alt": "White Dome Under Blue Sky",
+    "src": "https://images.pexels.com/photos/259585/pexels-photo-259585.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#9DB6C9",
     "cuisine": "greek"
   },
   {
@@ -525,38 +49,514 @@
     "cuisine": "greek"
   },
   {
-    "original_id": 65175,
-    "alt": "Red Meat With Chili Pepper and Green Spies",
-    "src": "https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#705B58",
+    "original_id": 1438445,
+    "alt": "Woman in White Top Sitting Outside the Artichore Shop Staring at Her Laptop in the Table",
+    "src": "https://images.pexels.com/photos/1438445/pexels-photo-1438445.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#685E64",
     "cuisine": "greek"
   },
   {
-    "original_id": 2901215,
-    "alt": "Photography of Buildings and Canal during Nighttime",
-    "src": "https://images.pexels.com/photos/2901215/pexels-photo-2901215.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#273339",
+    "original_id": 2031687,
+    "alt": "Photo of Building Covered With Snow",
+    "src": "https://images.pexels.com/photos/2031687/pexels-photo-2031687.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#66666D",
     "cuisine": "greek"
   },
   {
-    "original_id": 3184192,
-    "alt": "Woman Pouring Juice on Glass",
-    "src": "https://images.pexels.com/photos/3184192/pexels-photo-3184192.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8C7159",
+    "original_id": 305832,
+    "alt": "Black Door",
+    "src": "https://images.pexels.com/photos/305832/pexels-photo-305832.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#8B857A",
     "cuisine": "greek"
   },
   {
-    "original_id": 1566837,
-    "alt": "Shallow Focus Photography of Several Pizzas",
-    "src": "https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#815A36",
+    "original_id": 449559,
+    "alt": "People Inside Strucure",
+    "src": "https://images.pexels.com/photos/449559/pexels-photo-449559.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#8A724B",
     "cuisine": "greek"
   },
   {
-    "original_id": 5490965,
-    "alt": "Stylish interior of bar in restaurant",
-    "src": "https://images.pexels.com/photos/5490965/pexels-photo-5490965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#32201A",
+    "original_id": 1601774,
+    "alt": "People Inside Building",
+    "src": "https://images.pexels.com/photos/1601774/pexels-photo-1601774.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#521E12",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 5220092,
+    "alt": "Narrow street with traditional Japanese izakaya bars decorated with hieroglyphs and traditional red lanterns in evening",
+    "src": "https://images.pexels.com/photos/5220092/pexels-photo-5220092.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#472615",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 3257923,
+    "alt": " An Old  Kitchen Counter",
+    "src": "https://images.pexels.com/photos/3257923/pexels-photo-3257923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#324B4A",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 1045199,
+    "alt": "Man and Woman Sitting on Chair Near Hand Railings",
+    "src": "https://images.pexels.com/photos/1045199/pexels-photo-1045199.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#444544",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2064058,
+    "alt": "Two People on Chair Under Ceiling",
+    "src": "https://images.pexels.com/photos/2064058/pexels-photo-2064058.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#464241",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2422396,
+    "alt": "Vehicles on Paved Road",
+    "src": "https://images.pexels.com/photos/2422396/pexels-photo-2422396.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#6D695D",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2484836,
+    "alt": "Building With Green Opened Doors and Windows",
+    "src": "https://images.pexels.com/photos/2484836/pexels-photo-2484836.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#786A43",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 185768,
+    "alt": "Two Men Eating While Facing Each Other Inside Store",
+    "src": "https://images.pexels.com/photos/185768/pexels-photo-185768.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#636A6F",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 5531663,
+    "alt": "Interior Design of an Open Air Bar ",
+    "src": "https://images.pexels.com/photos/5531663/pexels-photo-5531663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#302E2E",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 1398266,
+    "alt": "Bar Interior during Nighttime",
+    "src": "https://images.pexels.com/photos/1398266/pexels-photo-1398266.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#323331",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 1860622,
+    "alt": "Mel's Drive-in Building Signage ",
+    "src": "https://images.pexels.com/photos/1860622/pexels-photo-1860622.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#84A5AD",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 440182,
+    "alt": "Round White Wooden Table",
+    "src": "https://images.pexels.com/photos/440182/pexels-photo-440182.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#5F5F5F",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2166808,
+    "alt": "Woman Preparing Food",
+    "src": "https://images.pexels.com/photos/2166808/pexels-photo-2166808.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#7C7A6D",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2221925,
+    "alt": "Brown Pendant Lamp",
+    "src": "https://images.pexels.com/photos/2221925/pexels-photo-2221925.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#58514A",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2465825,
+    "alt": "Photo of Neon Signage Hanging Near Building",
+    "src": "https://images.pexels.com/photos/2465825/pexels-photo-2465825.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#3E271B",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 3822745,
+    "alt": "Dining Table and Chairs Near Window",
+    "src": "https://images.pexels.com/photos/3822745/pexels-photo-3822745.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#3D3C36",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 1693945,
+    "alt": "Chairs Outside Restaurant",
+    "src": "https://images.pexels.com/photos/1693945/pexels-photo-1693945.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#A09D97",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 1730804,
+    "alt": "People Standing in Front of Sublime Coffee Store",
+    "src": "https://images.pexels.com/photos/1730804/pexels-photo-1730804.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#57564D",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 6249462,
+    "alt": "Exterior of street with parked bicycle near cafe with advertisement of food and drinks with prices",
+    "src": "https://images.pexels.com/photos/6249462/pexels-photo-6249462.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#4A3D28",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2563411,
+    "alt": "Green Leaf Potted Plant",
+    "src": "https://images.pexels.com/photos/2563411/pexels-photo-2563411.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#9C8B7B",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 3352765,
+    "alt": "White Starbucks Coffee Building",
+    "src": "https://images.pexels.com/photos/3352765/pexels-photo-3352765.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#6D6054",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 12161836,
+    "alt": "Exterior of Diner at Night",
+    "src": "https://images.pexels.com/photos/12161836/pexels-photo-12161836.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#1C1F24",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 418806,
+    "alt": "Architectural Photography of Restaurant",
+    "src": "https://images.pexels.com/photos/418806/pexels-photo-418806.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#787068",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 726001,
+    "alt": "Pastry With Cream in Ceramic Saucer",
+    "src": "https://images.pexels.com/photos/726001/pexels-photo-726001.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#846D63",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 1029601,
+    "alt": "People Sitting Beside Pole",
+    "src": "https://images.pexels.com/photos/1029601/pexels-photo-1029601.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#6C767A",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 1267299,
+    "alt": "Selective Photography of Clear Beer Glass on Top of Brown Wooden Table",
+    "src": "https://images.pexels.com/photos/1267299/pexels-photo-1267299.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#7D7267",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2191471,
+    "alt": "Breakfast & Lunch Restaurant",
+    "src": "https://images.pexels.com/photos/2191471/pexels-photo-2191471.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#868792",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 3839265,
+    "alt": "Neon sign on illuminated building at night",
+    "src": "https://images.pexels.com/photos/3839265/pexels-photo-3839265.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#101315",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2356342,
+    "alt": "Green Leaf Plant Near Window",
+    "src": "https://images.pexels.com/photos/2356342/pexels-photo-2356342.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#485655",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2563703,
+    "alt": "Round Gray Steel Table Near Caffe",
+    "src": "https://images.pexels.com/photos/2563703/pexels-photo-2563703.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#51524F",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 3708529,
+    "alt": "Silhouette Of People Standing Outside A Restaurant",
+    "src": "https://images.pexels.com/photos/3708529/pexels-photo-3708529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#313131",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 297756,
+    "alt": "Brown House Behind Green Hedge",
+    "src": "https://images.pexels.com/photos/297756/pexels-photo-297756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#837E6E",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2526811,
+    "alt": "Unknown Person Sitting Indoors",
+    "src": "https://images.pexels.com/photos/2526811/pexels-photo-2526811.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#826E5D",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 5864308,
+    "alt": "Building Exterior of a Cafe Restaurant with Wall Art",
+    "src": "https://images.pexels.com/photos/5864308/pexels-photo-5864308.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#7C776E",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 5919042,
+    "alt": "Aerial view of round red roof of modern restaurant located in river water in Dnipro city",
+    "src": "https://images.pexels.com/photos/5919042/pexels-photo-5919042.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#2D2E33",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2769746,
+    "alt": "Green Leaf Plants in Pot",
+    "src": "https://images.pexels.com/photos/2769746/pexels-photo-2769746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#201E17",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 4992835,
+    "alt": "Street cafe with people and tables",
+    "src": "https://images.pexels.com/photos/4992835/pexels-photo-4992835.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#80726E",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 3255352,
+    "alt": "An Open Shop at Night ",
+    "src": "https://images.pexels.com/photos/3255352/pexels-photo-3255352.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#1A161E",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 1404880,
+    "alt": "House Interior Design",
+    "src": "https://images.pexels.com/photos/1404880/pexels-photo-1404880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#1B1409",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 8052871,
+    "alt": "A Woman in Black Blazer Holding White Papers",
+    "src": "https://images.pexels.com/photos/8052871/pexels-photo-8052871.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#9D9A8B",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 375895,
+    "alt": "Proper Hamburgers",
+    "src": "https://images.pexels.com/photos/375895/pexels-photo-375895.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#82898E",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 974251,
+    "alt": "Brown Wooden Store",
+    "src": "https://images.pexels.com/photos/974251/pexels-photo-974251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#786D59",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 1545560,
+    "alt": "People Sitting Beside Table",
+    "src": "https://images.pexels.com/photos/1545560/pexels-photo-1545560.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#968F85",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 1895032,
+    "alt": "Three Near Bistro Cafe Building",
+    "src": "https://images.pexels.com/photos/1895032/pexels-photo-1895032.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#49453E",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2007385,
+    "alt": "People Inside Room",
+    "src": "https://images.pexels.com/photos/2007385/pexels-photo-2007385.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#484540",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2146546,
+    "alt": "Black Patio Umbrella Near Buildings",
+    "src": "https://images.pexels.com/photos/2146546/pexels-photo-2146546.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#414238",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2147149,
+    "alt": "Gray Framed Glass Wall",
+    "src": "https://images.pexels.com/photos/2147149/pexels-photo-2147149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#3C372F",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2290754,
+    "alt": "Photography of Swimming Pool",
+    "src": "https://images.pexels.com/photos/2290754/pexels-photo-2290754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#98889F",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 1237070,
+    "alt": "Kope Manna House",
+    "src": "https://images.pexels.com/photos/1237070/pexels-photo-1237070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#2F2C3B",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2962040,
+    "alt": "Gray Metal Frame",
+    "src": "https://images.pexels.com/photos/2962040/pexels-photo-2962040.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#8B7875",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 3042353,
+    "alt": "Silhouette Photography of People Inside A Room",
+    "src": "https://images.pexels.com/photos/3042353/pexels-photo-3042353.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#202319",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 1726070,
+    "alt": "Store Front at Nighttime",
+    "src": "https://images.pexels.com/photos/1726070/pexels-photo-1726070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#3A2B04",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2927566,
+    "alt": "Man in White Dress Shirt Sitting Beside Table",
+    "src": "https://images.pexels.com/photos/2927566/pexels-photo-2927566.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#605B4D",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 3147123,
+    "alt": "Brown and Orange Building",
+    "src": "https://images.pexels.com/photos/3147123/pexels-photo-3147123.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#7E8793",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 1843768,
+    "alt": "Woman Sitting on Empty Dining Tables",
+    "src": "https://images.pexels.com/photos/1843768/pexels-photo-1843768.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#8D8D8D",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2086176,
+    "alt": "Pizza Papi Restaurant",
+    "src": "https://images.pexels.com/photos/2086176/pexels-photo-2086176.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#735F6E",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 2370784,
+    "alt": "Les Mauvais Garcons Restaurant",
+    "src": "https://images.pexels.com/photos/2370784/pexels-photo-2370784.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#6C8268",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 3054784,
+    "alt": "Women's Black Long-sleeved Shirt",
+    "src": "https://images.pexels.com/photos/3054784/pexels-photo-3054784.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#586466",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 3816819,
+    "alt": "Photo of Building Exterior Under Cloudy Sky",
+    "src": "https://images.pexels.com/photos/3816819/pexels-photo-3816819.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#ADB2A3",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 3885725,
+    "alt": "Historic district of beautiful city with aged buildings and monastery",
+    "src": "https://images.pexels.com/photos/3885725/pexels-photo-3885725.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#A09883",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 5531012,
+    "alt": "Facade of modern round shaped futuristic building with contemporary restaurant and glass wall with reflection located on street in city",
+    "src": "https://images.pexels.com/photos/5531012/pexels-photo-5531012.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#727477",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 5637538,
+    "alt": "Old Man Holding Bouquet of Flowers",
+    "src": "https://images.pexels.com/photos/5637538/pexels-photo-5637538.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#ADB0B3",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 4678923,
+    "alt": "Green Tree On A Restaurant Patio",
+    "src": "https://images.pexels.com/photos/4678923/pexels-photo-4678923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#797057",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 126214,
+    "alt": "Grayscale Photography of Douwe Egbert's Restaurant",
+    "src": "https://images.pexels.com/photos/126214/pexels-photo-126214.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#5A5A54",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 1714975,
+    "alt": "Landscape Photography of White Bench Facing Swimming Pool",
+    "src": "https://images.pexels.com/photos/1714975/pexels-photo-1714975.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#636F6A",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 4947385,
+    "alt": "House with cafe and parked cars in city",
+    "src": "https://images.pexels.com/photos/4947385/pexels-photo-4947385.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#7E8385",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 6151963,
+    "alt": "Window of cafeteria offering food to go",
+    "src": "https://images.pexels.com/photos/6151963/pexels-photo-6151963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#576263",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 5902968,
+    "alt": "Balcony Above Restaurant Entrance",
+    "src": "https://images.pexels.com/photos/5902968/pexels-photo-5902968.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#635444",
+    "cuisine": "greek"
+  },
+  {
+    "original_id": 5864294,
+    "alt": "Man in White Dress Shirt and Black Pants Entering an Arcade Building",
+    "src": "https://images.pexels.com/photos/5864294/pexels-photo-5864294.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#637286",
     "cuisine": "greek"
   },
   {
@@ -564,6 +564,13 @@
     "alt": "Woman Standing Holding Plate",
     "src": "https://images.pexels.com/photos/321588/pexels-photo-321588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#52483B",
+    "cuisine": "indian"
+  },
+  {
+    "original_id": 3672388,
+    "alt": "Humayun’s Tomb Under Blue Sky",
+    "src": "https://images.pexels.com/photos/3672388/pexels-photo-3672388.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#7E9198",
     "cuisine": "indian"
   },
   {
@@ -581,339 +588,17 @@
     "cuisine": "indian"
   },
   {
-    "original_id": 9316203,
-    "alt": "An Empty Restaurant",
-    "src": "https://images.pexels.com/photos/9316203/pexels-photo-9316203.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#572617",
+    "original_id": 4428283,
+    "alt": "Man in Brown Jacket Standing on Sidewalk Near Cars and Buildings",
+    "src": "https://images.pexels.com/photos/4428283/pexels-photo-4428283.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#7A7678",
     "cuisine": "indian"
-  },
-  {
-    "original_id": 12620880,
-    "alt": "Indian Curry Served in a Restaurant ",
-    "src": "https://images.pexels.com/photos/12620880/pexels-photo-12620880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#513B24",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 4611424,
-    "alt": "From above of appetizing dish of Indian cuisine curry made of vegetables and meat and served with rice and green leaves",
-    "src": "https://images.pexels.com/photos/4611424/pexels-photo-4611424.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#D9CBB2",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 674574,
-    "alt": "Cooked Rice and Curry Food Served on White Plate",
-    "src": "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#93734A",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 2560316,
-    "alt": "Woman in Blue Long-sleeved Shirt Drinking from Mug",
-    "src": "https://images.pexels.com/photos/2560316/pexels-photo-2560316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#9B8E81",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 4611422,
-    "alt": "From above of served white table with portions of traditional Indian dish curry on ceramic plates",
-    "src": "https://images.pexels.com/photos/4611422/pexels-photo-4611422.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#D3CABB",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 8676885,
-    "alt": "Grayscale Photo of Man Walking Outside Naan n Curry Restaurant",
-    "src": "https://images.pexels.com/photos/8676885/pexels-photo-8676885.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#676767",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 6327489,
-    "alt": "People Sitting on the Street",
-    "src": "https://images.pexels.com/photos/6327489/pexels-photo-6327489.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#1F2326",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 19113449,
-    "alt": "Couple Embracing in front of Restaurant Entrance Doors",
-    "src": "https://images.pexels.com/photos/19113449/pexels-photo-19113449.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#B7AA9A",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 9609833,
-    "alt": "Top View of an Indian Dish ",
-    "src": "https://images.pexels.com/photos/9609833/pexels-photo-9609833.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8C6254",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 16583014,
-    "alt": "Bride Posing with Wedding Guests Sitting at a Table ",
-    "src": "https://images.pexels.com/photos/16583014/pexels-photo-16583014.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8F6D52",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 17976354,
-    "alt": "A couple in traditional attire standing in a field",
-    "src": "https://images.pexels.com/photos/17976354/pexels-photo-17976354.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A4C4B7",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 18021646,
-    "alt": "Engagement Photography ring ceremony ring celebration indaian ring celebration indaian ring 2023",
-    "src": "https://images.pexels.com/photos/18021646/pexels-photo-18021646.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5E4C38",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 18021647,
-    "alt": "Engagement Photography ring ceremony ring celebration indaian ring celebration indaian ring 2023",
-    "src": "https://images.pexels.com/photos/18021647/pexels-photo-18021647.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6E675D",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 18021638,
-    "alt": "Engagement Photography ring ceremony ring celebration indaian ring celebration indaian ring",
-    "src": "https://images.pexels.com/photos/18021638/pexels-photo-18021638.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#2D3E2B",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 18021643,
-    "alt": "Engagement Photography ring ceremony ring celebration indaian ring celebration indaian ring 2023",
-    "src": "https://images.pexels.com/photos/18021643/pexels-photo-18021643.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#3A5647",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 18021645,
-    "alt": "Engagement Photography ring ceremony ring celebration indaian ring celebration indaian ring 2023",
-    "src": "https://images.pexels.com/photos/18021645/pexels-photo-18021645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#2F4727",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 18021648,
-    "alt": "Engagement Photography ring ceremony ring celebration indaian ring celebration indaian ring",
-    "src": "https://images.pexels.com/photos/18021648/pexels-photo-18021648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#9D6446",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 18021651,
-    "alt": "Engagement Photography ring ceremony ring celebration indaian ring celebration indaian ring 2023",
-    "src": "https://images.pexels.com/photos/18021651/pexels-photo-18021651.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#4B6343",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 17815460,
-    "alt": "A Baby in Rose Bed",
-    "src": "https://images.pexels.com/photos/17815460/pexels-photo-17815460.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#DBC0B7",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 17766028,
-    "alt": "A group of people walking down a narrow alley",
-    "src": "https://images.pexels.com/photos/17766028/pexels-photo-17766028.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#765E44",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 17764447,
-    "alt": "Panoramic view of Srinagar city , Kashmir",
-    "src": "https://images.pexels.com/photos/17764447/pexels-photo-17764447.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8E8E8C",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 17730018,
-    "alt": "Culture and people.",
-    "src": "https://images.pexels.com/photos/17730018/pexels-photo-17730018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#4F402D",
-    "cuisine": "indian"
-  },
-  {
-    "original_id": 4552175,
-    "alt": "Delicious lunch with salad french fries and smoothies",
-    "src": "https://images.pexels.com/photos/4552175/pexels-photo-4552175.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#999996",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 4552128,
-    "alt": "Plate with appetizing hamburger and french fries placed on lumber table near glass of green drink in outdoor cafe",
-    "src": "https://images.pexels.com/photos/4552128/pexels-photo-4552128.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#82776A",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 4552131,
-    "alt": "Salad bowl and french fries served on table in cafe",
-    "src": "https://images.pexels.com/photos/4552131/pexels-photo-4552131.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8B7E6F",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 3850433,
-    "alt": "Pair of fresh yummy croissants on black glass surface",
-    "src": "https://images.pexels.com/photos/3850433/pexels-photo-3850433.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#211B13",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 3850302,
-    "alt": "Top view composition of uncooked raw croissant dough arranged on surface of black glass in dark light",
-    "src": "https://images.pexels.com/photos/3850302/pexels-photo-3850302.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#322B1F",
-    "cuisine": "french"
   },
   {
     "original_id": 13230659,
     "alt": "French Restaurant on a Field ",
     "src": "https://images.pexels.com/photos/13230659/pexels-photo-13230659.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A58E7E",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 15580732,
-    "alt": "Burger with French Fires",
-    "src": "https://images.pexels.com/photos/15580732/pexels-photo-15580732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#413735",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 3219483,
-    "alt": "Plate of Fries and Burger",
-    "src": "https://images.pexels.com/photos/3219483/pexels-photo-3219483.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#554026",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 687824,
-    "alt": "Person Holding Square White Ceramic Plate",
-    "src": "https://images.pexels.com/photos/687824/pexels-photo-687824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#4D3A28",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 1600743,
-    "alt": "Hamburger and Potato Fries",
-    "src": "https://images.pexels.com/photos/1600743/pexels-photo-1600743.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6E4321",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 1352274,
-    "alt": "Potato Fries With Fried Meat and Red Sauce on Round White Ceramic Plate",
-    "src": "https://images.pexels.com/photos/1352274/pexels-photo-1352274.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A87E48",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 3504876,
-    "alt": "Hamburger With Patty and Fries",
-    "src": "https://images.pexels.com/photos/3504876/pexels-photo-3504876.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#73644B",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 3219547,
-    "alt": "Photo of Burger and Fries",
-    "src": "https://images.pexels.com/photos/3219547/pexels-photo-3219547.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#60482D",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 2300033,
-    "alt": "Assorted Sandwiches Displayed for Sale",
-    "src": "https://images.pexels.com/photos/2300033/pexels-photo-2300033.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#806553",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 5947108,
-    "alt": "Transparent French press with hot aromatic herbal tea brewing on wooden tray near glass on table in cafe",
-    "src": "https://images.pexels.com/photos/5947108/pexels-photo-5947108.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#82796F",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 18467142,
-    "alt": "French Fries Served in a Bowl in a Restaurant",
-    "src": "https://images.pexels.com/photos/18467142/pexels-photo-18467142.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#876F57",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 7015943,
-    "alt": "Serving Foods and Drink  On Wooden Table",
-    "src": "https://images.pexels.com/photos/7015943/pexels-photo-7015943.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#AB663C",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 3009798,
-    "alt": "French Fries and a Glass Filled with Beer",
-    "src": "https://images.pexels.com/photos/3009798/pexels-photo-3009798.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#564537",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 3636067,
-    "alt": "Brown and White Box With Fries on Brown Wooden Table",
-    "src": "https://images.pexels.com/photos/3636067/pexels-photo-3636067.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#605044",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 3791313,
-    "alt": "Woman pouring hot tea from french press into glass cup",
-    "src": "https://images.pexels.com/photos/3791313/pexels-photo-3791313.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7A7063",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 3168989,
-    "alt": "Selective Focus Photography of Hamburger With Patty and Lettuce on Plate",
-    "src": "https://images.pexels.com/photos/3168989/pexels-photo-3168989.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#9B8152",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 1352262,
-    "alt": "Steak With French Fries and Red Fruits",
-    "src": "https://images.pexels.com/photos/1352262/pexels-photo-1352262.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#77604E",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 1391301,
-    "alt": "Assorted Foods on Table",
-    "src": "https://images.pexels.com/photos/1391301/pexels-photo-1391301.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#928A78",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 2349991,
-    "alt": "Potato Fries Served on Square Plate",
-    "src": "https://images.pexels.com/photos/2349991/pexels-photo-2349991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8D826E",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 2545312,
-    "alt": "Two Cooked Sliders and Fries",
-    "src": "https://images.pexels.com/photos/2545312/pexels-photo-2545312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#625346",
     "cuisine": "french"
   },
   {
@@ -924,283 +609,59 @@
     "cuisine": "french"
   },
   {
-    "original_id": 4669255,
-    "alt": "Close-Up Photo Of Hamburger With Fries",
-    "src": "https://images.pexels.com/photos/4669255/pexels-photo-4669255.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#B49881",
+    "original_id": 4552175,
+    "alt": "Delicious lunch with salad french fries and smoothies",
+    "src": "https://images.pexels.com/photos/4552175/pexels-photo-4552175.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#999996",
     "cuisine": "french"
   },
   {
-    "original_id": 9011742,
-    "alt": "Hamburger and French Fries in a Serving Platter",
-    "src": "https://images.pexels.com/photos/9011742/pexels-photo-9011742.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#473E35",
-    "cuisine": "french"
+    "original_id": 14861070,
+    "alt": "Damaged Restaurant Text on Wall over Door",
+    "src": "https://images.pexels.com/photos/14861070/pexels-photo-14861070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#8A826D",
+    "cuisine": "italian"
   },
   {
-    "original_id": 62097,
-    "alt": "Brown Wooden Tray",
-    "src": "https://images.pexels.com/photos/62097/pexels-photo-62097.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#796245",
-    "cuisine": "french"
+    "original_id": 15347390,
+    "alt": "Restaurant in Mountains",
+    "src": "https://images.pexels.com/photos/15347390/pexels-photo-15347390.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#C2C6C9",
+    "cuisine": "italian"
   },
   {
-    "original_id": 4217329,
-    "alt": "French fries in paper packages on table",
-    "src": "https://images.pexels.com/photos/4217329/pexels-photo-4217329.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7F5B40",
-    "cuisine": "french"
+    "original_id": 12638564,
+    "alt": "Snow Covered Mountain",
+    "src": "https://images.pexels.com/photos/12638564/pexels-photo-12638564.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#2D3A43",
+    "cuisine": "italian"
   },
   {
-    "original_id": 4021955,
-    "alt": "Delicious unhealthy food on wooden table",
-    "src": "https://images.pexels.com/photos/4021955/pexels-photo-4021955.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A98360",
-    "cuisine": "french"
+    "original_id": 1537635,
+    "alt": "Woman Eating Bruschetta",
+    "src": "https://images.pexels.com/photos/1537635/pexels-photo-1537635.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#A97753",
+    "cuisine": "italian"
   },
   {
-    "original_id": 4021959,
-    "alt": "Faceless man eating fast food in cafe",
-    "src": "https://images.pexels.com/photos/4021959/pexels-photo-4021959.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8A7F7B",
-    "cuisine": "french"
+    "original_id": 1487511,
+    "alt": "Flat Lay Photography of Pasta Served in White Plate",
+    "src": "https://images.pexels.com/photos/1487511/pexels-photo-1487511.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#B6A398",
+    "cuisine": "italian"
   },
   {
-    "original_id": 4669258,
-    "alt": "Photo Of People Carrying Burgers",
-    "src": "https://images.pexels.com/photos/4669258/pexels-photo-4669258.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#D1B9A7",
-    "cuisine": "french"
+    "original_id": 1566837,
+    "alt": "Shallow Focus Photography of Several Pizzas",
+    "src": "https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#815A36",
+    "cuisine": "italian"
   },
   {
-    "original_id": 6488858,
-    "alt": "Tasty burger with juicy patty and tomato with pickle slices between buns with sesame seeds near deep fried potato sticks",
-    "src": "https://images.pexels.com/photos/6488858/pexels-photo-6488858.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#BFA485",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 11344983,
-    "alt": "People Eating Burgers and French Fries on Dining Table on a Restaurant",
-    "src": "https://images.pexels.com/photos/11344983/pexels-photo-11344983.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#534238",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 10998462,
-    "alt": "Grilled Meat on White Ceramic Plate",
-    "src": "https://images.pexels.com/photos/10998462/pexels-photo-10998462.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7D7568",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 18713428,
-    "alt": "Hamburger and French Fries Served in a Restaurant",
-    "src": "https://images.pexels.com/photos/18713428/pexels-photo-18713428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#51361B",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 4669262,
-    "alt": "Photo Of Burgers On Top Of Wooden Chopping Board",
-    "src": "https://images.pexels.com/photos/4669262/pexels-photo-4669262.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#C3A891",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 4669267,
-    "alt": "Close-Up Photo Of Person Holding Bread",
-    "src": "https://images.pexels.com/photos/4669267/pexels-photo-4669267.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#B89A8A",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 4669238,
-    "alt": "Photo Of Hamburger And Fries On Wooden Chopping Board",
-    "src": "https://images.pexels.com/photos/4669238/pexels-photo-4669238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7A5139",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 4669256,
-    "alt": "Photo Of Different Dishes",
-    "src": "https://images.pexels.com/photos/4669256/pexels-photo-4669256.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A99C94",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 5951590,
-    "alt": "Close-up of Burger with Sauces on Wooden Board",
-    "src": "https://images.pexels.com/photos/5951590/pexels-photo-5951590.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#744F2C",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 19247557,
-    "alt": "Burger and French Fries Served in a Restaurant",
-    "src": "https://images.pexels.com/photos/19247557/pexels-photo-19247557.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#281F0E",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 19247558,
-    "alt": "Burger and French Fries Served in a Restaurant ",
-    "src": "https://images.pexels.com/photos/19247558/pexels-photo-19247558.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#4E2F10",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 19247559,
-    "alt": "Burger and French Fries Served in a Restaurant ",
-    "src": "https://images.pexels.com/photos/19247559/pexels-photo-19247559.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#301D0C",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 19247561,
-    "alt": "Burger and French Fries Served in a Restaurant ",
-    "src": "https://images.pexels.com/photos/19247561/pexels-photo-19247561.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7F4B1B",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 19247563,
-    "alt": "Burger and French Fries Served in a Restaurant ",
-    "src": "https://images.pexels.com/photos/19247563/pexels-photo-19247563.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#90551D",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 19247569,
-    "alt": "Burger and French Fries Served in a Restaurant ",
-    "src": "https://images.pexels.com/photos/19247569/pexels-photo-19247569.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#3F240F",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 19247572,
-    "alt": "Burger and French Fries Served in a Restaurant ",
-    "src": "https://images.pexels.com/photos/19247572/pexels-photo-19247572.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#553411",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 11044467,
-    "alt": "People Using Smartphones at a Dining Table in a Balcony",
-    "src": "https://images.pexels.com/photos/11044467/pexels-photo-11044467.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5D544D",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 14537698,
-    "alt": "Deep Fried Chicken Tenders and Fries with Sauce ",
-    "src": "https://images.pexels.com/photos/14537698/pexels-photo-14537698.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A7865B",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 14537707,
-    "alt": "Fried Crispy Food in Metal Baskets",
-    "src": "https://images.pexels.com/photos/14537707/pexels-photo-14537707.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#998263",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 14968270,
-    "alt": "Bicycle near Portuguese Restaurant ",
-    "src": "https://images.pexels.com/photos/14968270/pexels-photo-14968270.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#312517",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 15750732,
-    "alt": "French Fries on Tray by Beer Bottle on Table",
-    "src": "https://images.pexels.com/photos/15750732/pexels-photo-15750732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#706C60",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 17772829,
-    "alt": "Meat Served in a Restaurant",
-    "src": "https://images.pexels.com/photos/17772829/pexels-photo-17772829.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#543E26",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 17429244,
-    "alt": "Takeaway French Fries",
-    "src": "https://images.pexels.com/photos/17429244/pexels-photo-17429244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#4B3F33",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 15580729,
-    "alt": "Burger and French Fries on White Tray in Restaurant",
-    "src": "https://images.pexels.com/photos/15580729/pexels-photo-15580729.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#332B29",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 16488177,
-    "alt": "A Meat with French Fries Served in a Restaurant",
-    "src": "https://images.pexels.com/photos/16488177/pexels-photo-16488177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#967959",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 16488178,
-    "alt": "A Lunch Meal Served in a Restaurant",
-    "src": "https://images.pexels.com/photos/16488178/pexels-photo-16488178.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6A4B2C",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 18713427,
-    "alt": "Hamburger and French Fries Served in a Restaurant ",
-    "src": "https://images.pexels.com/photos/18713427/pexels-photo-18713427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#322514",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 5605634,
-    "alt": "Bread on White Ceramic Plate",
-    "src": "https://images.pexels.com/photos/5605634/pexels-photo-5605634.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#93957D",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 5605619,
-    "alt": "Person Holding White Ceramic Plate With Food",
-    "src": "https://images.pexels.com/photos/5605619/pexels-photo-5605619.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#505149",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 5605622,
-    "alt": "Brown Bread on White Ceramic Plate",
-    "src": "https://images.pexels.com/photos/5605622/pexels-photo-5605622.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#4A4C49",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 5605624,
-    "alt": "Sliced Banana on White Ceramic Plate",
-    "src": "https://images.pexels.com/photos/5605624/pexels-photo-5605624.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7B7667",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 5605631,
-    "alt": "Sliced of Bread With Sliced of Banana and Apple on White Ceramic Plate",
-    "src": "https://images.pexels.com/photos/5605631/pexels-photo-5605631.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#889178",
-    "cuisine": "french"
-  },
-  {
-    "original_id": 1435898,
-    "alt": "Plate of Pasta With Cherry Tomato",
-    "src": "https://images.pexels.com/photos/1435898/pexels-photo-1435898.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A58488",
+    "original_id": 3772442,
+    "alt": "Flat Bottom Boat On Water",
+    "src": "https://images.pexels.com/photos/3772442/pexels-photo-3772442.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#423F3D",
     "cuisine": "italian"
   },
   {
@@ -1211,10 +672,10 @@
     "cuisine": "italian"
   },
   {
-    "original_id": 2773940,
-    "alt": "Plate of Pasta",
-    "src": "https://images.pexels.com/photos/2773940/pexels-photo-2773940.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#BAA78D",
+    "original_id": 1182647,
+    "alt": "Gray Spiral Stairs",
+    "src": "https://images.pexels.com/photos/1182647/pexels-photo-1182647.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#5D5B46",
     "cuisine": "italian"
   },
   {
@@ -1225,6 +686,13 @@
     "cuisine": "italian"
   },
   {
+    "original_id": 1456262,
+    "alt": "Woman Sitting on Chair While Eating Pasta Dish",
+    "src": "https://images.pexels.com/photos/1456262/pexels-photo-1456262.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#BDABAC",
+    "cuisine": "italian"
+  },
+  {
     "original_id": 725997,
     "alt": "Cooked Shrimp With Noodles",
     "src": "https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
@@ -1232,17 +700,10 @@
     "cuisine": "italian"
   },
   {
-    "original_id": 3669501,
-    "alt": "Sliced Fruit on White Ceramic Plate",
-    "src": "https://images.pexels.com/photos/3669501/pexels-photo-3669501.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7A7264",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 1049620,
-    "alt": "Pizza With Red Pepper and Cheese",
-    "src": "https://images.pexels.com/photos/1049620/pexels-photo-1049620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#503217",
+    "original_id": 2773940,
+    "alt": "Plate of Pasta",
+    "src": "https://images.pexels.com/photos/2773940/pexels-photo-2773940.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#BAA78D",
     "cuisine": "italian"
   },
   {
@@ -1253,38 +714,10 @@
     "cuisine": "italian"
   },
   {
-    "original_id": 6287525,
-    "alt": "Appetizing pasta Bolognese served with parsley",
-    "src": "https://images.pexels.com/photos/6287525/pexels-photo-6287525.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#9A8364",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6287548,
-    "alt": "From above closeup plate and fork with appetizing spaghetti with tomato sauce and herbs served on table during lunch",
-    "src": "https://images.pexels.com/photos/6287548/pexels-photo-6287548.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#9B7A49",
-    "cuisine": "italian"
-  },
-  {
     "original_id": 1527602,
     "alt": "Pizza With Vegetables and Spices",
     "src": "https://images.pexels.com/photos/1527602/pexels-photo-1527602.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9C725E",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 280453,
-    "alt": "Pizza With Box on Table",
-    "src": "https://images.pexels.com/photos/280453/pexels-photo-280453.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#9F897A",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 1456262,
-    "alt": "Woman Sitting on Chair While Eating Pasta Dish",
-    "src": "https://images.pexels.com/photos/1456262/pexels-photo-1456262.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#BDABAC",
     "cuisine": "italian"
   },
   {
@@ -1295,10 +728,94 @@
     "cuisine": "italian"
   },
   {
+    "original_id": 1435898,
+    "alt": "Plate of Pasta With Cherry Tomato",
+    "src": "https://images.pexels.com/photos/1435898/pexels-photo-1435898.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#A58488",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 351087,
+    "alt": "Grayscale Photo of Scooter Motorcycle",
+    "src": "https://images.pexels.com/photos/351087/pexels-photo-351087.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#616161",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 3830880,
+    "alt": "View of grand canal and old cathedral of Santa Maria della Salute in Venice in Italy on early calm morning",
+    "src": "https://images.pexels.com/photos/3830880/pexels-photo-3830880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#B1B5B5",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 1049620,
+    "alt": "Pizza With Red Pepper and Cheese",
+    "src": "https://images.pexels.com/photos/1049620/pexels-photo-1049620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#503217",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 3669501,
+    "alt": "Sliced Fruit on White Ceramic Plate",
+    "src": "https://images.pexels.com/photos/3669501/pexels-photo-3669501.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#7A7264",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 6287525,
+    "alt": "Appetizing pasta Bolognese served with parsley",
+    "src": "https://images.pexels.com/photos/6287525/pexels-photo-6287525.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#9A8364",
+    "cuisine": "italian"
+  },
+  {
     "original_id": 6287527,
     "alt": "Tasty pasta Bolognese and fork served on table",
     "src": "https://images.pexels.com/photos/6287527/pexels-photo-6287527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#776346",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 6287548,
+    "alt": "From above closeup plate and fork with appetizing spaghetti with tomato sauce and herbs served on table during lunch",
+    "src": "https://images.pexels.com/photos/6287548/pexels-photo-6287548.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#9B7A49",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 7245255,
+    "alt": "Old urban bridge reflecting in river in evening city",
+    "src": "https://images.pexels.com/photos/7245255/pexels-photo-7245255.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#565760",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 18712477,
+    "alt": "\"Evening Hike\"",
+    "src": "https://images.pexels.com/photos/18712477/pexels-photo-18712477.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#928887",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 280453,
+    "alt": "Pizza With Box on Table",
+    "src": "https://images.pexels.com/photos/280453/pexels-photo-280453.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#9F897A",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 1435903,
+    "alt": "Food on White Ceramic Plate Near Cloth",
+    "src": "https://images.pexels.com/photos/1435903/pexels-photo-1435903.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#9D7759",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 3831085,
+    "alt": "Venice waterway with old buildings and ferry",
+    "src": "https://images.pexels.com/photos/3831085/pexels-photo-3831085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#9B9D9C",
     "cuisine": "italian"
   },
   {
@@ -1316,13 +833,6 @@
     "cuisine": "italian"
   },
   {
-    "original_id": 4033404,
-    "alt": "From above of blank paper placed on wicker table mat next to spaghetti tied with bow arranged on table covered with linen tablecloth suitable for recipe or ingredient listing",
-    "src": "https://images.pexels.com/photos/4033404/pexels-photo-4033404.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#BCA790",
-    "cuisine": "italian"
-  },
-  {
     "original_id": 6287491,
     "alt": "Cook taking plate with pasta Bolognese in kitchen",
     "src": "https://images.pexels.com/photos/6287491/pexels-photo-6287491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
@@ -1330,10 +840,10 @@
     "cuisine": "italian"
   },
   {
-    "original_id": 6287532,
-    "alt": "Fork placed on plate with yummy fresh spaghetti pasta in cream mushroom sauce served on shabby table",
-    "src": "https://images.pexels.com/photos/6287532/pexels-photo-6287532.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#686451",
+    "original_id": 6287551,
+    "alt": "Anonymous person demonstrating bowl with delicious spaghetti",
+    "src": "https://images.pexels.com/photos/6287551/pexels-photo-6287551.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#57513B",
     "cuisine": "italian"
   },
   {
@@ -1341,6 +851,34 @@
     "alt": "Crop anonymous female rolling delicious spaghetti with tomato sauce on fork during dinner in restaurant",
     "src": "https://images.pexels.com/photos/6287552/pexels-photo-6287552.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#433C29",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 4033404,
+    "alt": "From above of blank paper placed on wicker table mat next to spaghetti tied with bow arranged on table covered with linen tablecloth suitable for recipe or ingredient listing",
+    "src": "https://images.pexels.com/photos/4033404/pexels-photo-4033404.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#BCA790",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 7245240,
+    "alt": "Aged masonry bridge with arches over Tiber River against urban house facades under cloudy sky in evening Rome Italy",
+    "src": "https://images.pexels.com/photos/7245240/pexels-photo-7245240.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#5F5B63",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 415604,
+    "alt": "Grey Cathedral",
+    "src": "https://images.pexels.com/photos/415604/pexels-photo-415604.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#6B6A67",
+    "cuisine": "italian"
+  },
+  {
+    "original_id": 1437812,
+    "alt": "Baked Eggplant With Sliced Tomatoes and Spinach",
+    "src": "https://images.pexels.com/photos/1437812/pexels-photo-1437812.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#A07C51",
     "cuisine": "italian"
   },
   {
@@ -1365,361 +903,18 @@
     "cuisine": "italian"
   },
   {
-    "original_id": 4350120,
-    "alt": "Crop faceless young waitress in casual clothes offering plate of appetizing spaghetti bolognese in bowl",
-    "src": "https://images.pexels.com/photos/4350120/pexels-photo-4350120.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#817C74",
-    "cuisine": "italian"
+    "original_id": 8529424,
+    "alt": "Facade of White Concrete Building",
+    "src": "https://images.pexels.com/photos/8529424/pexels-photo-8529424.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#796C64",
+    "cuisine": "spanish"
   },
   {
-    "original_id": 1437810,
-    "alt": "Baked Pizza on Board",
-    "src": "https://images.pexels.com/photos/1437810/pexels-photo-1437810.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A16F59",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 1437812,
-    "alt": "Baked Eggplant With Sliced Tomatoes and Spinach",
-    "src": "https://images.pexels.com/photos/1437812/pexels-photo-1437812.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A07C51",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 845802,
-    "alt": "Pepperoni Pizza With Eggs",
-    "src": "https://images.pexels.com/photos/845802/pexels-photo-845802.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#B27E56",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6287489,
-    "alt": "Fresh tomatoes and raw pasta on table",
-    "src": "https://images.pexels.com/photos/6287489/pexels-photo-6287489.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#9E7548",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6287543,
-    "alt": "Crop unrecognizable woman serving plate of scrumptious spaghetti",
-    "src": "https://images.pexels.com/photos/6287543/pexels-photo-6287543.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#666156",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 5710181,
-    "alt": "Delicious pasta and salad on table",
-    "src": "https://images.pexels.com/photos/5710181/pexels-photo-5710181.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#9A8472",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6287495,
-    "alt": "Plate with tasty pasta served with parsley",
-    "src": "https://images.pexels.com/photos/6287495/pexels-photo-6287495.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#9B8163",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6287551,
-    "alt": "Anonymous person demonstrating bowl with delicious spaghetti",
-    "src": "https://images.pexels.com/photos/6287551/pexels-photo-6287551.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#57513B",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 56014,
-    "alt": "Baked Pizza Asparagus Toppings",
-    "src": "https://images.pexels.com/photos/56014/pizza-pizza-service-italian-eat-56014.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#C3AD7B",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 166451,
-    "alt": "Brown and Red Pepperoni Pizza",
-    "src": "https://images.pexels.com/photos/166451/pexels-photo-166451.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8E5637",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 432072,
-    "alt": "Pasta Dish",
-    "src": "https://images.pexels.com/photos/432072/pexels-photo-432072.png?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#AE643D",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 4109122,
-    "alt": "Person Holding Coca-Cola In Can Beside Pizza on Table",
-    "src": "https://images.pexels.com/photos/4109122/pexels-photo-4109122.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#C6997E",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 1435900,
-    "alt": "Pizza With Bacon Toppings",
-    "src": "https://images.pexels.com/photos/1435900/pexels-photo-1435900.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A78056",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 1435903,
-    "alt": "Food on White Ceramic Plate Near Cloth",
-    "src": "https://images.pexels.com/photos/1435903/pexels-photo-1435903.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#9D7759",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6287276,
-    "alt": "High angle of raw dried traditional Italian farfalle pasta in bowl on black background",
-    "src": "https://images.pexels.com/photos/6287276/pexels-photo-6287276.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6D6A47",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6287356,
-    "alt": "From above closeup of fusilli and spaghetti placed on wooden board for cooking dish",
-    "src": "https://images.pexels.com/photos/6287356/pexels-photo-6287356.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#B19C5B",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6287357,
-    "alt": "Raw penne for making dish on table",
-    "src": "https://images.pexels.com/photos/6287357/pexels-photo-6287357.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#4D4F40",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6248871,
-    "alt": "Couple having dinner with pasta and wine in room",
-    "src": "https://images.pexels.com/photos/6248871/pexels-photo-6248871.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5B4B43",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6248873,
-    "alt": "Positive couple having date with wine and pasta in restaurant",
-    "src": "https://images.pexels.com/photos/6248873/pexels-photo-6248873.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6D635B",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6248859,
-    "alt": "Man cooking dinner on counter near woman in kitchen",
-    "src": "https://images.pexels.com/photos/6248859/pexels-photo-6248859.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#85766B",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6248866,
-    "alt": "Adult couple having date in light room near table while male serving plates with pasta with meatballs near cutlery and bottle with wine near glasses while looking at each other",
-    "src": "https://images.pexels.com/photos/6248866/pexels-photo-6248866.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#877D78",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6287494,
-    "alt": "Appetizing homemade pasta with sauce on plate placed on wooden board in kitchen with different ingredients",
-    "src": "https://images.pexels.com/photos/6287494/pexels-photo-6287494.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8F8169",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6248885,
-    "alt": "Couple having dinner with wine and food in restaurant",
-    "src": "https://images.pexels.com/photos/6248885/pexels-photo-6248885.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#524842",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6248896,
-    "alt": "Couple sitting at table while having dinner with pasta with meatballs on plate with glass in light room with chairs near window",
-    "src": "https://images.pexels.com/photos/6248896/pexels-photo-6248896.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#605B57",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 3498,
-    "alt": "Empty Tables and Chairs in Restaurant by the Street",
-    "src": "https://images.pexels.com/photos/3498/italian-pizza-restaurant-italy.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#75535B",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 1435907,
-    "alt": "Close-up Photography of Pizza",
-    "src": "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#9D715F",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 723031,
-    "alt": "Woman Holds Sliced Pizza Seats by Table With Glass",
-    "src": "https://images.pexels.com/photos/723031/pexels-photo-723031.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8C7054",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 4500115,
-    "alt": "Unrecognizable person photographing table with pizza and assorted snacks",
-    "src": "https://images.pexels.com/photos/4500115/pexels-photo-4500115.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#77746D",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 4378160,
-    "alt": "Top view of freshly prepared Italian penne pasta with cheesy sauce served in pans and placed on wooden cutting board near traditional sauces and bruschettas",
-    "src": "https://images.pexels.com/photos/4378160/pexels-photo-4378160.png?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#594A3C",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 4132171,
-    "alt": "Bowl of smoking hot pasta dish",
-    "src": "https://images.pexels.com/photos/4132171/pexels-photo-4132171.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#575640",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 5639365,
-    "alt": "Close-up of Italian Pizza on Board",
-    "src": "https://images.pexels.com/photos/5639365/pexels-photo-5639365.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#605653",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 5639423,
-    "alt": "Bruschetta with Tomatoes on Wooden Board",
-    "src": "https://images.pexels.com/photos/5639423/pexels-photo-5639423.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#856652",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 4163020,
-    "alt": "Mafaldine pasta with chopped red tomatoes and green sprigs on white table on black background",
-    "src": "https://images.pexels.com/photos/4163020/pexels-photo-4163020.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#58534B",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 2271196,
-    "alt": "Pepperoni Pizza",
-    "src": "https://images.pexels.com/photos/2271196/pexels-photo-2271196.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#998268",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 1437270,
-    "alt": "Selective Focus Photography of Vegetable Pizza",
-    "src": "https://images.pexels.com/photos/1437270/pexels-photo-1437270.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A09187",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 1475,
-    "alt": "Chips in Bowl Beside Spices",
-    "src": "https://images.pexels.com/photos/1475/food-vegetables-italian-restaurant.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#645C46",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 262977,
-    "alt": "Pizza in Table",
-    "src": "https://images.pexels.com/photos/262977/pexels-photo-262977.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#B1814E",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 3731424,
-    "alt": "Pizza With Cheese and Green Leaves",
-    "src": "https://images.pexels.com/photos/3731424/pexels-photo-3731424.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8E5933",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 4431588,
-    "alt": "Top view of tasty noodles with garlic and chili pepper slices decorated with ground pepper mix on table in cafe",
-    "src": "https://images.pexels.com/photos/4431588/pexels-photo-4431588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#665950",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 4936945,
-    "alt": "Delicious spaghetti with fresh cherry tomatoes and cheese for lunch",
-    "src": "https://images.pexels.com/photos/4936945/pexels-photo-4936945.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#825C3C",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 1308311,
-    "alt": "Faceless man showing appetizing pizza with arugula in restaurant",
-    "src": "https://images.pexels.com/photos/1308311/pexels-photo-1308311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#474641",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 1487509,
-    "alt": "Flat Lay Photo of Bread on Brown Surface",
-    "src": "https://images.pexels.com/photos/1487509/pexels-photo-1487509.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#AC6D4F",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 1552642,
-    "alt": "Person Getting a Pizza Slice",
-    "src": "https://images.pexels.com/photos/1552642/pexels-photo-1552642.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#C09457",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 4132167,
-    "alt": "Smoking hot pasta in pan",
-    "src": "https://images.pexels.com/photos/4132167/pexels-photo-4132167.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5A5840",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6164213,
-    "alt": "Bowl with pasta with meat near plate with roasted bird",
-    "src": "https://images.pexels.com/photos/6164213/pexels-photo-6164213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#696563",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6223171,
-    "alt": "Chef Making Pizza Dough",
-    "src": "https://images.pexels.com/photos/6223171/pexels-photo-6223171.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7C6768",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 6240973,
-    "alt": "Tasty gnocchi with tomatoes and herbs on plate",
-    "src": "https://images.pexels.com/photos/6240973/pexels-photo-6240973.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#C5B8A6",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 8864543,
-    "alt": "Cooked Food on White Ceramic Plate",
-    "src": "https://images.pexels.com/photos/8864543/pexels-photo-8864543.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#968575",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 14861070,
-    "alt": "Damaged Restaurant Text on Wall over Door",
-    "src": "https://images.pexels.com/photos/14861070/pexels-photo-14861070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8A826D",
-    "cuisine": "italian"
-  },
-  {
-    "original_id": 15347390,
-    "alt": "Restaurant in Mountains",
-    "src": "https://images.pexels.com/photos/15347390/pexels-photo-15347390.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#C2C6C9",
-    "cuisine": "italian"
+    "original_id": 8529430,
+    "alt": "Illuminated Building During Night Time",
+    "src": "https://images.pexels.com/photos/8529430/pexels-photo-8529430.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#251717",
+    "cuisine": "spanish"
   },
   {
     "original_id": 4551106,
@@ -1736,53 +931,11 @@
     "cuisine": "spanish"
   },
   {
-    "original_id": 4551414,
-    "alt": "Glass of yummy blueberry milkshake with straw near plate of churros with fresh strawberries and menu with cutlery on table in front of climbing plant in restaurant",
-    "src": "https://images.pexels.com/photos/4551414/pexels-photo-4551414.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#79796C",
+    "original_id": 8430374,
+    "alt": "Drone view of Spanish city with aged buildings and national flag under cloudy blue sky",
+    "src": "https://images.pexels.com/photos/8430374/pexels-photo-8430374.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#7F7F7D",
     "cuisine": "spanish"
-  },
-  {
-    "original_id": 16753353,
-    "alt": "Clear Sky over Buildings and Restaurants in Town",
-    "src": "https://images.pexels.com/photos/16753353/pexels-photo-16753353.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#938B89",
-    "cuisine": "spanish"
-  },
-  {
-    "original_id": 8529424,
-    "alt": "Facade of White Concrete Building",
-    "src": "https://images.pexels.com/photos/8529424/pexels-photo-8529424.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#796C64",
-    "cuisine": "spanish"
-  },
-  {
-    "original_id": 8529430,
-    "alt": "Illuminated Building During Night Time",
-    "src": "https://images.pexels.com/photos/8529430/pexels-photo-8529430.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#251717",
-    "cuisine": "spanish"
-  },
-  {
-    "original_id": 8969237,
-    "alt": "Traditional Spanish Dish with Seafood Served in the Pan",
-    "src": "https://images.pexels.com/photos/8969237/pexels-photo-8969237.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#64584C",
-    "cuisine": "spanish"
-  },
-  {
-    "original_id": 4906426,
-    "alt": "Person eating traditional food with milk and coffee in glasses at table in daylight",
-    "src": "https://images.pexels.com/photos/4906426/pexels-photo-4906426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#828D8F",
-    "cuisine": "turkish"
-  },
-  {
-    "original_id": 6151963,
-    "alt": "Window of cafeteria offering food to go",
-    "src": "https://images.pexels.com/photos/6151963/pexels-photo-6151963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#576263",
-    "cuisine": "turkish"
   },
   {
     "original_id": 4190567,
@@ -1792,108 +945,80 @@
     "cuisine": "turkish"
   },
   {
-    "original_id": 12917477,
-    "alt": "Working Machinery in Restaurant Kitchen",
-    "src": "https://images.pexels.com/photos/12917477/pexels-photo-12917477.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#898190",
+    "original_id": 15406805,
+    "alt": "A view of the city of istanbul with the blue mosque in the background",
+    "src": "https://images.pexels.com/photos/15406805/pexels-photo-15406805.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#A19483",
     "cuisine": "turkish"
   },
   {
-    "original_id": 12844735,
-    "alt": "Traditional Dish and Tea on Table in Restaurant",
-    "src": "https://images.pexels.com/photos/12844735/pexels-photo-12844735.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#817F72",
+    "original_id": 6129591,
+    "alt": "Ornamental dome and chandelier in old mosque",
+    "src": "https://images.pexels.com/photos/6129591/pexels-photo-6129591.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#8D6737",
     "cuisine": "turkish"
   },
   {
-    "original_id": 13596355,
-    "alt": "Happy Elderly Woman Cooking Traditional Food ",
-    "src": "https://images.pexels.com/photos/13596355/pexels-photo-13596355.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5C4D46",
+    "original_id": 4906426,
+    "alt": "Person eating traditional food with milk and coffee in glasses at table in daylight",
+    "src": "https://images.pexels.com/photos/4906426/pexels-photo-4906426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#828D8F",
     "cuisine": "turkish"
   },
   {
-    "original_id": 14721995,
-    "alt": "Close-up of Turkish Tea in Glasses on a Table in a Cafe",
-    "src": "https://images.pexels.com/photos/14721995/pexels-photo-14721995.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5B4E46",
-    "cuisine": "turkish"
-  },
-  {
-    "original_id": 16093967,
-    "alt": "People Relaxing outside a Restaurant with Turkish Flags Hanging in the Foreground",
-    "src": "https://images.pexels.com/photos/16093967/pexels-photo-16093967.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#826E65",
-    "cuisine": "turkish"
-  },
-  {
-    "original_id": 16300454,
-    "alt": "Turkish Restaurant at Night",
-    "src": "https://images.pexels.com/photos/16300454/pexels-photo-16300454.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#372D35",
-    "cuisine": "turkish"
-  },
-  {
-    "original_id": 16300460,
-    "alt": "Turkish Restaurant at Night",
-    "src": "https://images.pexels.com/photos/16300460/pexels-photo-16300460.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#29272C",
-    "cuisine": "turkish"
-  },
-  {
-    "original_id": 17762031,
-    "alt": "Nikah",
-    "src": "https://images.pexels.com/photos/17762031/pexels-photo-17762031.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#85735B",
-    "cuisine": "turkish"
-  },
-  {
-    "original_id": 3763808,
-    "alt": "A Healthy Food On A Ceramic Plate",
-    "src": "https://images.pexels.com/photos/3763808/pexels-photo-3763808.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#72695F",
+    "original_id": 6488237,
+    "alt": "Red and White Concrete Building during Nighttime",
+    "src": "https://images.pexels.com/photos/6488237/pexels-photo-6488237.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#40160C",
     "cuisine": "japanese"
   },
   {
-    "original_id": 3763799,
-    "alt": "Food Presentation On Ceramic Plate",
-    "src": "https://images.pexels.com/photos/3763799/pexels-photo-3763799.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#685E4D",
+    "original_id": 2339009,
+    "alt": "People Walking on Street Near Buildings",
+    "src": "https://images.pexels.com/photos/2339009/pexels-photo-2339009.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#433935",
     "cuisine": "japanese"
   },
   {
-    "original_id": 3763816,
-    "alt": "White Ceramic Plate Filled With Sushi",
-    "src": "https://images.pexels.com/photos/3763816/pexels-photo-3763816.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5E4B3B",
+    "original_id": 1633791,
+    "alt": "Photo of People Walking on Alleyway",
+    "src": "https://images.pexels.com/photos/1633791/pexels-photo-1633791.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#441F09",
     "cuisine": "japanese"
   },
   {
-    "original_id": 16550375,
-    "alt": "Menus in Japanese Restaurant",
-    "src": "https://images.pexels.com/photos/16550375/pexels-photo-16550375.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#675748",
+    "original_id": 6249543,
+    "alt": "Window in Japanese style with view of trees in autumn",
+    "src": "https://images.pexels.com/photos/6249543/pexels-photo-6249543.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#39342D",
     "cuisine": "japanese"
   },
   {
-    "original_id": 7508611,
-    "alt": "Facade of a Restaurant",
-    "src": "https://images.pexels.com/photos/7508611/pexels-photo-7508611.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#282820",
+    "original_id": 161401,
+    "alt": "Red and Brown Castle Landscape Photography",
+    "src": "https://images.pexels.com/photos/161401/fushimi-inari-taisha-shrine-kyoto-japan-temple-161401.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#897C83",
     "cuisine": "japanese"
   },
   {
-    "original_id": 1422384,
-    "alt": "Person Holding Sushi on Black Plate",
-    "src": "https://images.pexels.com/photos/1422384/pexels-photo-1422384.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6E6B65",
+    "original_id": 327483,
+    "alt": "View of Building Exterior",
+    "src": "https://images.pexels.com/photos/327483/pexels-photo-327483.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#87887A",
     "cuisine": "japanese"
   },
   {
-    "original_id": 5220092,
-    "alt": "Narrow street with traditional Japanese izakaya bars decorated with hieroglyphs and traditional red lanterns in evening",
-    "src": "https://images.pexels.com/photos/5220092/pexels-photo-5220092.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#472615",
+    "original_id": 5472337,
+    "alt": "Door of old building with graffiti on walls",
+    "src": "https://images.pexels.com/photos/5472337/pexels-photo-5472337.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#6F554E",
+    "cuisine": "japanese"
+  },
+  {
+    "original_id": 161164,
+    "alt": "Red Black and White Building Structure Surrounded by Trees Under White Clouds during Daytime",
+    "src": "https://images.pexels.com/photos/161164/senso-ji-kyoto-japan-temple-161164.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#94A5B2",
     "cuisine": "japanese"
   },
   {
@@ -1901,6 +1026,27 @@
     "alt": "Delicious sushi with raw fish",
     "src": "https://images.pexels.com/photos/6249501/pexels-photo-6249501.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#89735A",
+    "cuisine": "japanese"
+  },
+  {
+    "original_id": 1765631,
+    "alt": "Man Walking on Grey Concrete Alley Surrounded by Buildings",
+    "src": "https://images.pexels.com/photos/1765631/pexels-photo-1765631.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#61615D",
+    "cuisine": "japanese"
+  },
+  {
+    "original_id": 208337,
+    "alt": "Green Castle Illustration",
+    "src": "https://images.pexels.com/photos/208337/pexels-photo-208337.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#528B87",
+    "cuisine": "japanese"
+  },
+  {
+    "original_id": 748886,
+    "alt": "Group of People Near Multicolored Lantern Display",
+    "src": "https://images.pexels.com/photos/748886/pexels-photo-748886.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#2C2732",
     "cuisine": "japanese"
   },
   {
@@ -1925,717 +1071,10 @@
     "cuisine": "japanese"
   },
   {
-    "original_id": 5616131,
-    "alt": "People Eating Sushi",
-    "src": "https://images.pexels.com/photos/5616131/pexels-photo-5616131.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7D6B57",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 5745757,
-    "alt": "Appetizing pasta near wakame and wasabi",
-    "src": "https://images.pexels.com/photos/5745757/pexels-photo-5745757.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6E6860",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 9604677,
-    "alt": "Lamp in Paper Shade Hanging in Japanese Restaurant",
-    "src": "https://images.pexels.com/photos/9604677/pexels-photo-9604677.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#473825",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 7526813,
-    "alt": "Wooden Houses with Banners and Paper Lanterns",
-    "src": "https://images.pexels.com/photos/7526813/pexels-photo-7526813.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#4F4B47",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 7631463,
-    "alt": "An Orange Crab Crab Figure of Kani Doraku Restaurant in Dotonbori, Osaka, Japan.",
-    "src": "https://images.pexels.com/photos/7631463/pexels-photo-7631463.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#846451",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 17584433,
-    "alt": "Sushi with salmon and cream cheese on a black plate",
-    "src": "https://images.pexels.com/photos/17584433/pexels-photo-17584433.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#866F61",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 17584441,
-    "alt": "Sushi with chopsticks and chopsticks on a black plate",
-    "src": "https://images.pexels.com/photos/17584441/pexels-photo-17584441.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#837670",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 17584445,
-    "alt": "Sushi Served in a Restaurant ",
-    "src": "https://images.pexels.com/photos/17584445/pexels-photo-17584445.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#604E4A",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 271715,
-    "alt": "Sushi",
-    "src": "https://images.pexels.com/photos/271715/pexels-photo-271715.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#885D3D",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 17584434,
-    "alt": "Sushi with vegetables and lettuce on a black plate",
-    "src": "https://images.pexels.com/photos/17584434/pexels-photo-17584434.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6C6658",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 17584428,
-    "alt": "Traditional Japanese Dough Served in a Restaurant ",
-    "src": "https://images.pexels.com/photos/17584428/pexels-photo-17584428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#836D55",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 858508,
-    "alt": "Cooked Foods",
-    "src": "https://images.pexels.com/photos/858508/pexels-photo-858508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#696664",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 4083586,
-    "alt": "Brown Wooden Table With Chairs",
-    "src": "https://images.pexels.com/photos/4083586/pexels-photo-4083586.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#937060",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 3322845,
-    "alt": "Asian man resting in bar with cigar and whiskey",
-    "src": "https://images.pexels.com/photos/3322845/pexels-photo-3322845.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#443932",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 4071381,
-    "alt": "Photo Of Sushi Rolls On Plate",
-    "src": "https://images.pexels.com/photos/4071381/pexels-photo-4071381.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6E6359",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 5350767,
-    "alt": "Woman Working in Restaurant",
-    "src": "https://images.pexels.com/photos/5350767/pexels-photo-5350767.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#454645",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 1307659,
-    "alt": "Tasty fish tartare with chukka salad and red caviar",
-    "src": "https://images.pexels.com/photos/1307659/pexels-photo-1307659.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A7ABAD",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 6488237,
-    "alt": "Red and White Concrete Building during Nighttime",
-    "src": "https://images.pexels.com/photos/6488237/pexels-photo-6488237.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#40160C",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 13140844,
-    "alt": "Traditional Japanese Sushi Food in Close Up Shot",
-    "src": "https://images.pexels.com/photos/13140844/pexels-photo-13140844.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#614A44",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 539430,
-    "alt": "Shushi",
-    "src": "https://images.pexels.com/photos/539430/pexels-photo-539430.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6A4E4B",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 4162869,
-    "alt": "Served cold sashimi with herbs and condiments",
-    "src": "https://images.pexels.com/photos/4162869/pexels-photo-4162869.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#856D3E",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 6488212,
-    "alt": "Neon Lights Signage in Japanese",
-    "src": "https://images.pexels.com/photos/6488212/pexels-photo-6488212.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#422D27",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 6984182,
-    "alt": "Close-up of Sushi Served in a Pan with Sauce ",
-    "src": "https://images.pexels.com/photos/6984182/pexels-photo-6984182.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#997A5B",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 12032526,
-    "alt": "Serving Asian Food on Table in Restaurant",
-    "src": "https://images.pexels.com/photos/12032526/pexels-photo-12032526.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8B7665",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 14943650,
-    "alt": "Close-up of Person Eating Sushi with Chopsticks",
-    "src": "https://images.pexels.com/photos/14943650/pexels-photo-14943650.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5E5453",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 18176489,
-    "alt": "Neon in a Japanese Restaurant",
-    "src": "https://images.pexels.com/photos/18176489/pexels-photo-18176489.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#807E71",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 15433923,
-    "alt": "Sushi on a Plate ",
-    "src": "https://images.pexels.com/photos/15433923/pexels-photo-15433923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#635E48",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 15433929,
-    "alt": "Sushi on a Plate ",
-    "src": "https://images.pexels.com/photos/15433929/pexels-photo-15433929.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6B5F51",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 15433935,
-    "alt": "Sushi Served in a Restaurant ",
-    "src": "https://images.pexels.com/photos/15433935/pexels-photo-15433935.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#686254",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 15433939,
-    "alt": "Woman Eating Sushi in a Restaurant",
-    "src": "https://images.pexels.com/photos/15433939/pexels-photo-15433939.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6A5E50",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 670705,
-    "alt": "Cooked Food on Brown Wooden Board",
-    "src": "https://images.pexels.com/photos/670705/pexels-photo-670705.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#544633",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 2264036,
-    "alt": "Sushi on White Plates on Brown Wooden Table",
-    "src": "https://images.pexels.com/photos/2264036/pexels-photo-2264036.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#76706A",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 590478,
-    "alt": "Turned-on Street Light",
-    "src": "https://images.pexels.com/photos/590478/pexels-photo-590478.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#504853",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 3475617,
-    "alt": "Sushi Roll on Tray and Table",
-    "src": "https://images.pexels.com/photos/3475617/pexels-photo-3475617.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8C8071",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 3620705,
-    "alt": "Sushi on Ceramic Plate",
-    "src": "https://images.pexels.com/photos/3620705/pexels-photo-3620705.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#605048",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 3763792,
-    "alt": "Food Meal In  White Ceramic Bowl",
-    "src": "https://images.pexels.com/photos/3763792/pexels-photo-3763792.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#945234",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 1422385,
-    "alt": "Person Holding White Plastic Ladle",
-    "src": "https://images.pexels.com/photos/1422385/pexels-photo-1422385.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8B8C8D",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 8951308,
-    "alt": "A Woman Using Wooden Chopsticks on Sushi Rolls",
-    "src": "https://images.pexels.com/photos/8951308/pexels-photo-8951308.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#70665A",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 1765631,
-    "alt": "Man Walking on Grey Concrete Alley Surrounded by Buildings",
-    "src": "https://images.pexels.com/photos/1765631/pexels-photo-1765631.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#61615D",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 858501,
-    "alt": "Person Eating Sushi",
-    "src": "https://images.pexels.com/photos/858501/pexels-photo-858501.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7B736C",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 952647,
-    "alt": "Chopsticks on Top of Variety of Sushi on Plate",
-    "src": "https://images.pexels.com/photos/952647/pexels-photo-952647.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#997E6C",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 8951538,
-    "alt": "Women Taking Selfie Picture",
-    "src": "https://images.pexels.com/photos/8951538/pexels-photo-8951538.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#816C5B",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 8951178,
-    "alt": "Cook Preparing a Plate of Sushi at a Restaurant",
-    "src": "https://images.pexels.com/photos/8951178/pexels-photo-8951178.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#89776D",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 8951270,
-    "alt": "A Chef Using a Blow Torch on Sushi Rolls",
-    "src": "https://images.pexels.com/photos/8951270/pexels-photo-8951270.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8B735B",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 858496,
-    "alt": "Plate of Sushi",
-    "src": "https://images.pexels.com/photos/858496/pexels-photo-858496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6A6958",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 3628428,
-    "alt": "Food On A Tray",
-    "src": "https://images.pexels.com/photos/3628428/pexels-photo-3628428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#2D1D13",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 9882300,
-    "alt": "Close-up Shot of Fresh Sushi",
-    "src": "https://images.pexels.com/photos/9882300/pexels-photo-9882300.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7F5231",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 8951087,
-    "alt": "Cook Preparing a Mango Sushi Roll",
-    "src": "https://images.pexels.com/photos/8951087/pexels-photo-8951087.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#938C82",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 8951107,
-    "alt": "A Chef Making Sushi",
-    "src": "https://images.pexels.com/photos/8951107/pexels-photo-8951107.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#786F66",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 8951488,
-    "alt": "People Holding Sushi on Chopsticks",
-    "src": "https://images.pexels.com/photos/8951488/pexels-photo-8951488.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#78675F",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 8951496,
-    "alt": "People Eating Sushi at a Restaurant",
-    "src": "https://images.pexels.com/photos/8951496/pexels-photo-8951496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#72655D",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 18565076,
-    "alt": "Seaweed and Japanese Bunching Onion Salad with Salted Duck Egg Sprinkled with Sesame Seeds",
-    "src": "https://images.pexels.com/photos/18565076/pexels-photo-18565076.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8C7D7A",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 17593637,
-    "alt": "A person holding a plate with food on it",
-    "src": "https://images.pexels.com/photos/17593637/pexels-photo-17593637.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#505747",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 17593647,
-    "alt": "A plate with a piece of food on it",
-    "src": "https://images.pexels.com/photos/17593647/pexels-photo-17593647.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#57544D",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 7526795,
-    "alt": "People Walking on a Narrow Alley in Japan",
-    "src": "https://images.pexels.com/photos/7526795/pexels-photo-7526795.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#2E2E2B",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 20705277,
-    "alt": "An old man writing in chinese on a piece of paper",
-    "src": "https://images.pexels.com/photos/20705277/pexels-photo-20705277.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#3B3833",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 213939,
-    "alt": "White Ceramic Bowl and Plate",
-    "src": "https://images.pexels.com/photos/213939/pexels-photo-213939.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#847E6B",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 684965,
-    "alt": "Sushi Rolls",
-    "src": "https://images.pexels.com/photos/684965/pexels-photo-684965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#744347",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 20705274,
-    "alt": "Hand Holding Newspapers in Darkness",
-    "src": "https://images.pexels.com/photos/20705274/pexels-photo-20705274.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#393836",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 4981715,
-    "alt": "Menu Boards Outside the Japanese Restaurant",
-    "src": "https://images.pexels.com/photos/4981715/pexels-photo-4981715.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6F7168",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 4083578,
-    "alt": "Soup in White Ceramic Bowl With White Spoon",
-    "src": "https://images.pexels.com/photos/4083578/pexels-photo-4083578.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#C49275",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 8954167,
-    "alt": "Fish Served on Ice ",
-    "src": "https://images.pexels.com/photos/8954167/pexels-photo-8954167.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#70695F",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 8780829,
-    "alt": "Japanese Restaurant surrounded with Trees",
-    "src": "https://images.pexels.com/photos/8780829/pexels-photo-8780829.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#696923",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 7526797,
-    "alt": "People on the Street in Between Buildings",
-    "src": "https://images.pexels.com/photos/7526797/pexels-photo-7526797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#34312F",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 7631457,
-    "alt": "Business Establishments in a Building in Osaka Japan",
-    "src": "https://images.pexels.com/photos/7631457/pexels-photo-7631457.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#918277",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 8952757,
-    "alt": "Japanese Sushi Dish on a Plate ",
-    "src": "https://images.pexels.com/photos/8952757/pexels-photo-8952757.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#978464",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 9424910,
-    "alt": "Men Standing Near the Bar Counter",
-    "src": "https://images.pexels.com/photos/9424910/pexels-photo-9424910.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#DCDCDC",
-    "cuisine": "japanese"
-  },
-  {
-    "original_id": 7772333,
-    "alt": "Group of Friends Eating while Listening to Mariachi Band",
-    "src": "https://images.pexels.com/photos/7772333/pexels-photo-7772333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#594833",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772205,
-    "alt": "Group of Friends Eating at Mexican Restaurant",
-    "src": "https://images.pexels.com/photos/7772205/pexels-photo-7772205.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#61503E",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772195,
-    "alt": "Woman in Green Tank Top Smiling",
-    "src": "https://images.pexels.com/photos/7772195/pexels-photo-7772195.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6C5042",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772344,
-    "alt": "Woman in Traditional Mexican Dress",
-    "src": "https://images.pexels.com/photos/7772344/pexels-photo-7772344.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#34362F",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772194,
-    "alt": "Group of Friends Eating Mexican Food",
-    "src": "https://images.pexels.com/photos/7772194/pexels-photo-7772194.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7C6652",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772340,
-    "alt": "Woman in Traditional Mexican Dress",
-    "src": "https://images.pexels.com/photos/7772340/pexels-photo-7772340.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#3B3B35",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772207,
-    "alt": "Group of Friends Eating at Mexican Restaurant",
-    "src": "https://images.pexels.com/photos/7772207/pexels-photo-7772207.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7F684F",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772239,
-    "alt": "Group of Friends Eating",
-    "src": "https://images.pexels.com/photos/7772239/pexels-photo-7772239.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#54492B",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772336,
-    "alt": "Group of Friends Eating while Listening to Mariachi Band",
-    "src": "https://images.pexels.com/photos/7772336/pexels-photo-7772336.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#574A3B",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 8230026,
-    "alt": "Food on Brown Wooden Chopping Board",
-    "src": "https://images.pexels.com/photos/8230026/pexels-photo-8230026.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#9C968A",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772196,
-    "alt": "Woman in Green Tank Top Eating",
-    "src": "https://images.pexels.com/photos/7772196/pexels-photo-7772196.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#816D51",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772202,
-    "alt": "Woman in Green Tank Top Sitting on Chair in Front of Table With Food",
-    "src": "https://images.pexels.com/photos/7772202/pexels-photo-7772202.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#665238",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772341,
-    "alt": "People Gathering in a Event",
-    "src": "https://images.pexels.com/photos/7772341/pexels-photo-7772341.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#4A4538",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772343,
-    "alt": "Group of Friends Eating while Listening to Mariachi Band",
-    "src": "https://images.pexels.com/photos/7772343/pexels-photo-7772343.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#2F2A25",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772388,
-    "alt": "Man in Black Suit Jacket Playing Trumpet",
-    "src": "https://images.pexels.com/photos/7772388/pexels-photo-7772388.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#514641",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772391,
-    "alt": "Man in Black Suit Playing Violin",
-    "src": "https://images.pexels.com/photos/7772391/pexels-photo-7772391.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#36322D",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772393,
-    "alt": "Man in Black Suit Playing Trumpet",
-    "src": "https://images.pexels.com/photos/7772393/pexels-photo-7772393.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#4A403D",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772394,
-    "alt": "Man in Black Suit Playing Violin",
-    "src": "https://images.pexels.com/photos/7772394/pexels-photo-7772394.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#66797F",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772396,
-    "alt": "Man in Black Suit Holding a Violin",
-    "src": "https://images.pexels.com/photos/7772396/pexels-photo-7772396.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5C564F",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772399,
-    "alt": "Man in Black Charro Holding a Brown Acoustic Guitar",
-    "src": "https://images.pexels.com/photos/7772399/pexels-photo-7772399.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#574C43",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772331,
-    "alt": "Group of Friends Eating while Listening to Mariachi Band",
-    "src": "https://images.pexels.com/photos/7772331/pexels-photo-7772331.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#433F36",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772190,
-    "alt": "Group of Friends Eating at Mexican Restaurant",
-    "src": "https://images.pexels.com/photos/7772190/pexels-photo-7772190.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6C5E46",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772191,
-    "alt": "Woman in Green Tank Top Eating Mexican Food",
-    "src": "https://images.pexels.com/photos/7772191/pexels-photo-7772191.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6F5C45",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772240,
-    "alt": "Woman at Mexican Restaurant",
-    "src": "https://images.pexels.com/photos/7772240/pexels-photo-7772240.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5A4D34",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772329,
-    "alt": "Man Playing Violin",
-    "src": "https://images.pexels.com/photos/7772329/pexels-photo-7772329.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#413329",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772192,
-    "alt": "Woman Drinking Margarita",
-    "src": "https://images.pexels.com/photos/7772192/pexels-photo-7772192.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6F6454",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772193,
-    "alt": "Person Holding a Cocktail Drink",
-    "src": "https://images.pexels.com/photos/7772193/pexels-photo-7772193.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#796C46",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772197,
-    "alt": "Person Holding Brown Wooden Spoon",
-    "src": "https://images.pexels.com/photos/7772197/pexels-photo-7772197.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#917042",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772198,
-    "alt": "Mexican Food on Yellow Table",
-    "src": "https://images.pexels.com/photos/7772198/pexels-photo-7772198.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#AB8D48",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772199,
-    "alt": "Person Eating Mexican Food",
-    "src": "https://images.pexels.com/photos/7772199/pexels-photo-7772199.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#897C59",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772200,
-    "alt": "Person Holding Green Glass Bottle",
-    "src": "https://images.pexels.com/photos/7772200/pexels-photo-7772200.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#98885E",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772201,
-    "alt": "Delicious Mexican Food",
-    "src": "https://images.pexels.com/photos/7772201/pexels-photo-7772201.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#927238",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 7772204,
-    "alt": "Person Eating Mexican Food",
-    "src": "https://images.pexels.com/photos/7772204/pexels-photo-7772204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8A7C5F",
-    "cuisine": "mexican"
-  },
-  {
     "original_id": 3642718,
     "alt": "Cooked Food on Stainless Steel Tray",
     "src": "https://images.pexels.com/photos/3642718/pexels-photo-3642718.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7E7367",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 4577740,
-    "alt": "From above of tasty tacos near glass of refreshing drinks and vegetable slices with sauces in cafe",
-    "src": "https://images.pexels.com/photos/4577740/pexels-photo-4577740.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#47342E",
     "cuisine": "mexican"
   },
   {
@@ -2646,192 +1085,10 @@
     "cuisine": "mexican"
   },
   {
-    "original_id": 6018426,
-    "alt": "A Man Cooking Food",
-    "src": "https://images.pexels.com/photos/6018426/pexels-photo-6018426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#907C84",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 8338286,
-    "alt": "Building Exterior of a Mexican Restaurant with Flags Hanging on Wall",
-    "src": "https://images.pexels.com/photos/8338286/pexels-photo-8338286.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7C8894",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 14560045,
-    "alt": "Business Signage of a Restaurant",
-    "src": "https://images.pexels.com/photos/14560045/pexels-photo-14560045.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#AB9693",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 16556803,
-    "alt": "Exterior of a Mexican Restaurant at Dusk ",
-    "src": "https://images.pexels.com/photos/16556803/pexels-photo-16556803.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#120701",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 19456584,
-    "alt": "Mexican Restaurant by the Street",
-    "src": "https://images.pexels.com/photos/19456584/pexels-photo-19456584.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7B593D",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 15434314,
-    "alt": "Burrito Served in a Restaurant ",
-    "src": "https://images.pexels.com/photos/15434314/pexels-photo-15434314.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8C805A",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 3073970,
-    "alt": "Margarita Glass on Table",
-    "src": "https://images.pexels.com/photos/3073970/pexels-photo-3073970.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#827A6D",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 2465825,
-    "alt": "Photo of Neon Signage Hanging Near Building",
-    "src": "https://images.pexels.com/photos/2465825/pexels-photo-2465825.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#3E271B",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 5738084,
-    "alt": "Group of Friends Eating Mexican Food",
-    "src": "https://images.pexels.com/photos/5738084/pexels-photo-5738084.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#685B49",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 8158354,
-    "alt": "Happy Family Sitting at Table in Restaurant",
-    "src": "https://images.pexels.com/photos/8158354/pexels-photo-8158354.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#886F6A",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 8158094,
-    "alt": "Parents Looking at Son in Restaurant",
-    "src": "https://images.pexels.com/photos/8158094/pexels-photo-8158094.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#856D69",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 17592698,
-    "alt": "A wooden table with a bottle of wine and a bottle of wine",
-    "src": "https://images.pexels.com/photos/17592698/pexels-photo-17592698.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#73543F",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 13592690,
-    "alt": "Plated Memela Dish Over the Table",
-    "src": "https://images.pexels.com/photos/13592690/pexels-photo-13592690.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#8D534F",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 12326192,
-    "alt": "Ornate Interior of Mexican Restaurant",
-    "src": "https://images.pexels.com/photos/12326192/pexels-photo-12326192.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5E4A2F",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 18999115,
-    "alt": "Mexican Flag over Restaurant in Alley in Amsterdam, Netherlands",
-    "src": "https://images.pexels.com/photos/18999115/pexels-photo-18999115.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#6A655F",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 19729000,
-    "alt": "Cars Parked in front of a Mexican Restaurant",
-    "src": "https://images.pexels.com/photos/19729000/pexels-photo-19729000.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#83847F",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 17995416,
-    "alt": "A beach with a house in the background and a boat in the water",
-    "src": "https://images.pexels.com/photos/17995416/pexels-photo-17995416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#7F7F7F",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 20226303,
-    "alt": "A person holding a plate of food in front of a buffet",
-    "src": "https://images.pexels.com/photos/20226303/pexels-photo-20226303.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#715D38",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 20226307,
-    "alt": "A person holding a plate with fried vegetables",
-    "src": "https://images.pexels.com/photos/20226307/pexels-photo-20226307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#675436",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 20226298,
-    "alt": "A pizza with meat and cheese on top of it",
-    "src": "https://images.pexels.com/photos/20226298/pexels-photo-20226298.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#945C41",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 20226309,
-    "alt": "A plate of food with meat and vegetables",
-    "src": "https://images.pexels.com/photos/20226309/pexels-photo-20226309.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#96652D",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 20226310,
-    "alt": "A person holding a plate of food with a lime",
-    "src": "https://images.pexels.com/photos/20226310/pexels-photo-20226310.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#59482E",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 20226311,
-    "alt": "A person holding a plate with fried food on it",
-    "src": "https://images.pexels.com/photos/20226311/pexels-photo-20226311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#655732",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 20226313,
-    "alt": "A person holding a plate of food with meat and vegetables",
-    "src": "https://images.pexels.com/photos/20226313/pexels-photo-20226313.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#69614E",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 20226315,
-    "alt": "A plate of artichokes with lemon and herbs",
-    "src": "https://images.pexels.com/photos/20226315/pexels-photo-20226315.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#A09249",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 20185767,
-    "alt": "Burger",
-    "src": "https://images.pexels.com/photos/20185767/pexels-photo-20185767.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#735136",
-    "cuisine": "mexican"
-  },
-  {
-    "original_id": 19908935,
-    "alt": "A man and woman kissing each other at a restaurant",
-    "src": "https://images.pexels.com/photos/19908935/pexels-photo-19908935.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "avg_color": "#5D423B",
+    "original_id": 4577740,
+    "alt": "From above of tasty tacos near glass of refreshing drinks and vegetable slices with sauces in cafe",
+    "src": "https://images.pexels.com/photos/4577740/pexels-photo-4577740.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "avg_color": "#47342E",
     "cuisine": "mexican"
   }
 ]
