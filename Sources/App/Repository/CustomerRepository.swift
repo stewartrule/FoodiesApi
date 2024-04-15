@@ -66,5 +66,4 @@ struct CustomerRepository {
             )
             .first()
     }
-
 }
