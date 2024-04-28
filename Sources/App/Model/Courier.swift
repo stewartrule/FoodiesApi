@@ -12,17 +12,21 @@ final class Courier: Model, Content {
 
     @Field(key: "telephone") var telephone: String
 
+    @OptionalParent(key: "image_id") var image: Image?
+
     init() {}
 
     init(
         id: UUID? = nil,
         firstName: String,
         lastName: String,
-        telephone: String
+        telephone: String,
+        imageID: Image.IDValue
     ) {
         self.id = id
         self.firstName = firstName
         self.lastName = lastName
         self.telephone = telephone
+        self.$image.id = imageID
     }
 }

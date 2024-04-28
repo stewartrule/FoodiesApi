@@ -5,7 +5,8 @@
     "src": "https://images.pexels.com/photos/19177208/pexels-photo-19177208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9F8D77",
     "cuisine": "greek",
-    "dishtype": "Moussaka"
+    "dishtype": "Moussaka",
+    "hsb": [33, 25, 62]
   },
   {
     "original_id": 7167830,
@@ -13,7 +14,8 @@
     "src": "https://images.pexels.com/photos/7167830/pexels-photo-7167830.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C7BDA8",
     "cuisine": "greek",
-    "dishtype": "Dolmades"
+    "dishtype": "Dolmades",
+    "hsb": [41, 16, 78]
   },
   {
     "original_id": 14542204,
@@ -21,7 +23,8 @@
     "src": "https://images.pexels.com/photos/14542204/pexels-photo-14542204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7F7969",
     "cuisine": "greek",
-    "dishtype": "Dolmades"
+    "dishtype": "Dolmades",
+    "hsb": [44, 17, 50]
   },
   {
     "original_id": 5191819,
@@ -29,7 +32,8 @@
     "src": "https://images.pexels.com/photos/5191819/pexels-photo-5191819.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C8A285",
     "cuisine": "greek",
-    "dishtype": "Tzatziki"
+    "dishtype": "Tzatziki",
+    "hsb": [26, 34, 78]
   },
   {
     "original_id": 5191827,
@@ -37,7 +41,8 @@
     "src": "https://images.pexels.com/photos/5191827/pexels-photo-5191827.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#BC9474",
     "cuisine": "greek",
-    "dishtype": "Tzatziki"
+    "dishtype": "Tzatziki",
+    "hsb": [27, 38, 74]
   },
   {
     "original_id": 5191837,
@@ -45,7 +50,8 @@
     "src": "https://images.pexels.com/photos/5191837/pexels-photo-5191837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#BF9677",
     "cuisine": "greek",
-    "dishtype": "Tzatziki"
+    "dishtype": "Tzatziki",
+    "hsb": [26, 38, 75]
   },
   {
     "original_id": 5191839,
@@ -53,7 +59,8 @@
     "src": "https://images.pexels.com/photos/5191839/pexels-photo-5191839.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C6A77D",
     "cuisine": "greek",
-    "dishtype": "Tzatziki"
+    "dishtype": "Tzatziki",
+    "hsb": [35, 37, 78]
   },
   {
     "original_id": 6271891,
@@ -61,7 +68,8 @@
     "src": "https://images.pexels.com/photos/6271891/pexels-photo-6271891.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#908966",
     "cuisine": "greek",
-    "dishtype": "Tzatziki"
+    "dishtype": "Tzatziki",
+    "hsb": [50, 29, 56]
   },
   {
     "original_id": 434258,
@@ -69,7 +77,8 @@
     "src": "https://images.pexels.com/photos/434258/pexels-photo-434258.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B0A67C",
     "cuisine": "greek",
-    "dishtype": "Feta Cheese"
+    "dishtype": "Feta Cheese",
+    "hsb": [48, 30, 69]
   },
   {
     "original_id": 306801,
@@ -77,7 +86,8 @@
     "src": "https://images.pexels.com/photos/306801/pexels-photo-306801.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#74675A",
     "cuisine": "greek",
-    "dishtype": "Feta Cheese"
+    "dishtype": "Feta Cheese",
+    "hsb": [30, 22, 45]
   },
   {
     "original_id": 16790629,
@@ -85,7 +95,8 @@
     "src": "https://images.pexels.com/photos/16790629/pexels-photo-16790629.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8D7F74",
     "cuisine": "greek",
-    "dishtype": "Feta Cheese"
+    "dishtype": "Feta Cheese",
+    "hsb": [26, 18, 55]
   },
   {
     "original_id": 18832949,
@@ -93,7 +104,8 @@
     "src": "https://images.pexels.com/photos/18832949/pexels-photo-18832949.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A08260",
     "cuisine": "greek",
-    "dishtype": "Feta Cheese"
+    "dishtype": "Feta Cheese",
+    "hsb": [32, 40, 63]
   },
   {
     "original_id": 905847,
@@ -101,7 +113,8 @@
     "src": "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#844D2A",
     "cuisine": "greek",
-    "dishtype": "Feta Cheese"
+    "dishtype": "Feta Cheese",
+    "hsb": [23, 68, 52]
   },
   {
     "original_id": 1639557,
@@ -109,7 +122,8 @@
     "src": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6A4E2D",
     "cuisine": "greek",
-    "dishtype": "Feta Cheese"
+    "dishtype": "Feta Cheese",
+    "hsb": [32, 58, 42]
   },
   {
     "original_id": 1639562,
@@ -117,7 +131,8 @@
     "src": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#473A2B",
     "cuisine": "greek",
-    "dishtype": "Feta Cheese"
+    "dishtype": "Feta Cheese",
+    "hsb": [32, 39, 28]
   },
   {
     "original_id": 1438672,
@@ -125,7 +140,8 @@
     "src": "https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C6B696",
     "cuisine": "greek",
-    "dishtype": "Feta Cheese"
+    "dishtype": "Feta Cheese",
+    "hsb": [40, 24, 78]
   },
   {
     "original_id": 3219483,
@@ -133,7 +149,8 @@
     "src": "https://images.pexels.com/photos/3219483/pexels-photo-3219483.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#554026",
     "cuisine": "greek",
-    "dishtype": "Feta Cheese"
+    "dishtype": "Feta Cheese",
+    "hsb": [33, 55, 33]
   },
   {
     "original_id": 892649,
@@ -141,7 +158,8 @@
     "src": "https://images.pexels.com/photos/892649/pexels-photo-892649.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#CBBCB3",
     "cuisine": "greek",
-    "dishtype": "Feta Cheese"
+    "dishtype": "Feta Cheese",
+    "hsb": [23, 12, 80]
   },
   {
     "original_id": 1600727,
@@ -149,7 +167,8 @@
     "src": "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#5B341B",
     "cuisine": "greek",
-    "dishtype": "Feta Cheese"
+    "dishtype": "Feta Cheese",
+    "hsb": [23, 70, 36]
   },
   {
     "original_id": 750073,
@@ -157,7 +176,8 @@
     "src": "https://images.pexels.com/photos/750073/pexels-photo-750073.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8D6C42",
     "cuisine": "greek",
-    "dishtype": "Feta Cheese"
+    "dishtype": "Feta Cheese",
+    "hsb": [34, 53, 55]
   },
   {
     "original_id": 821365,
@@ -165,7 +185,8 @@
     "src": "https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9D7C5A",
     "cuisine": "greek",
-    "dishtype": "Feta Cheese"
+    "dishtype": "Feta Cheese",
+    "hsb": [30, 43, 62]
   },
   {
     "original_id": 9792458,
@@ -173,7 +194,8 @@
     "src": "https://images.pexels.com/photos/9792458/pexels-photo-9792458.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6B584A",
     "cuisine": "indian",
-    "dishtype": "Tandoori"
+    "dishtype": "Tandoori",
+    "hsb": [25, 31, 42]
   },
   {
     "original_id": 9792459,
@@ -181,7 +203,8 @@
     "src": "https://images.pexels.com/photos/9792459/pexels-photo-9792459.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#68544B",
     "cuisine": "indian",
-    "dishtype": "Tandoori"
+    "dishtype": "Tandoori",
+    "hsb": [19, 28, 41]
   },
   {
     "original_id": 9562292,
@@ -189,7 +212,8 @@
     "src": "https://images.pexels.com/photos/9562292/pexels-photo-9562292.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#4C4441",
     "cuisine": "indian",
-    "dishtype": "Tandoori"
+    "dishtype": "Tandoori",
+    "hsb": [16, 14, 30]
   },
   {
     "original_id": 6740849,
@@ -197,7 +221,8 @@
     "src": "https://images.pexels.com/photos/6740849/pexels-photo-6740849.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#393127",
     "cuisine": "indian",
-    "dishtype": "Tikka Masala"
+    "dishtype": "Tikka Masala",
+    "hsb": [33, 32, 22]
   },
   {
     "original_id": 9609838,
@@ -205,7 +230,8 @@
     "src": "https://images.pexels.com/photos/9609838/pexels-photo-9609838.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#826857",
     "cuisine": "indian",
-    "dishtype": "Tikka Masala"
+    "dishtype": "Tikka Masala",
+    "hsb": [24, 33, 51]
   },
   {
     "original_id": 3928854,
@@ -213,7 +239,8 @@
     "src": "https://images.pexels.com/photos/3928854/pexels-photo-3928854.png?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#CEB999",
     "cuisine": "indian",
-    "dishtype": "Tikka Masala"
+    "dishtype": "Tikka Masala",
+    "hsb": [36, 26, 81]
   },
   {
     "original_id": 2580464,
@@ -221,7 +248,8 @@
     "src": "https://images.pexels.com/photos/2580464/pexels-photo-2580464.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9D9B9B",
     "cuisine": "indian",
-    "dishtype": "Tikka Masala"
+    "dishtype": "Tikka Masala",
+    "hsb": [0, 1, 62]
   },
   {
     "original_id": 4397255,
@@ -229,7 +257,8 @@
     "src": "https://images.pexels.com/photos/4397255/pexels-photo-4397255.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#DEDBCE",
     "cuisine": "indian",
-    "dishtype": "Vindaloo"
+    "dishtype": "Vindaloo",
+    "hsb": [49, 7, 87]
   },
   {
     "original_id": 9609853,
@@ -237,7 +266,8 @@
     "src": "https://images.pexels.com/photos/9609853/pexels-photo-9609853.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#645140",
     "cuisine": "indian",
-    "dishtype": "Biryani"
+    "dishtype": "Biryani",
+    "hsb": [28, 36, 39]
   },
   {
     "original_id": 9743517,
@@ -245,7 +275,8 @@
     "src": "https://images.pexels.com/photos/9743517/pexels-photo-9743517.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#736656",
     "cuisine": "indian",
-    "dishtype": "Biryani"
+    "dishtype": "Biryani",
+    "hsb": [33, 25, 45]
   },
   {
     "original_id": 9738985,
@@ -253,7 +284,8 @@
     "src": "https://images.pexels.com/photos/9738985/pexels-photo-9738985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8B755E",
     "cuisine": "indian",
-    "dishtype": "Biryani"
+    "dishtype": "Biryani",
+    "hsb": [31, 32, 55]
   },
   {
     "original_id": 14731729,
@@ -261,7 +293,8 @@
     "src": "https://images.pexels.com/photos/14731729/pexels-photo-14731729.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B7A28D",
     "cuisine": "indian",
-    "dishtype": "Biryani"
+    "dishtype": "Biryani",
+    "hsb": [30, 23, 72]
   },
   {
     "original_id": 9609848,
@@ -269,7 +302,8 @@
     "src": "https://images.pexels.com/photos/9609848/pexels-photo-9609848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#5C482D",
     "cuisine": "indian",
-    "dishtype": "Biryani"
+    "dishtype": "Biryani",
+    "hsb": [34, 51, 36]
   },
   {
     "original_id": 5410401,
@@ -277,7 +311,8 @@
     "src": "https://images.pexels.com/photos/5410401/pexels-photo-5410401.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7B5536",
     "cuisine": "indian",
-    "dishtype": "Biryani"
+    "dishtype": "Biryani",
+    "hsb": [27, 56, 48]
   },
   {
     "original_id": 7340936,
@@ -285,7 +320,8 @@
     "src": "https://images.pexels.com/photos/7340936/pexels-photo-7340936.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6D645B",
     "cuisine": "indian",
-    "dishtype": "Biryani"
+    "dishtype": "Biryani",
+    "hsb": [30, 17, 43]
   },
   {
     "original_id": 7340956,
@@ -293,7 +329,8 @@
     "src": "https://images.pexels.com/photos/7340956/pexels-photo-7340956.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#564E44",
     "cuisine": "indian",
-    "dishtype": "Biryani"
+    "dishtype": "Biryani",
+    "hsb": [33, 21, 34]
   },
   {
     "original_id": 12737656,
@@ -301,7 +338,8 @@
     "src": "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#D3AC75",
     "cuisine": "indian",
-    "dishtype": "Biryani"
+    "dishtype": "Biryani",
+    "hsb": [35, 45, 83]
   },
   {
     "original_id": 9738983,
@@ -309,7 +347,8 @@
     "src": "https://images.pexels.com/photos/9738983/pexels-photo-9738983.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8A8277",
     "cuisine": "indian",
-    "dishtype": "Biryani"
+    "dishtype": "Biryani",
+    "hsb": [35, 14, 54]
   },
   {
     "original_id": 9609843,
@@ -317,7 +356,8 @@
     "src": "https://images.pexels.com/photos/9609843/pexels-photo-9609843.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#5E4938",
     "cuisine": "indian",
-    "dishtype": "Biryani"
+    "dishtype": "Biryani",
+    "hsb": [27, 40, 37]
   },
   {
     "original_id": 8250738,
@@ -325,7 +365,8 @@
     "src": "https://images.pexels.com/photos/8250738/pexels-photo-8250738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#955F31",
     "cuisine": "indian",
-    "dishtype": "Biryani"
+    "dishtype": "Biryani",
+    "hsb": [28, 67, 58]
   },
   {
     "original_id": 4224311,
@@ -333,7 +374,8 @@
     "src": "https://images.pexels.com/photos/4224311/pexels-photo-4224311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#979B91",
     "cuisine": "indian",
-    "dishtype": "Biryani"
+    "dishtype": "Biryani",
+    "hsb": [84, 6, 61]
   },
   {
     "original_id": 6420701,
@@ -341,7 +383,8 @@
     "src": "https://images.pexels.com/photos/6420701/pexels-photo-6420701.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#60514B",
     "cuisine": "indian",
-    "dishtype": "Samosa"
+    "dishtype": "Samosa",
+    "hsb": [17, 22, 38]
   },
   {
     "original_id": 15899519,
@@ -349,7 +392,8 @@
     "src": "https://images.pexels.com/photos/15899519/pexels-photo-15899519.png?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6F482C",
     "cuisine": "indian",
-    "dishtype": "Samosa"
+    "dishtype": "Samosa",
+    "hsb": [25, 60, 44]
   },
   {
     "original_id": 8992923,
@@ -357,7 +401,8 @@
     "src": "https://images.pexels.com/photos/8992923/pexels-photo-8992923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#BEAE97",
     "cuisine": "indian",
-    "dishtype": "Samosa"
+    "dishtype": "Samosa",
+    "hsb": [35, 21, 75]
   },
   {
     "original_id": 13354489,
@@ -365,7 +410,8 @@
     "src": "https://images.pexels.com/photos/13354489/pexels-photo-13354489.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6F3215",
     "cuisine": "indian",
-    "dishtype": "Samosa"
+    "dishtype": "Samosa",
+    "hsb": [19, 81, 44]
   },
   {
     "original_id": 13354496,
@@ -373,7 +419,8 @@
     "src": "https://images.pexels.com/photos/13354496/pexels-photo-13354496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#83350F",
     "cuisine": "indian",
-    "dishtype": "Samosa"
+    "dishtype": "Samosa",
+    "hsb": [20, 89, 51]
   },
   {
     "original_id": 13354575,
@@ -381,7 +428,8 @@
     "src": "https://images.pexels.com/photos/13354575/pexels-photo-13354575.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#693915",
     "cuisine": "indian",
-    "dishtype": "Samosa"
+    "dishtype": "Samosa",
+    "hsb": [26, 80, 41]
   },
   {
     "original_id": 2613471,
@@ -389,7 +437,8 @@
     "src": "https://images.pexels.com/photos/2613471/pexels-photo-2613471.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C6AC8B",
     "cuisine": "french",
-    "dishtype": "crepe"
+    "dishtype": "crepe",
+    "hsb": [34, 30, 78]
   },
   {
     "original_id": 3225499,
@@ -397,7 +446,8 @@
     "src": "https://images.pexels.com/photos/3225499/pexels-photo-3225499.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#66564A",
     "cuisine": "french",
-    "dishtype": "crepe"
+    "dishtype": "crepe",
+    "hsb": [26, 27, 40]
   },
   {
     "original_id": 221063,
@@ -405,7 +455,8 @@
     "src": "https://images.pexels.com/photos/221063/pexels-photo-221063.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B28E7C",
     "cuisine": "french",
-    "dishtype": "crepe"
+    "dishtype": "crepe",
+    "hsb": [20, 30, 70]
   },
   {
     "original_id": 3225506,
@@ -413,7 +464,8 @@
     "src": "https://images.pexels.com/photos/3225506/pexels-photo-3225506.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#76675D",
     "cuisine": "french",
-    "dishtype": "crepe"
+    "dishtype": "crepe",
+    "hsb": [24, 21, 46]
   },
   {
     "original_id": 3569706,
@@ -421,7 +473,8 @@
     "src": "https://images.pexels.com/photos/3569706/pexels-photo-3569706.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#48493C",
     "cuisine": "french",
-    "dishtype": "crepe"
+    "dishtype": "crepe",
+    "hsb": [65, 18, 29]
   },
   {
     "original_id": 2111999,
@@ -429,7 +482,8 @@
     "src": "https://images.pexels.com/photos/2111999/pexels-photo-2111999.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#CBD1D4",
     "cuisine": "french",
-    "dishtype": "crepe"
+    "dishtype": "crepe",
+    "hsb": [200, 4, 83]
   },
   {
     "original_id": 6249501,
@@ -437,7 +491,8 @@
     "src": "https://images.pexels.com/photos/6249501/pexels-photo-6249501.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#89735A",
     "cuisine": "french",
-    "dishtype": "crepe"
+    "dishtype": "crepe",
+    "hsb": [32, 34, 54]
   },
   {
     "original_id": 6811159,
@@ -445,7 +500,8 @@
     "src": "https://images.pexels.com/photos/6811159/pexels-photo-6811159.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AF896D",
     "cuisine": "french",
-    "dishtype": "crepe"
+    "dishtype": "crepe",
+    "hsb": [25, 38, 69]
   },
   {
     "original_id": 5419181,
@@ -453,7 +509,8 @@
     "src": "https://images.pexels.com/photos/5419181/pexels-photo-5419181.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C0B8AF",
     "cuisine": "french",
-    "dishtype": "crepe"
+    "dishtype": "crepe",
+    "hsb": [32, 9, 75]
   },
   {
     "original_id": 5531667,
@@ -461,7 +518,8 @@
     "src": "https://images.pexels.com/photos/5531667/pexels-photo-5531667.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#797878",
     "cuisine": "french",
-    "dishtype": "crepe"
+    "dishtype": "crepe",
+    "hsb": [0, 1, 47]
   },
   {
     "original_id": 6327619,
@@ -469,7 +527,8 @@
     "src": "https://images.pexels.com/photos/6327619/pexels-photo-6327619.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6D625C",
     "cuisine": "french",
-    "dishtype": "crepe"
+    "dishtype": "crepe",
+    "hsb": [21, 16, 43]
   },
   {
     "original_id": 6327628,
@@ -477,7 +536,8 @@
     "src": "https://images.pexels.com/photos/6327628/pexels-photo-6327628.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#908F8D",
     "cuisine": "french",
-    "dishtype": "crepe"
+    "dishtype": "crepe",
+    "hsb": [40, 2, 56]
   },
   {
     "original_id": 8428992,
@@ -485,7 +545,8 @@
     "src": "https://images.pexels.com/photos/8428992/pexels-photo-8428992.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AD7D73",
     "cuisine": "french",
-    "dishtype": "crepe"
+    "dishtype": "crepe",
+    "hsb": [10, 34, 68]
   },
   {
     "original_id": 6758316,
@@ -493,7 +554,8 @@
     "src": "https://images.pexels.com/photos/6758316/pexels-photo-6758316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C9C1BB",
     "cuisine": "french",
-    "dishtype": "crepe"
+    "dishtype": "crepe",
+    "hsb": [26, 7, 79]
   },
   {
     "original_id": 5858047,
@@ -501,7 +563,8 @@
     "src": "https://images.pexels.com/photos/5858047/pexels-photo-5858047.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#857E7A",
     "cuisine": "french",
-    "dishtype": "Croque monsieur"
+    "dishtype": "Croque monsieur",
+    "hsb": [22, 8, 52]
   },
   {
     "original_id": 5448364,
@@ -509,7 +572,8 @@
     "src": "https://images.pexels.com/photos/5448364/pexels-photo-5448364.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#4A423F",
     "cuisine": "french",
-    "dishtype": "Tarte tatin"
+    "dishtype": "Tarte tatin",
+    "hsb": [16, 15, 29]
   },
   {
     "original_id": 5448352,
@@ -517,7 +581,8 @@
     "src": "https://images.pexels.com/photos/5448352/pexels-photo-5448352.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#4F4340",
     "cuisine": "french",
-    "dishtype": "Tarte tatin"
+    "dishtype": "Tarte tatin",
+    "hsb": [12, 19, 31]
   },
   {
     "original_id": 952724,
@@ -525,7 +590,8 @@
     "src": "https://images.pexels.com/photos/952724/pexels-photo-952724.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C1A59B",
     "cuisine": "french",
-    "dishtype": "Tarte tatin"
+    "dishtype": "Tarte tatin",
+    "hsb": [16, 20, 76]
   },
   {
     "original_id": 1266741,
@@ -533,7 +599,8 @@
     "src": "https://images.pexels.com/photos/1266741/pexels-photo-1266741.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#743B33",
     "cuisine": "french",
-    "dishtype": "Tarte tatin"
+    "dishtype": "Tarte tatin",
+    "hsb": [7, 56, 45]
   },
   {
     "original_id": 2693448,
@@ -541,7 +608,8 @@
     "src": "https://images.pexels.com/photos/2693448/pexels-photo-2693448.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#D3BFB8",
     "cuisine": "french",
-    "dishtype": "Tarte tatin"
+    "dishtype": "Tarte tatin",
+    "hsb": [16, 13, 83]
   },
   {
     "original_id": 209314,
@@ -549,7 +617,8 @@
     "src": "https://images.pexels.com/photos/209314/pexels-photo-209314.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6A481F",
     "cuisine": "french",
-    "dishtype": "Tarte tatin"
+    "dishtype": "Tarte tatin",
+    "hsb": [33, 71, 42]
   },
   {
     "original_id": 1346217,
@@ -557,7 +626,8 @@
     "src": "https://images.pexels.com/photos/1346217/pexels-photo-1346217.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#75736D",
     "cuisine": "french",
-    "dishtype": "Tarte tatin"
+    "dishtype": "Tarte tatin",
+    "hsb": [45, 7, 46]
   },
   {
     "original_id": 8902015,
@@ -565,7 +635,8 @@
     "src": "https://images.pexels.com/photos/8902015/pexels-photo-8902015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B47C57",
     "cuisine": "french",
-    "dishtype": "Tarte tatin"
+    "dishtype": "Tarte tatin",
+    "hsb": [24, 52, 71]
   },
   {
     "original_id": 5426104,
@@ -573,7 +644,8 @@
     "src": "https://images.pexels.com/photos/5426104/pexels-photo-5426104.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A3887A",
     "cuisine": "french",
-    "dishtype": "Tarte tatin"
+    "dishtype": "Tarte tatin",
+    "hsb": [20, 25, 64]
   },
   {
     "original_id": 6942028,
@@ -581,7 +653,8 @@
     "src": "https://images.pexels.com/photos/6942028/pexels-photo-6942028.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A0B8C5",
     "cuisine": "french",
-    "dishtype": "Tarte tatin"
+    "dishtype": "Tarte tatin",
+    "hsb": [201, 19, 77]
   },
   {
     "original_id": 5336347,
@@ -589,7 +662,8 @@
     "src": "https://images.pexels.com/photos/5336347/pexels-photo-5336347.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AD8663",
     "cuisine": "french",
-    "dishtype": "Tarte tatin"
+    "dishtype": "Tarte tatin",
+    "hsb": [28, 43, 68]
   },
   {
     "original_id": 7983138,
@@ -597,7 +671,8 @@
     "src": "https://images.pexels.com/photos/7983138/pexels-photo-7983138.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9F9593",
     "cuisine": "french",
-    "dishtype": "Tarte tatin"
+    "dishtype": "Tarte tatin",
+    "hsb": [10, 8, 62]
   },
   {
     "original_id": 3892469,
@@ -605,7 +680,8 @@
     "src": "https://images.pexels.com/photos/3892469/pexels-photo-3892469.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#846B3E",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [39, 53, 52]
   },
   {
     "original_id": 3724,
@@ -613,7 +689,8 @@
     "src": "https://images.pexels.com/photos/3724/food-morning-breakfast-orange-juice.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B6A484",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [38, 27, 71]
   },
   {
     "original_id": 792404,
@@ -621,7 +698,8 @@
     "src": "https://images.pexels.com/photos/792404/pexels-photo-792404.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C29972",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [29, 41, 76]
   },
   {
     "original_id": 1775036,
@@ -629,7 +707,8 @@
     "src": "https://images.pexels.com/photos/1775036/pexels-photo-1775036.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#EEE1E3",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [351, 5, 93]
   },
   {
     "original_id": 4279,
@@ -637,7 +716,8 @@
     "src": "https://images.pexels.com/photos/4279/coffee-morning-breakfast-croissant.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C1B0A6",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [22, 14, 76]
   },
   {
     "original_id": 248467,
@@ -645,7 +725,8 @@
     "src": "https://images.pexels.com/photos/248467/pexels-photo-248467.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#E4D2B9",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [35, 19, 89]
   },
   {
     "original_id": 1510684,
@@ -653,7 +734,8 @@
     "src": "https://images.pexels.com/photos/1510684/pexels-photo-1510684.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#3E3E36",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [60, 13, 24]
   },
   {
     "original_id": 1510683,
@@ -661,7 +743,8 @@
     "src": "https://images.pexels.com/photos/1510683/pexels-photo-1510683.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8D887B",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [43, 13, 55]
   },
   {
     "original_id": 461313,
@@ -669,7 +752,8 @@
     "src": "https://images.pexels.com/photos/461313/pexels-photo-461313.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#875329",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [27, 70, 53]
   },
   {
     "original_id": 1775034,
@@ -677,7 +761,8 @@
     "src": "https://images.pexels.com/photos/1775034/pexels-photo-1775034.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#E2CBC8",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [7, 12, 89]
   },
   {
     "original_id": 3692,
@@ -685,7 +770,8 @@
     "src": "https://images.pexels.com/photos/3692/food-morning-breakfast-croissant.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#968172",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [25, 24, 59]
   },
   {
     "original_id": 3141268,
@@ -693,7 +779,8 @@
     "src": "https://images.pexels.com/photos/3141268/pexels-photo-3141268.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#5C4234",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [21, 43, 36]
   },
   {
     "original_id": 253419,
@@ -701,7 +788,8 @@
     "src": "https://images.pexels.com/photos/253419/pexels-photo-253419.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#CCB284",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [38, 35, 80]
   },
   {
     "original_id": 257843,
@@ -709,7 +797,8 @@
     "src": "https://images.pexels.com/photos/257843/pexels-photo-257843.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B5590D",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [27, 93, 71]
   },
   {
     "original_id": 256523,
@@ -717,7 +806,8 @@
     "src": "https://images.pexels.com/photos/256523/pexels-photo-256523.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9A8370",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [27, 27, 60]
   },
   {
     "original_id": 18606801,
@@ -725,7 +815,8 @@
     "src": "https://images.pexels.com/photos/18606801/pexels-photo-18606801.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AA7A4C",
     "cuisine": "french",
-    "dishtype": "Croissant"
+    "dishtype": "Croissant",
+    "hsb": [29, 55, 67]
   },
   {
     "original_id": 14990497,
@@ -733,7 +824,8 @@
     "src": "https://images.pexels.com/photos/14990497/pexels-photo-14990497.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#3A472B",
     "cuisine": "french",
-    "dishtype": "Escargots"
+    "dishtype": "Escargots",
+    "hsb": [88, 39, 28]
   },
   {
     "original_id": 18416960,
@@ -741,7 +833,8 @@
     "src": "https://images.pexels.com/photos/18416960/pexels-photo-18416960.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9A8862",
     "cuisine": "french",
-    "dishtype": "Escargots"
+    "dishtype": "Escargots",
+    "hsb": [41, 36, 60]
   },
   {
     "original_id": 16271715,
@@ -749,7 +842,8 @@
     "src": "https://images.pexels.com/photos/16271715/pexels-photo-16271715.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#5B5920",
     "cuisine": "french",
-    "dishtype": "Escargots"
+    "dishtype": "Escargots",
+    "hsb": [58, 65, 36]
   },
   {
     "original_id": 16271854,
@@ -757,7 +851,8 @@
     "src": "https://images.pexels.com/photos/16271854/pexels-photo-16271854.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6A5623",
     "cuisine": "french",
-    "dishtype": "Escargots"
+    "dishtype": "Escargots",
+    "hsb": [43, 67, 42]
   },
   {
     "original_id": 2765875,
@@ -765,7 +860,8 @@
     "src": "https://images.pexels.com/photos/2765875/pexels-photo-2765875.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8B7A5A",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [39, 35, 55]
   },
   {
     "original_id": 4079520,
@@ -773,7 +869,8 @@
     "src": "https://images.pexels.com/photos/4079520/pexels-photo-4079520.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#BFB1A3",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [30, 15, 75]
   },
   {
     "original_id": 8963444,
@@ -781,7 +878,8 @@
     "src": "https://images.pexels.com/photos/8963444/pexels-photo-8963444.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A67B59",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [26, 46, 65]
   },
   {
     "original_id": 4078163,
@@ -789,7 +887,8 @@
     "src": "https://images.pexels.com/photos/4078163/pexels-photo-4078163.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#917C69",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [29, 28, 57]
   },
   {
     "original_id": 5949897,
@@ -797,7 +896,8 @@
     "src": "https://images.pexels.com/photos/5949897/pexels-photo-5949897.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9B5554",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [1, 46, 61]
   },
   {
     "original_id": 5949885,
@@ -805,7 +905,8 @@
     "src": "https://images.pexels.com/photos/5949885/pexels-photo-5949885.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#554B40",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [31, 25, 33]
   },
   {
     "original_id": 6046493,
@@ -813,7 +914,8 @@
     "src": "https://images.pexels.com/photos/6046493/pexels-photo-6046493.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#D79A7D",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [19, 42, 84]
   },
   {
     "original_id": 5949892,
@@ -821,7 +923,8 @@
     "src": "https://images.pexels.com/photos/5949892/pexels-photo-5949892.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A2A094",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [51, 9, 64]
   },
   {
     "original_id": 19589060,
@@ -829,7 +932,8 @@
     "src": "https://images.pexels.com/photos/19589060/pexels-photo-19589060.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6C583F",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [33, 42, 42]
   },
   {
     "original_id": 5949891,
@@ -837,7 +941,8 @@
     "src": "https://images.pexels.com/photos/5949891/pexels-photo-5949891.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#4D4B42",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [49, 14, 30]
   },
   {
     "original_id": 5949923,
@@ -845,7 +950,8 @@
     "src": "https://images.pexels.com/photos/5949923/pexels-photo-5949923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B4AFA8",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [35, 7, 71]
   },
   {
     "original_id": 16000781,
@@ -853,7 +959,8 @@
     "src": "https://images.pexels.com/photos/16000781/pexels-photo-16000781.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#746D5B",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [43, 22, 45]
   },
   {
     "original_id": 13823542,
@@ -861,7 +968,8 @@
     "src": "https://images.pexels.com/photos/13823542/pexels-photo-13823542.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B79782",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [24, 29, 72]
   },
   {
     "original_id": 12842899,
@@ -869,7 +977,8 @@
     "src": "https://images.pexels.com/photos/12842899/pexels-photo-12842899.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7B6857",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [28, 29, 48]
   },
   {
     "original_id": 12842925,
@@ -877,7 +986,8 @@
     "src": "https://images.pexels.com/photos/12842925/pexels-photo-12842925.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#967C6B",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [24, 29, 59]
   },
   {
     "original_id": 13376601,
@@ -885,7 +995,8 @@
     "src": "https://images.pexels.com/photos/13376601/pexels-photo-13376601.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#907F6D",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [31, 24, 56]
   },
   {
     "original_id": 14696209,
@@ -893,7 +1004,8 @@
     "src": "https://images.pexels.com/photos/14696209/pexels-photo-14696209.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#352822",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [19, 36, 21]
   },
   {
     "original_id": 16845657,
@@ -901,7 +1013,8 @@
     "src": "https://images.pexels.com/photos/16845657/pexels-photo-16845657.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#3D362E",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [32, 25, 24]
   },
   {
     "original_id": 9650082,
@@ -909,7 +1022,8 @@
     "src": "https://images.pexels.com/photos/9650082/pexels-photo-9650082.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#272018",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [32, 38, 15]
   },
   {
     "original_id": 8392459,
@@ -917,7 +1031,8 @@
     "src": "https://images.pexels.com/photos/8392459/pexels-photo-8392459.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#848283",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [330, 2, 52]
   },
   {
     "original_id": 18273993,
@@ -925,7 +1040,8 @@
     "src": "https://images.pexels.com/photos/18273993/pexels-photo-18273993.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8F2F07",
     "cuisine": "italian",
-    "dishtype": "lasagna"
+    "dishtype": "lasagna",
+    "hsb": [18, 95, 56]
   },
   {
     "original_id": 2412950,
@@ -933,7 +1049,8 @@
     "src": "https://images.pexels.com/photos/2412950/pexels-photo-2412950.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B19C7B",
     "cuisine": "italian",
-    "dishtype": "tortellini"
+    "dishtype": "tortellini",
+    "hsb": [37, 31, 69]
   },
   {
     "original_id": 4039607,
@@ -941,7 +1058,8 @@
     "src": "https://images.pexels.com/photos/4039607/pexels-photo-4039607.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B89B6D",
     "cuisine": "italian",
-    "dishtype": "tortellini"
+    "dishtype": "tortellini",
+    "hsb": [37, 41, 72]
   },
   {
     "original_id": 8108214,
@@ -949,7 +1067,8 @@
     "src": "https://images.pexels.com/photos/8108214/pexels-photo-8108214.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#D4C2AC",
     "cuisine": "italian",
-    "dishtype": "tortellini"
+    "dishtype": "tortellini",
+    "hsb": [33, 19, 83]
   },
   {
     "original_id": 7349045,
@@ -957,7 +1076,8 @@
     "src": "https://images.pexels.com/photos/7349045/pexels-photo-7349045.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#828080",
     "cuisine": "italian",
-    "dishtype": "tortellini"
+    "dishtype": "tortellini",
+    "hsb": [0, 2, 51]
   },
   {
     "original_id": 18453898,
@@ -965,7 +1085,8 @@
     "src": "https://images.pexels.com/photos/18453898/pexels-photo-18453898.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AC9281",
     "cuisine": "italian",
-    "dishtype": "Focaccia"
+    "dishtype": "Focaccia",
+    "hsb": [24, 25, 67]
   },
   {
     "original_id": 18453899,
@@ -973,7 +1094,8 @@
     "src": "https://images.pexels.com/photos/18453899/pexels-photo-18453899.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B29784",
     "cuisine": "italian",
-    "dishtype": "Focaccia"
+    "dishtype": "Focaccia",
+    "hsb": [25, 26, 70]
   },
   {
     "original_id": 18453904,
@@ -981,7 +1103,8 @@
     "src": "https://images.pexels.com/photos/18453904/pexels-photo-18453904.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A06E4B",
     "cuisine": "italian",
-    "dishtype": "Focaccia"
+    "dishtype": "Focaccia",
+    "hsb": [25, 53, 63]
   },
   {
     "original_id": 18453903,
@@ -989,7 +1112,8 @@
     "src": "https://images.pexels.com/photos/18453903/pexels-photo-18453903.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AE7C59",
     "cuisine": "italian",
-    "dishtype": "Focaccia"
+    "dishtype": "Focaccia",
+    "hsb": [25, 49, 68]
   },
   {
     "original_id": 10529021,
@@ -997,7 +1121,8 @@
     "src": "https://images.pexels.com/photos/10529021/pexels-photo-10529021.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#524E33",
     "cuisine": "italian",
-    "dishtype": "Focaccia"
+    "dishtype": "Focaccia",
+    "hsb": [52, 38, 32]
   },
   {
     "original_id": 921362,
@@ -1005,7 +1130,8 @@
     "src": "https://images.pexels.com/photos/921362/pexels-photo-921362.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#DBD4C3",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [43, 11, 86]
   },
   {
     "original_id": 998244,
@@ -1013,7 +1139,8 @@
     "src": "https://images.pexels.com/photos/998244/pexels-photo-998244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#747370",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [45, 3, 45]
   },
   {
     "original_id": 3763826,
@@ -1021,7 +1148,8 @@
     "src": "https://images.pexels.com/photos/3763826/pexels-photo-3763826.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9D7D50",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [35, 49, 62]
   },
   {
     "original_id": 6129137,
@@ -1029,7 +1157,8 @@
     "src": "https://images.pexels.com/photos/6129137/pexels-photo-6129137.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#81735A",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [38, 30, 51]
   },
   {
     "original_id": 11190138,
@@ -1037,7 +1166,8 @@
     "src": "https://images.pexels.com/photos/11190138/pexels-photo-11190138.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#767354",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [55, 29, 46]
   },
   {
     "original_id": 12630590,
@@ -1045,7 +1175,8 @@
     "src": "https://images.pexels.com/photos/12630590/pexels-photo-12630590.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#CDCDCD",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [0, 0, 80]
   },
   {
     "original_id": 5638526,
@@ -1053,7 +1184,8 @@
     "src": "https://images.pexels.com/photos/5638526/pexels-photo-5638526.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#D8C6B8",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [26, 15, 85]
   },
   {
     "original_id": 5638527,
@@ -1061,7 +1193,8 @@
     "src": "https://images.pexels.com/photos/5638527/pexels-photo-5638527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AEA7A0",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [30, 8, 68]
   },
   {
     "original_id": 15508173,
@@ -1069,7 +1202,8 @@
     "src": "https://images.pexels.com/photos/15508173/pexels-photo-15508173.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8E6E45",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [34, 51, 56]
   },
   {
     "original_id": 14165867,
@@ -1077,7 +1211,8 @@
     "src": "https://images.pexels.com/photos/14165867/pexels-photo-14165867.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A68C73",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [29, 31, 65]
   },
   {
     "original_id": 14165873,
@@ -1085,7 +1220,8 @@
     "src": "https://images.pexels.com/photos/14165873/pexels-photo-14165873.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#DBAC82",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [28, 41, 86]
   },
   {
     "original_id": 14460413,
@@ -1093,7 +1229,8 @@
     "src": "https://images.pexels.com/photos/14460413/pexels-photo-14460413.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B28FA7",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [319, 20, 70]
   },
   {
     "original_id": 14537683,
@@ -1101,7 +1238,8 @@
     "src": "https://images.pexels.com/photos/14537683/pexels-photo-14537683.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9A825E",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [36, 39, 60]
   },
   {
     "original_id": 14537701,
@@ -1109,7 +1247,8 @@
     "src": "https://images.pexels.com/photos/14537701/pexels-photo-14537701.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#997C5C",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [31, 40, 60]
   },
   {
     "original_id": 9058939,
@@ -1117,7 +1256,8 @@
     "src": "https://images.pexels.com/photos/9058939/pexels-photo-9058939.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C7945F",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [31, 52, 78]
   },
   {
     "original_id": 8864542,
@@ -1125,7 +1265,8 @@
     "src": "https://images.pexels.com/photos/8864542/pexels-photo-8864542.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#978368",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [34, 31, 59]
   },
   {
     "original_id": 15667778,
@@ -1133,7 +1274,8 @@
     "src": "https://images.pexels.com/photos/15667778/pexels-photo-15667778.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#67411C",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [30, 73, 40]
   },
   {
     "original_id": 17402673,
@@ -1141,7 +1283,8 @@
     "src": "https://images.pexels.com/photos/17402673/pexels-photo-17402673.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#93857A",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [26, 17, 58]
   },
   {
     "original_id": 17563535,
@@ -1149,7 +1292,8 @@
     "src": "https://images.pexels.com/photos/17563535/pexels-photo-17563535.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#494949",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [0, 0, 29]
   },
   {
     "original_id": 20891782,
@@ -1157,7 +1301,8 @@
     "src": "https://images.pexels.com/photos/20891782/pexels-photo-20891782.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#453B2F",
     "cuisine": "italian",
-    "dishtype": "Risotto"
+    "dishtype": "Risotto",
+    "hsb": [33, 32, 27]
   },
   {
     "original_id": 4748543,
@@ -1165,7 +1310,8 @@
     "src": "https://images.pexels.com/photos/4748543/pexels-photo-4748543.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9F978B",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [36, 13, 62]
   },
   {
     "original_id": 1437267,
@@ -1173,7 +1319,8 @@
     "src": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#BE8E5D",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [30, 51, 75]
   },
   {
     "original_id": 803963,
@@ -1181,7 +1328,8 @@
     "src": "https://images.pexels.com/photos/803963/pexels-photo-803963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#89654E",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [23, 43, 54]
   },
   {
     "original_id": 1256875,
@@ -1189,7 +1337,8 @@
     "src": "https://images.pexels.com/photos/1256875/pexels-photo-1256875.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#706E5C",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [54, 18, 44]
   },
   {
     "original_id": 42326,
@@ -1197,7 +1346,8 @@
     "src": "https://images.pexels.com/photos/42326/noodles-pasta-spaghetti-farfalle-42326.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#CA9C3B",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [41, 71, 79]
   },
   {
     "original_id": 14737,
@@ -1205,7 +1355,8 @@
     "src": "https://images.pexels.com/photos/14737/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C4A285",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [28, 32, 77]
   },
   {
     "original_id": 262905,
@@ -1213,7 +1364,8 @@
     "src": "https://images.pexels.com/photos/262905/pexels-photo-262905.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7D632C",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [41, 65, 49]
   },
   {
     "original_id": 47306,
@@ -1221,7 +1373,8 @@
     "src": "https://images.pexels.com/photos/47306/pasta-spaghetti-noodle-pasta-nests-47306.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A48D70",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [33, 32, 64]
   },
   {
     "original_id": 64208,
@@ -1229,7 +1382,8 @@
     "src": "https://images.pexels.com/photos/64208/pexels-photo-64208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9EA27F",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [67, 22, 64]
   },
   {
     "original_id": 2347311,
@@ -1237,7 +1391,8 @@
     "src": "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8E826F",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [37, 22, 56]
   },
   {
     "original_id": 7401,
@@ -1245,7 +1400,8 @@
     "src": "https://images.pexels.com/photos/7401/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#544E3C",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [45, 29, 33]
   },
   {
     "original_id": 546945,
@@ -1253,7 +1409,8 @@
     "src": "https://images.pexels.com/photos/546945/pexels-photo-546945.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8A846F",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [47, 20, 54]
   },
   {
     "original_id": 1435898,
@@ -1261,7 +1418,8 @@
     "src": "https://images.pexels.com/photos/1435898/pexels-photo-1435898.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A58488",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [353, 20, 65]
   },
   {
     "original_id": 165844,
@@ -1269,7 +1427,8 @@
     "src": "https://images.pexels.com/photos/165844/noodles-tagliatelle-raw-colorful-165844.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AFA687",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [47, 23, 69]
   },
   {
     "original_id": 725990,
@@ -1277,7 +1436,8 @@
     "src": "https://images.pexels.com/photos/725990/pexels-photo-725990.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#907768",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [23, 28, 56]
   },
   {
     "original_id": 1150447,
@@ -1285,7 +1445,8 @@
     "src": "https://images.pexels.com/photos/1150447/pexels-photo-1150447.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#5B432F",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [27, 48, 36]
   },
   {
     "original_id": 745369,
@@ -1293,7 +1454,8 @@
     "src": "https://images.pexels.com/photos/745369/pexels-photo-745369.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#E4CA9F",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [37, 30, 89]
   },
   {
     "original_id": 725997,
@@ -1301,7 +1463,8 @@
     "src": "https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9C7756",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [28, 45, 61]
   },
   {
     "original_id": 921374,
@@ -1309,7 +1472,8 @@
     "src": "https://images.pexels.com/photos/921374/pexels-photo-921374.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#D1C6B4",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [37, 14, 82]
   },
   {
     "original_id": 3026808,
@@ -1317,7 +1481,8 @@
     "src": "https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7C6F59",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [38, 28, 49]
   },
   {
     "original_id": 3214161,
@@ -1325,7 +1490,8 @@
     "src": "https://images.pexels.com/photos/3214161/pexels-photo-3214161.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#948975",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [39, 21, 58]
   },
   {
     "original_id": 3009323,
@@ -1333,7 +1499,8 @@
     "src": "https://images.pexels.com/photos/3009323/pexels-photo-3009323.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#4B3D33",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [25, 32, 29]
   },
   {
     "original_id": 3209101,
@@ -1341,7 +1508,8 @@
     "src": "https://images.pexels.com/photos/3209101/pexels-photo-3209101.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8C6C3E",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [35, 56, 55]
   },
   {
     "original_id": 320539,
@@ -1349,7 +1517,8 @@
     "src": "https://images.pexels.com/photos/320539/pexels-photo-320539.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#2B2434",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [266, 31, 20]
   },
   {
     "original_id": 1001773,
@@ -1357,7 +1526,8 @@
     "src": "https://images.pexels.com/photos/1001773/pexels-photo-1001773.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#958C6A",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [47, 29, 58]
   },
   {
     "original_id": 2697229,
@@ -1365,7 +1535,8 @@
     "src": "https://images.pexels.com/photos/2697229/pexels-photo-2697229.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8D785E",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [33, 33, 55]
   },
   {
     "original_id": 688804,
@@ -1373,7 +1544,8 @@
     "src": "https://images.pexels.com/photos/688804/pexels-photo-688804.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6B5E4B",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [36, 30, 42]
   },
   {
     "original_id": 2456435,
@@ -1381,7 +1553,8 @@
     "src": "https://images.pexels.com/photos/2456435/pexels-photo-2456435.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#927748",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [38, 51, 57]
   },
   {
     "original_id": 1907228,
@@ -1389,7 +1562,8 @@
     "src": "https://images.pexels.com/photos/1907228/pexels-photo-1907228.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#1B1610",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [33, 41, 11]
   },
   {
     "original_id": 3214160,
@@ -1397,7 +1571,8 @@
     "src": "https://images.pexels.com/photos/3214160/pexels-photo-3214160.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#90836E",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [37, 24, 56]
   },
   {
     "original_id": 4039713,
@@ -1405,7 +1580,8 @@
     "src": "https://images.pexels.com/photos/4039713/pexels-photo-4039713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#DCC59F",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [37, 28, 86]
   },
   {
     "original_id": 154145,
@@ -1413,7 +1589,8 @@
     "src": "https://images.pexels.com/photos/154145/pexels-photo-154145.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#917A67",
     "cuisine": "italian",
-    "dishtype": "pasta"
+    "dishtype": "pasta",
+    "hsb": [27, 29, 57]
   },
   {
     "original_id": 825661,
@@ -1421,7 +1598,8 @@
     "src": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6F4935",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [21, 52, 44]
   },
   {
     "original_id": 365459,
@@ -1429,7 +1607,8 @@
     "src": "https://images.pexels.com/photos/365459/pexels-photo-365459.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B09175",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [28, 34, 69]
   },
   {
     "original_id": 280453,
@@ -1437,7 +1616,8 @@
     "src": "https://images.pexels.com/photos/280453/pexels-photo-280453.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9F897A",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [24, 23, 62]
   },
   {
     "original_id": 842519,
@@ -1445,7 +1625,8 @@
     "src": "https://images.pexels.com/photos/842519/pexels-photo-842519.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B1896F",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [24, 37, 69]
   },
   {
     "original_id": 1596884,
@@ -1453,7 +1634,8 @@
     "src": "https://images.pexels.com/photos/1596884/pexels-photo-1596884.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#11517E",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [205, 87, 49]
   },
   {
     "original_id": 367915,
@@ -1461,7 +1643,8 @@
     "src": "https://images.pexels.com/photos/367915/pexels-photo-367915.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#D0AB83",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [31, 37, 82]
   },
   {
     "original_id": 1878346,
@@ -1469,7 +1652,8 @@
     "src": "https://images.pexels.com/photos/1878346/pexels-photo-1878346.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#432B1C",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [23, 58, 26]
   },
   {
     "original_id": 2619970,
@@ -1477,7 +1661,8 @@
     "src": "https://images.pexels.com/photos/2619970/pexels-photo-2619970.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B68251",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [29, 55, 71]
   },
   {
     "original_id": 845811,
@@ -1485,7 +1670,8 @@
     "src": "https://images.pexels.com/photos/845811/pexels-photo-845811.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8B5C39",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [26, 59, 55]
   },
   {
     "original_id": 1049620,
@@ -1493,7 +1679,8 @@
     "src": "https://images.pexels.com/photos/1049620/pexels-photo-1049620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#503217",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [28, 71, 31]
   },
   {
     "original_id": 1166120,
@@ -1501,7 +1688,8 @@
     "src": "https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A36336",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [25, 67, 64]
   },
   {
     "original_id": 2714722,
@@ -1509,7 +1697,8 @@
     "src": "https://images.pexels.com/photos/2714722/pexels-photo-2714722.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#593D2E",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [21, 48, 35]
   },
   {
     "original_id": 166451,
@@ -1517,7 +1706,8 @@
     "src": "https://images.pexels.com/photos/166451/pexels-photo-166451.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8E5637",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [21, 61, 56]
   },
   {
     "original_id": 2180877,
@@ -1525,7 +1715,8 @@
     "src": "https://images.pexels.com/photos/2180877/pexels-photo-2180877.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8C573E",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [19, 56, 55]
   },
   {
     "original_id": 2260555,
@@ -1533,7 +1724,8 @@
     "src": "https://images.pexels.com/photos/2260555/pexels-photo-2260555.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A69D8A",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [41, 17, 65]
   },
   {
     "original_id": 2762939,
@@ -1541,7 +1733,8 @@
     "src": "https://images.pexels.com/photos/2762939/pexels-photo-2762939.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#574237",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [21, 37, 34]
   },
   {
     "original_id": 1552635,
@@ -1549,7 +1742,8 @@
     "src": "https://images.pexels.com/photos/1552635/pexels-photo-1552635.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#BC9251",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [36, 57, 74]
   },
   {
     "original_id": 375467,
@@ -1557,7 +1751,8 @@
     "src": "https://images.pexels.com/photos/375467/pexels-photo-375467.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#BA9D80",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [30, 31, 73]
   },
   {
     "original_id": 845802,
@@ -1565,7 +1760,8 @@
     "src": "https://images.pexels.com/photos/845802/pexels-photo-845802.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B27E56",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [26, 52, 70]
   },
   {
     "original_id": 1093015,
@@ -1573,7 +1769,8 @@
     "src": "https://images.pexels.com/photos/1093015/pexels-photo-1093015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#82532E",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [26, 65, 51]
   },
   {
     "original_id": 162744,
@@ -1581,7 +1778,8 @@
     "src": "https://images.pexels.com/photos/162744/tomatoes-tomato-quiche-red-yellow-162744.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AD8963",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [31, 43, 68]
   },
   {
     "original_id": 2909822,
@@ -1589,7 +1787,8 @@
     "src": "https://images.pexels.com/photos/2909822/pexels-photo-2909822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#BDADA4",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [22, 13, 74]
   },
   {
     "original_id": 1788852,
@@ -1597,7 +1796,8 @@
     "src": "https://images.pexels.com/photos/1788852/pexels-photo-1788852.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#58382D",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [15, 49, 35]
   },
   {
     "original_id": 845812,
@@ -1605,7 +1805,8 @@
     "src": "https://images.pexels.com/photos/845812/pexels-photo-845812.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#967352",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [29, 45, 59]
   },
   {
     "original_id": 845797,
@@ -1613,7 +1814,8 @@
     "src": "https://images.pexels.com/photos/845797/pexels-photo-845797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9C764F",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [30, 49, 61]
   },
   {
     "original_id": 2274787,
@@ -1621,7 +1823,8 @@
     "src": "https://images.pexels.com/photos/2274787/pexels-photo-2274787.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9D7659",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [26, 43, 62]
   },
   {
     "original_id": 3682837,
@@ -1629,7 +1832,8 @@
     "src": "https://images.pexels.com/photos/3682837/pexels-photo-3682837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#815338",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [22, 57, 51]
   },
   {
     "original_id": 3682838,
@@ -1637,7 +1841,8 @@
     "src": "https://images.pexels.com/photos/3682838/pexels-photo-3682838.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#916044",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [22, 53, 57]
   },
   {
     "original_id": 2909821,
@@ -1645,7 +1850,8 @@
     "src": "https://images.pexels.com/photos/2909821/pexels-photo-2909821.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#CBB999",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [38, 25, 80]
   },
   {
     "original_id": 1460873,
@@ -1653,7 +1859,8 @@
     "src": "https://images.pexels.com/photos/1460873/pexels-photo-1460873.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A27665",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [17, 38, 64]
   },
   {
     "original_id": 1527602,
@@ -1661,7 +1868,8 @@
     "src": "https://images.pexels.com/photos/1527602/pexels-photo-1527602.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9C725E",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [19, 40, 61]
   },
   {
     "original_id": 2914550,
@@ -1669,7 +1877,8 @@
     "src": "https://images.pexels.com/photos/2914550/pexels-photo-2914550.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#742F1D",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [12, 75, 45]
   },
   {
     "original_id": 1437810,
@@ -1677,7 +1886,8 @@
     "src": "https://images.pexels.com/photos/1437810/pexels-photo-1437810.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A16F59",
     "cuisine": "italian",
-    "dishtype": "pizza"
+    "dishtype": "pizza",
+    "hsb": [18, 45, 63]
   },
   {
     "original_id": 16743489,
@@ -1685,7 +1895,8 @@
     "src": "https://images.pexels.com/photos/16743489/pexels-photo-16743489.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6F5033",
     "cuisine": "spanish",
-    "dishtype": "Paella"
+    "dishtype": "Paella",
+    "hsb": [29, 54, 44]
   },
   {
     "original_id": 13207675,
@@ -1693,7 +1904,8 @@
     "src": "https://images.pexels.com/photos/13207675/pexels-photo-13207675.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#947259",
     "cuisine": "spanish",
-    "dishtype": "Paella"
+    "dishtype": "Paella",
+    "hsb": [25, 40, 58]
   },
   {
     "original_id": 19524049,
@@ -1701,7 +1913,8 @@
     "src": "https://images.pexels.com/photos/19524049/pexels-photo-19524049.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#5E422C",
     "cuisine": "spanish",
-    "dishtype": "Paella"
+    "dishtype": "Paella",
+    "hsb": [26, 53, 37]
   },
   {
     "original_id": 16743523,
@@ -1709,7 +1922,8 @@
     "src": "https://images.pexels.com/photos/16743523/pexels-photo-16743523.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#513824",
     "cuisine": "spanish",
-    "dishtype": "Paella"
+    "dishtype": "Paella",
+    "hsb": [27, 56, 32]
   },
   {
     "original_id": 6393615,
@@ -1717,7 +1931,8 @@
     "src": "https://images.pexels.com/photos/6393615/pexels-photo-6393615.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#816E4F",
     "cuisine": "spanish",
-    "dishtype": "Paella"
+    "dishtype": "Paella",
+    "hsb": [37, 39, 51]
   },
   {
     "original_id": 12419163,
@@ -1725,7 +1940,8 @@
     "src": "https://images.pexels.com/photos/12419163/pexels-photo-12419163.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#926C59",
     "cuisine": "spanish",
-    "dishtype": "Paella"
+    "dishtype": "Paella",
+    "hsb": [20, 39, 57]
   },
   {
     "original_id": 16743486,
@@ -1733,7 +1949,8 @@
     "src": "https://images.pexels.com/photos/16743486/pexels-photo-16743486.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6A452B",
     "cuisine": "spanish",
-    "dishtype": "Paella"
+    "dishtype": "Paella",
+    "hsb": [25, 59, 42]
   },
   {
     "original_id": 21287038,
@@ -1741,7 +1958,8 @@
     "src": "https://images.pexels.com/photos/21287038/pexels-photo-21287038.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7F796B",
     "cuisine": "spanish",
-    "dishtype": "Paella"
+    "dishtype": "Paella",
+    "hsb": [42, 16, 50]
   },
   {
     "original_id": 2092897,
@@ -1749,7 +1967,8 @@
     "src": "https://images.pexels.com/photos/2092897/pexels-photo-2092897.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#796D55",
     "cuisine": "spanish",
-    "dishtype": "Tortilla"
+    "dishtype": "Tortilla",
+    "hsb": [40, 30, 47]
   },
   {
     "original_id": 1200358,
@@ -1757,7 +1976,8 @@
     "src": "https://images.pexels.com/photos/1200358/pexels-photo-1200358.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#897463",
     "cuisine": "spanish",
-    "dishtype": "Tortilla"
+    "dishtype": "Tortilla",
+    "hsb": [27, 28, 54]
   },
   {
     "original_id": 2092507,
@@ -1765,7 +1985,8 @@
     "src": "https://images.pexels.com/photos/2092507/pexels-photo-2092507.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A39385",
     "cuisine": "spanish",
-    "dishtype": "Tortilla"
+    "dishtype": "Tortilla",
+    "hsb": [28, 18, 64]
   },
   {
     "original_id": 2087748,
@@ -1773,7 +1994,8 @@
     "src": "https://images.pexels.com/photos/2087748/pexels-photo-2087748.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#817E71",
     "cuisine": "spanish",
-    "dishtype": "Tortilla"
+    "dishtype": "Tortilla",
+    "hsb": [49, 12, 51]
   },
   {
     "original_id": 4109136,
@@ -1781,7 +2003,8 @@
     "src": "https://images.pexels.com/photos/4109136/pexels-photo-4109136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#D2AF95",
     "cuisine": "spanish",
-    "dishtype": "Tortilla"
+    "dishtype": "Tortilla",
+    "hsb": [26, 29, 82]
   },
   {
     "original_id": 1582482,
@@ -1789,7 +2012,8 @@
     "src": "https://images.pexels.com/photos/1582482/pexels-photo-1582482.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7C8472",
     "cuisine": "spanish",
-    "dishtype": "Tortilla"
+    "dishtype": "Tortilla",
+    "hsb": [87, 14, 52]
   },
   {
     "original_id": 4955090,
@@ -1797,7 +2021,8 @@
     "src": "https://images.pexels.com/photos/4955090/pexels-photo-4955090.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#988B6F",
     "cuisine": "spanish",
-    "dishtype": "Tortilla"
+    "dishtype": "Tortilla",
+    "hsb": [41, 27, 60]
   },
   {
     "original_id": 4958645,
@@ -1805,7 +2030,8 @@
     "src": "https://images.pexels.com/photos/4958645/pexels-photo-4958645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7B6958",
     "cuisine": "spanish",
-    "dishtype": "Tortilla"
+    "dishtype": "Tortilla",
+    "hsb": [29, 28, 48]
   },
   {
     "original_id": 5840409,
@@ -1813,7 +2039,8 @@
     "src": "https://images.pexels.com/photos/5840409/pexels-photo-5840409.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6E533C",
     "cuisine": "spanish",
-    "dishtype": "Tortilla"
+    "dishtype": "Tortilla",
+    "hsb": [28, 45, 43]
   },
   {
     "original_id": 4955220,
@@ -1821,7 +2048,8 @@
     "src": "https://images.pexels.com/photos/4955220/pexels-photo-4955220.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A69681",
     "cuisine": "spanish",
-    "dishtype": "Tortilla"
+    "dishtype": "Tortilla",
+    "hsb": [34, 22, 65]
   },
   {
     "original_id": 375374,
@@ -1829,7 +2057,8 @@
     "src": "https://images.pexels.com/photos/375374/pexels-photo-375374.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#E4F2FC",
     "cuisine": "spanish",
-    "dishtype": "Patatas bravas"
+    "dishtype": "Patatas bravas",
+    "hsb": [205, 10, 99]
   },
   {
     "original_id": 20522417,
@@ -1837,7 +2066,8 @@
     "src": "https://images.pexels.com/photos/20522417/pexels-photo-20522417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8A745D",
     "cuisine": "spanish",
-    "dishtype": "Patatas bravas"
+    "dishtype": "Patatas bravas",
+    "hsb": [31, 33, 54]
   },
   {
     "original_id": 3832348,
@@ -1845,7 +2075,8 @@
     "src": "https://images.pexels.com/photos/3832348/pexels-photo-3832348.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8D7D78",
     "cuisine": "spanish",
-    "dishtype": "Gazpacho"
+    "dishtype": "Gazpacho",
+    "hsb": [14, 15, 55]
   },
   {
     "original_id": 3832330,
@@ -1853,7 +2084,8 @@
     "src": "https://images.pexels.com/photos/3832330/pexels-photo-3832330.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#987F78",
     "cuisine": "spanish",
-    "dishtype": "Gazpacho"
+    "dishtype": "Gazpacho",
+    "hsb": [13, 21, 60]
   },
   {
     "original_id": 3832333,
@@ -1861,7 +2093,8 @@
     "src": "https://images.pexels.com/photos/3832333/pexels-photo-3832333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#827A75",
     "cuisine": "spanish",
-    "dishtype": "Gazpacho"
+    "dishtype": "Gazpacho",
+    "hsb": [23, 10, 51]
   },
   {
     "original_id": 3832334,
@@ -1869,7 +2102,8 @@
     "src": "https://images.pexels.com/photos/3832334/pexels-photo-3832334.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#887A75",
     "cuisine": "spanish",
-    "dishtype": "Gazpacho"
+    "dishtype": "Gazpacho",
+    "hsb": [16, 14, 53]
   },
   {
     "original_id": 3832344,
@@ -1877,7 +2111,8 @@
     "src": "https://images.pexels.com/photos/3832344/pexels-photo-3832344.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7F7B77",
     "cuisine": "spanish",
-    "dishtype": "Gazpacho"
+    "dishtype": "Gazpacho",
+    "hsb": [30, 6, 50]
   },
   {
     "original_id": 3832345,
@@ -1885,7 +2120,8 @@
     "src": "https://images.pexels.com/photos/3832345/pexels-photo-3832345.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8E8683",
     "cuisine": "spanish",
-    "dishtype": "Gazpacho"
+    "dishtype": "Gazpacho",
+    "hsb": [16, 8, 56]
   },
   {
     "original_id": 3832347,
@@ -1893,7 +2129,8 @@
     "src": "https://images.pexels.com/photos/3832347/pexels-photo-3832347.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#897F7A",
     "cuisine": "spanish",
-    "dishtype": "Gazpacho"
+    "dishtype": "Gazpacho",
+    "hsb": [20, 11, 54]
   },
   {
     "original_id": 3832360,
@@ -1901,7 +2138,8 @@
     "src": "https://images.pexels.com/photos/3832360/pexels-photo-3832360.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7D6057",
     "cuisine": "spanish",
-    "dishtype": "Gazpacho"
+    "dishtype": "Gazpacho",
+    "hsb": [14, 30, 49]
   },
   {
     "original_id": 3832362,
@@ -1909,7 +2147,8 @@
     "src": "https://images.pexels.com/photos/3832362/pexels-photo-3832362.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7E746D",
     "cuisine": "spanish",
-    "dishtype": "Gazpacho"
+    "dishtype": "Gazpacho",
+    "hsb": [25, 13, 49]
   },
   {
     "original_id": 3832353,
@@ -1917,7 +2156,8 @@
     "src": "https://images.pexels.com/photos/3832353/pexels-photo-3832353.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9D8F87",
     "cuisine": "spanish",
-    "dishtype": "Gazpacho"
+    "dishtype": "Gazpacho",
+    "hsb": [22, 14, 62]
   },
   {
     "original_id": 3832354,
@@ -1925,7 +2165,8 @@
     "src": "https://images.pexels.com/photos/3832354/pexels-photo-3832354.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#948179",
     "cuisine": "spanish",
-    "dishtype": "Gazpacho"
+    "dishtype": "Gazpacho",
+    "hsb": [18, 18, 58]
   },
   {
     "original_id": 8796313,
@@ -1933,7 +2174,8 @@
     "src": "https://images.pexels.com/photos/8796313/pexels-photo-8796313.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#3C2C13",
     "cuisine": "spanish",
-    "dishtype": "Gazpacho"
+    "dishtype": "Gazpacho",
+    "hsb": [37, 68, 24]
   },
   {
     "original_id": 17696679,
@@ -1941,7 +2183,8 @@
     "src": "https://images.pexels.com/photos/17696679/pexels-photo-17696679.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B09671",
     "cuisine": "spanish",
-    "dishtype": "Gazpacho"
+    "dishtype": "Gazpacho",
+    "hsb": [35, 36, 69]
   },
   {
     "original_id": 372851,
@@ -1949,7 +2192,8 @@
     "src": "https://images.pexels.com/photos/372851/pexels-photo-372851.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#695E5C",
     "cuisine": "spanish",
-    "dishtype": "Churros"
+    "dishtype": "Churros",
+    "hsb": [9, 12, 41]
   },
   {
     "original_id": 1730630,
@@ -1957,7 +2201,8 @@
     "src": "https://images.pexels.com/photos/1730630/pexels-photo-1730630.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7C5E4D",
     "cuisine": "spanish",
-    "dishtype": "Churros"
+    "dishtype": "Churros",
+    "hsb": [22, 38, 49]
   },
   {
     "original_id": 5255954,
@@ -1965,7 +2210,8 @@
     "src": "https://images.pexels.com/photos/5255954/pexels-photo-5255954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8F6240",
     "cuisine": "spanish",
-    "dishtype": "Churros"
+    "dishtype": "Churros",
+    "hsb": [26, 55, 56]
   },
   {
     "original_id": 19119979,
@@ -1973,7 +2219,8 @@
     "src": "https://images.pexels.com/photos/19119979/pexels-photo-19119979.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6C655D",
     "cuisine": "spanish",
-    "dishtype": "Churros"
+    "dishtype": "Churros",
+    "hsb": [32, 14, 42]
   },
   {
     "original_id": 12035620,
@@ -1981,7 +2228,8 @@
     "src": "https://images.pexels.com/photos/12035620/pexels-photo-12035620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C8BBAB",
     "cuisine": "spanish",
-    "dishtype": "Churros"
+    "dishtype": "Churros",
+    "hsb": [33, 15, 78]
   },
   {
     "original_id": 9501469,
@@ -1989,7 +2237,8 @@
     "src": "https://images.pexels.com/photos/9501469/pexels-photo-9501469.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A89587",
     "cuisine": "spanish",
-    "dishtype": "Churros"
+    "dishtype": "Churros",
+    "hsb": [25, 20, 66]
   },
   {
     "original_id": 8250363,
@@ -1997,7 +2246,8 @@
     "src": "https://images.pexels.com/photos/8250363/pexels-photo-8250363.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#806762",
     "cuisine": "spanish",
-    "dishtype": "Churros"
+    "dishtype": "Churros",
+    "hsb": [10, 23, 50]
   },
   {
     "original_id": 8250433,
@@ -2005,7 +2255,8 @@
     "src": "https://images.pexels.com/photos/8250433/pexels-photo-8250433.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#836861",
     "cuisine": "spanish",
-    "dishtype": "Churros"
+    "dishtype": "Churros",
+    "hsb": [12, 26, 51]
   },
   {
     "original_id": 8250683,
@@ -2013,7 +2264,8 @@
     "src": "https://images.pexels.com/photos/8250683/pexels-photo-8250683.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#735C62",
     "cuisine": "spanish",
-    "dishtype": "Churros"
+    "dishtype": "Churros",
+    "hsb": [344, 20, 45]
   },
   {
     "original_id": 18675005,
@@ -2021,7 +2273,8 @@
     "src": "https://images.pexels.com/photos/18675005/pexels-photo-18675005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AE9C86",
     "cuisine": "spanish",
-    "dishtype": "Churros"
+    "dishtype": "Churros",
+    "hsb": [33, 23, 68]
   },
   {
     "original_id": 17778860,
@@ -2029,7 +2282,8 @@
     "src": "https://images.pexels.com/photos/17778860/pexels-photo-17778860.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8E6D4A",
     "cuisine": "spanish",
-    "dishtype": "Churros"
+    "dishtype": "Churros",
+    "hsb": [31, 48, 56]
   },
   {
     "original_id": 9399948,
@@ -2037,7 +2291,8 @@
     "src": "https://images.pexels.com/photos/9399948/pexels-photo-9399948.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9B8C6D",
     "cuisine": "turkish",
-    "dishtype": "kofte"
+    "dishtype": "kofte",
+    "hsb": [40, 30, 61]
   },
   {
     "original_id": 3569699,
@@ -2045,7 +2300,8 @@
     "src": "https://images.pexels.com/photos/3569699/pexels-photo-3569699.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#423C33",
     "cuisine": "turkish",
-    "dishtype": "ravioli"
+    "dishtype": "ravioli",
+    "hsb": [36, 23, 26]
   },
   {
     "original_id": 5930586,
@@ -2053,7 +2309,8 @@
     "src": "https://images.pexels.com/photos/5930586/pexels-photo-5930586.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B6A56E",
     "cuisine": "turkish",
-    "dishtype": "ravioli"
+    "dishtype": "ravioli",
+    "hsb": [46, 40, 71]
   },
   {
     "original_id": 15202777,
@@ -2061,7 +2318,8 @@
     "src": "https://images.pexels.com/photos/15202777/pexels-photo-15202777.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#917341",
     "cuisine": "turkish",
-    "dishtype": "doner"
+    "dishtype": "doner",
+    "hsb": [38, 55, 57]
   },
   {
     "original_id": 18330008,
@@ -2069,7 +2327,8 @@
     "src": "https://images.pexels.com/photos/18330008/pexels-photo-18330008.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C8B396",
     "cuisine": "turkish",
-    "dishtype": "doner"
+    "dishtype": "doner",
+    "hsb": [35, 25, 78]
   },
   {
     "original_id": 16022887,
@@ -2077,7 +2336,8 @@
     "src": "https://images.pexels.com/photos/16022887/pexels-photo-16022887.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9D9892",
     "cuisine": "turkish",
-    "dishtype": "doner"
+    "dishtype": "doner",
+    "hsb": [33, 7, 62]
   },
   {
     "original_id": 18062061,
@@ -2085,7 +2345,8 @@
     "src": "https://images.pexels.com/photos/18062061/pexels-photo-18062061.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#665237",
     "cuisine": "turkish",
-    "dishtype": "doner"
+    "dishtype": "doner",
+    "hsb": [34, 46, 40]
   },
   {
     "original_id": 18062062,
@@ -2093,7 +2354,8 @@
     "src": "https://images.pexels.com/photos/18062062/pexels-photo-18062062.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6C573A",
     "cuisine": "turkish",
-    "dishtype": "doner"
+    "dishtype": "doner",
+    "hsb": [35, 46, 42]
   },
   {
     "original_id": 357756,
@@ -2101,7 +2363,8 @@
     "src": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C6C3B9",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [46, 7, 78]
   },
   {
     "original_id": 2098085,
@@ -2109,7 +2372,8 @@
     "src": "https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#4F3D31",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [24, 38, 31]
   },
   {
     "original_id": 670705,
@@ -2117,7 +2381,8 @@
     "src": "https://images.pexels.com/photos/670705/pexels-photo-670705.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#544633",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [35, 39, 33]
   },
   {
     "original_id": 1148086,
@@ -2125,7 +2390,8 @@
     "src": "https://images.pexels.com/photos/1148086/pexels-photo-1148086.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9E9EA7",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [240, 5, 65]
   },
   {
     "original_id": 271715,
@@ -2133,7 +2399,8 @@
     "src": "https://images.pexels.com/photos/271715/pexels-photo-271715.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#885D3D",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [26, 55, 53]
   },
   {
     "original_id": 2098143,
@@ -2141,7 +2408,8 @@
     "src": "https://images.pexels.com/photos/2098143/pexels-photo-2098143.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#38312F",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [13, 16, 22]
   },
   {
     "original_id": 539430,
@@ -2149,7 +2417,8 @@
     "src": "https://images.pexels.com/photos/539430/pexels-photo-539430.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6A4E4B",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [6, 29, 42]
   },
   {
     "original_id": 359993,
@@ -2157,7 +2426,8 @@
     "src": "https://images.pexels.com/photos/359993/pexels-photo-359993.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#4E3028",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [13, 49, 31]
   },
   {
     "original_id": 1683545,
@@ -2165,7 +2435,8 @@
     "src": "https://images.pexels.com/photos/1683545/pexels-photo-1683545.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#84615C",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [7, 30, 52]
   },
   {
     "original_id": 858508,
@@ -2173,7 +2444,8 @@
     "src": "https://images.pexels.com/photos/858508/pexels-photo-858508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#696664",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [24, 5, 41]
   },
   {
     "original_id": 3147493,
@@ -2181,7 +2453,8 @@
     "src": "https://images.pexels.com/photos/3147493/pexels-photo-3147493.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#725F54",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [22, 26, 45]
   },
   {
     "original_id": 2323391,
@@ -2189,7 +2462,8 @@
     "src": "https://images.pexels.com/photos/2323391/pexels-photo-2323391.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#755C4A",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [25, 37, 46]
   },
   {
     "original_id": 3620705,
@@ -2197,7 +2471,8 @@
     "src": "https://images.pexels.com/photos/3620705/pexels-photo-3620705.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#605048",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [20, 25, 38]
   },
   {
     "original_id": 343870,
@@ -2205,7 +2480,8 @@
     "src": "https://images.pexels.com/photos/343870/pexels-photo-343870.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#746B67",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [18, 11, 45]
   },
   {
     "original_id": 983299,
@@ -2213,7 +2489,8 @@
     "src": "https://images.pexels.com/photos/983299/pexels-photo-983299.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#343138",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [266, 12, 22]
   },
   {
     "original_id": 47546,
@@ -2221,7 +2498,8 @@
     "src": "https://images.pexels.com/photos/47546/sushi-eat-japanese-asia-47546.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AEA563",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [53, 43, 68]
   },
   {
     "original_id": 1199979,
@@ -2229,7 +2507,8 @@
     "src": "https://images.pexels.com/photos/1199979/pexels-photo-1199979.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7E7674",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [12, 8, 49]
   },
   {
     "original_id": 858496,
@@ -2237,7 +2516,8 @@
     "src": "https://images.pexels.com/photos/858496/pexels-photo-858496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6A6958",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [57, 17, 42]
   },
   {
     "original_id": 2098134,
@@ -2245,7 +2525,8 @@
     "src": "https://images.pexels.com/photos/2098134/pexels-photo-2098134.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#2C2725",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [17, 16, 17]
   },
   {
     "original_id": 836850,
@@ -2253,7 +2534,8 @@
     "src": "https://images.pexels.com/photos/836850/pexels-photo-836850.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6F6253",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [32, 25, 44]
   },
   {
     "original_id": 2682672,
@@ -2261,7 +2543,8 @@
     "src": "https://images.pexels.com/photos/2682672/pexels-photo-2682672.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#888E72",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [73, 20, 56]
   },
   {
     "original_id": 3298063,
@@ -2269,7 +2552,8 @@
     "src": "https://images.pexels.com/photos/3298063/pexels-photo-3298063.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AFB2AC",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [90, 3, 70]
   },
   {
     "original_id": 668141,
@@ -2277,7 +2561,8 @@
     "src": "https://images.pexels.com/photos/668141/pexels-photo-668141.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#754717",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [31, 80, 46]
   },
   {
     "original_id": 3687447,
@@ -2285,7 +2570,8 @@
     "src": "https://images.pexels.com/photos/3687447/pexels-photo-3687447.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#403637",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [354, 16, 25]
   },
   {
     "original_id": 3475617,
@@ -2293,7 +2579,8 @@
     "src": "https://images.pexels.com/photos/3475617/pexels-photo-3475617.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8C8071",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [33, 19, 55]
   },
   {
     "original_id": 5900876,
@@ -2301,7 +2588,8 @@
     "src": "https://images.pexels.com/photos/5900876/pexels-photo-5900876.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#968F96",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [300, 5, 59]
   },
   {
     "original_id": 1011884,
@@ -2309,7 +2597,8 @@
     "src": "https://images.pexels.com/photos/1011884/pexels-photo-1011884.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#82674F",
     "cuisine": "japanese",
-    "dishtype": "Sushi"
+    "dishtype": "Sushi",
+    "hsb": [28, 39, 51]
   },
   {
     "original_id": 2995275,
@@ -2317,7 +2606,8 @@
     "src": "https://images.pexels.com/photos/2995275/pexels-photo-2995275.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#CBC1B0",
     "cuisine": "japanese",
-    "dishtype": "Sashimi"
+    "dishtype": "Sashimi",
+    "hsb": [38, 13, 80]
   },
   {
     "original_id": 5900773,
@@ -2325,7 +2615,8 @@
     "src": "https://images.pexels.com/photos/5900773/pexels-photo-5900773.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#747061",
     "cuisine": "japanese",
-    "dishtype": "Sashimi"
+    "dishtype": "Sashimi",
+    "hsb": [47, 16, 45]
   },
   {
     "original_id": 3763644,
@@ -2333,7 +2624,8 @@
     "src": "https://images.pexels.com/photos/3763644/pexels-photo-3763644.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#74655E",
     "cuisine": "japanese",
-    "dishtype": "Sashimi"
+    "dishtype": "Sashimi",
+    "hsb": [19, 19, 45]
   },
   {
     "original_id": 3298057,
@@ -2341,7 +2633,8 @@
     "src": "https://images.pexels.com/photos/3298057/pexels-photo-3298057.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A7A49C",
     "cuisine": "japanese",
-    "dishtype": "Sashimi"
+    "dishtype": "Sashimi",
+    "hsb": [44, 7, 65]
   },
   {
     "original_id": 4071397,
@@ -2349,7 +2642,8 @@
     "src": "https://images.pexels.com/photos/4071397/pexels-photo-4071397.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#594E48",
     "cuisine": "japanese",
-    "dishtype": "Sashimi"
+    "dishtype": "Sashimi",
+    "hsb": [21, 19, 35]
   },
   {
     "original_id": 7576036,
@@ -2357,7 +2651,8 @@
     "src": "https://images.pexels.com/photos/7576036/pexels-photo-7576036.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A88575",
     "cuisine": "japanese",
-    "dishtype": "Sashimi"
+    "dishtype": "Sashimi",
+    "hsb": [19, 30, 66]
   },
   {
     "original_id": 7660472,
@@ -2365,7 +2660,8 @@
     "src": "https://images.pexels.com/photos/7660472/pexels-photo-7660472.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B8A89B",
     "cuisine": "japanese",
-    "dishtype": "Edamame"
+    "dishtype": "Edamame",
+    "hsb": [27, 16, 72]
   },
   {
     "original_id": 7660429,
@@ -2373,7 +2669,8 @@
     "src": "https://images.pexels.com/photos/7660429/pexels-photo-7660429.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A49A8E",
     "cuisine": "japanese",
-    "dishtype": "Edamame"
+    "dishtype": "Edamame",
+    "hsb": [33, 13, 64]
   },
   {
     "original_id": 9201495,
@@ -2381,7 +2678,8 @@
     "src": "https://images.pexels.com/photos/9201495/pexels-photo-9201495.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#797E2E",
     "cuisine": "japanese",
-    "dishtype": "Edamame"
+    "dishtype": "Edamame",
+    "hsb": [64, 63, 49]
   },
   {
     "original_id": 11073466,
@@ -2389,7 +2687,8 @@
     "src": "https://images.pexels.com/photos/11073466/pexels-photo-11073466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#2E2B1A",
     "cuisine": "japanese",
-    "dishtype": "Edamame"
+    "dishtype": "Edamame",
+    "hsb": [51, 43, 18]
   },
   {
     "original_id": 7863400,
@@ -2397,7 +2696,8 @@
     "src": "https://images.pexels.com/photos/7863400/pexels-photo-7863400.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#0D5764",
     "cuisine": "japanese",
-    "dishtype": "Fugu"
+    "dishtype": "Fugu",
+    "hsb": [189, 87, 39]
   },
   {
     "original_id": 8791555,
@@ -2405,7 +2705,8 @@
     "src": "https://images.pexels.com/photos/8791555/pexels-photo-8791555.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#494539",
     "cuisine": "japanese",
-    "dishtype": "Fugu"
+    "dishtype": "Fugu",
+    "hsb": [45, 22, 29]
   },
   {
     "original_id": 5182675,
@@ -2413,7 +2714,8 @@
     "src": "https://images.pexels.com/photos/5182675/pexels-photo-5182675.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#988961",
     "cuisine": "japanese",
-    "dishtype": "Gyoza"
+    "dishtype": "Gyoza",
+    "hsb": [44, 36, 60]
   },
   {
     "original_id": 7719909,
@@ -2421,7 +2723,8 @@
     "src": "https://images.pexels.com/photos/7719909/pexels-photo-7719909.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#74502B",
     "cuisine": "japanese",
-    "dishtype": "Gyoza"
+    "dishtype": "Gyoza",
+    "hsb": [30, 63, 45]
   },
   {
     "original_id": 884600,
@@ -2429,7 +2732,8 @@
     "src": "https://images.pexels.com/photos/884600/pexels-photo-884600.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#7F644F",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [26, 38, 50]
   },
   {
     "original_id": 2664216,
@@ -2437,7 +2741,8 @@
     "src": "https://images.pexels.com/photos/2664216/pexels-photo-2664216.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AF976F",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [37, 37, 69]
   },
   {
     "original_id": 1907229,
@@ -2445,7 +2750,8 @@
     "src": "https://images.pexels.com/photos/1907229/pexels-photo-1907229.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#1E1710",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [30, 47, 12]
   },
   {
     "original_id": 1395319,
@@ -2453,7 +2759,8 @@
     "src": "https://images.pexels.com/photos/1395319/pexels-photo-1395319.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#ADA18A",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [39, 20, 68]
   },
   {
     "original_id": 2591594,
@@ -2461,7 +2768,8 @@
     "src": "https://images.pexels.com/photos/2591594/pexels-photo-2591594.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AE7F59",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [27, 49, 68]
   },
   {
     "original_id": 698549,
@@ -2469,7 +2777,8 @@
     "src": "https://images.pexels.com/photos/698549/pexels-photo-698549.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8F7353",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [32, 42, 56]
   },
   {
     "original_id": 17593641,
@@ -2477,7 +2786,8 @@
     "src": "https://images.pexels.com/photos/17593641/pexels-photo-17593641.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#4C4D3D",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [64, 21, 30]
   },
   {
     "original_id": 6645920,
@@ -2485,7 +2795,8 @@
     "src": "https://images.pexels.com/photos/6645920/pexels-photo-6645920.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#766652",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [33, 31, 46]
   },
   {
     "original_id": 5531482,
@@ -2493,7 +2804,8 @@
     "src": "https://images.pexels.com/photos/5531482/pexels-photo-5531482.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#4E4744",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [18, 13, 31]
   },
   {
     "original_id": 9795597,
@@ -2501,7 +2813,8 @@
     "src": "https://images.pexels.com/photos/9795597/pexels-photo-9795597.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#85766F",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [19, 17, 52]
   },
   {
     "original_id": 9508455,
@@ -2509,7 +2822,8 @@
     "src": "https://images.pexels.com/photos/9508455/pexels-photo-9508455.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#938779",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [32, 18, 58]
   },
   {
     "original_id": 6645924,
@@ -2517,7 +2831,8 @@
     "src": "https://images.pexels.com/photos/6645924/pexels-photo-6645924.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#816546",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [32, 46, 51]
   },
   {
     "original_id": 4110421,
@@ -2525,7 +2840,8 @@
     "src": "https://images.pexels.com/photos/4110421/pexels-photo-4110421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9C978D",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [40, 10, 61]
   },
   {
     "original_id": 4083586,
@@ -2533,7 +2849,8 @@
     "src": "https://images.pexels.com/photos/4083586/pexels-photo-4083586.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#937060",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [19, 35, 58]
   },
   {
     "original_id": 4224211,
@@ -2541,7 +2858,8 @@
     "src": "https://images.pexels.com/photos/4224211/pexels-photo-4224211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#3D3A36",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [34, 11, 24]
   },
   {
     "original_id": 12984979,
@@ -2549,7 +2867,8 @@
     "src": "https://images.pexels.com/photos/12984979/pexels-photo-12984979.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A28A64",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [37, 38, 64]
   },
   {
     "original_id": 5562807,
@@ -2557,7 +2876,8 @@
     "src": "https://images.pexels.com/photos/5562807/pexels-photo-5562807.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#927649",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [37, 50, 57]
   },
   {
     "original_id": 17593649,
@@ -2565,7 +2885,8 @@
     "src": "https://images.pexels.com/photos/17593649/pexels-photo-17593649.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#362A1A",
     "cuisine": "japanese",
-    "dishtype": "Ramen"
+    "dishtype": "Ramen",
+    "hsb": [34, 52, 21]
   },
   {
     "original_id": 8982387,
@@ -2573,7 +2894,8 @@
     "src": "https://images.pexels.com/photos/8982387/pexels-photo-8982387.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A09168",
     "cuisine": "japanese",
-    "dishtype": "Miso Soup"
+    "dishtype": "Miso Soup",
+    "hsb": [44, 35, 63]
   },
   {
     "original_id": 2133989,
@@ -2581,7 +2903,8 @@
     "src": "https://images.pexels.com/photos/2133989/pexels-photo-2133989.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#C3B399",
     "cuisine": "japanese",
-    "dishtype": "Miso Soup"
+    "dishtype": "Miso Soup",
+    "hsb": [37, 22, 76]
   },
   {
     "original_id": 539451,
@@ -2589,7 +2912,8 @@
     "src": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#876F45",
     "cuisine": "japanese",
-    "dishtype": "Miso Soup"
+    "dishtype": "Miso Soup",
+    "hsb": [38, 49, 53]
   },
   {
     "original_id": 4210855,
@@ -2597,7 +2921,8 @@
     "src": "https://images.pexels.com/photos/4210855/pexels-photo-4210855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#E3E0D5",
     "cuisine": "japanese",
-    "dishtype": "Miso Soup"
+    "dishtype": "Miso Soup",
+    "hsb": [47, 6, 89]
   },
   {
     "original_id": 209540,
@@ -2605,7 +2930,8 @@
     "src": "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#86744E",
     "cuisine": "japanese",
-    "dishtype": "Miso Soup"
+    "dishtype": "Miso Soup",
+    "hsb": [41, 42, 53]
   },
   {
     "original_id": 1907227,
@@ -2613,7 +2939,8 @@
     "src": "https://images.pexels.com/photos/1907227/pexels-photo-1907227.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#090806",
     "cuisine": "japanese",
-    "dishtype": "Miso Soup"
+    "dishtype": "Miso Soup",
+    "hsb": [40, 33, 4]
   },
   {
     "original_id": 1938266,
@@ -2621,7 +2948,8 @@
     "src": "https://images.pexels.com/photos/1938266/pexels-photo-1938266.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#B84C62",
     "cuisine": "japanese",
-    "dishtype": "Miso Soup"
+    "dishtype": "Miso Soup",
+    "hsb": [348, 59, 72]
   },
   {
     "original_id": 3559899,
@@ -2629,7 +2957,8 @@
     "src": "https://images.pexels.com/photos/3559899/pexels-photo-3559899.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A28556",
     "cuisine": "japanese",
-    "dishtype": "Miso Soup"
+    "dishtype": "Miso Soup",
+    "hsb": [37, 47, 64]
   },
   {
     "original_id": 5605543,
@@ -2637,7 +2966,8 @@
     "src": "https://images.pexels.com/photos/5605543/pexels-photo-5605543.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AB8D52",
     "cuisine": "japanese",
-    "dishtype": "Miso Soup"
+    "dishtype": "Miso Soup",
+    "hsb": [40, 52, 67]
   },
   {
     "original_id": 8599738,
@@ -2645,7 +2975,8 @@
     "src": "https://images.pexels.com/photos/8599738/pexels-photo-8599738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#CFADA3",
     "cuisine": "japanese",
-    "dishtype": "Miso Soup"
+    "dishtype": "Miso Soup",
+    "hsb": [14, 21, 81]
   },
   {
     "original_id": 724667,
@@ -2653,7 +2984,8 @@
     "src": "https://images.pexels.com/photos/724667/pexels-photo-724667.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#725945",
     "cuisine": "japanese",
-    "dishtype": "Miso Soup"
+    "dishtype": "Miso Soup",
+    "hsb": [27, 39, 45]
   },
   {
     "original_id": 5339080,
@@ -2661,7 +2993,8 @@
     "src": "https://images.pexels.com/photos/5339080/pexels-photo-5339080.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#897B61",
     "cuisine": "japanese",
-    "dishtype": "Miso Soup"
+    "dishtype": "Miso Soup",
+    "hsb": [39, 29, 54]
   },
   {
     "original_id": 3708747,
@@ -2669,7 +3002,8 @@
     "src": "https://images.pexels.com/photos/3708747/pexels-photo-3708747.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#746658",
     "cuisine": "japanese",
-    "dishtype": "Onigiri"
+    "dishtype": "Onigiri",
+    "hsb": [30, 24, 45]
   },
   {
     "original_id": 769289,
@@ -2677,7 +3011,8 @@
     "src": "https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#6A573F",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [33, 41, 42]
   },
   {
     "original_id": 410648,
@@ -2685,7 +3020,8 @@
     "src": "https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#564132",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [25, 42, 34]
   },
   {
     "original_id": 2233729,
@@ -2693,7 +3029,8 @@
     "src": "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#664C41",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [18, 36, 40]
   },
   {
     "original_id": 2313686,
@@ -2701,7 +3038,8 @@
     "src": "https://images.pexels.com/photos/2313686/pexels-photo-2313686.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#756A57",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [38, 26, 46]
   },
   {
     "original_id": 533325,
@@ -2709,7 +3047,8 @@
     "src": "https://images.pexels.com/photos/533325/pexels-photo-533325.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#75583D",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [29, 48, 46]
   },
   {
     "original_id": 1639563,
@@ -2717,7 +3056,8 @@
     "src": "https://images.pexels.com/photos/1639563/pexels-photo-1639563.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#17191C",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [216, 18, 11]
   },
   {
     "original_id": 793765,
@@ -2725,7 +3065,8 @@
     "src": "https://images.pexels.com/photos/793765/pexels-photo-793765.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AD8473",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [18, 34, 68]
   },
   {
     "original_id": 1556698,
@@ -2733,7 +3074,8 @@
     "src": "https://images.pexels.com/photos/1556698/pexels-photo-1556698.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#331C18",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [9, 53, 20]
   },
   {
     "original_id": 1251198,
@@ -2741,7 +3083,8 @@
     "src": "https://images.pexels.com/photos/1251198/pexels-photo-1251198.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9E978F",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [32, 9, 62]
   },
   {
     "original_id": 54550,
@@ -2749,7 +3092,8 @@
     "src": "https://images.pexels.com/photos/54550/pexels-photo-54550.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#826140",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [30, 51, 51]
   },
   {
     "original_id": 262897,
@@ -2757,7 +3101,8 @@
     "src": "https://images.pexels.com/photos/262897/pexels-photo-262897.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#8C5F3E",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [25, 56, 55]
   },
   {
     "original_id": 551991,
@@ -2765,7 +3110,8 @@
     "src": "https://images.pexels.com/photos/551991/pexels-photo-551991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#9B7E3E",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [41, 60, 61]
   },
   {
     "original_id": 3997609,
@@ -2773,7 +3119,8 @@
     "src": "https://images.pexels.com/photos/3997609/pexels-photo-3997609.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#5E3D28",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [23, 57, 37]
   },
   {
     "original_id": 236887,
@@ -2781,7 +3128,8 @@
     "src": "https://images.pexels.com/photos/236887/pexels-photo-236887.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#794D30",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [24, 60, 47]
   },
   {
     "original_id": 357576,
@@ -2789,7 +3137,8 @@
     "src": "https://images.pexels.com/photos/357576/pexels-photo-357576.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#64483F",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [15, 37, 39]
   },
   {
     "original_id": 2181151,
@@ -2797,7 +3146,8 @@
     "src": "https://images.pexels.com/photos/2181151/pexels-photo-2181151.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#805633",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [27, 60, 50]
   },
   {
     "original_id": 1651166,
@@ -2805,7 +3155,8 @@
     "src": "https://images.pexels.com/photos/1651166/pexels-photo-1651166.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#2E5288",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [216, 66, 53]
   },
   {
     "original_id": 1603898,
@@ -2813,7 +3164,8 @@
     "src": "https://images.pexels.com/photos/1603898/pexels-photo-1603898.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#815B39",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [28, 56, 51]
   },
   {
     "original_id": 4910769,
@@ -2821,7 +3173,8 @@
     "src": "https://images.pexels.com/photos/4910769/pexels-photo-4910769.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#837765",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [36, 23, 51]
   },
   {
     "original_id": 2983098,
@@ -2829,7 +3182,8 @@
     "src": "https://images.pexels.com/photos/2983098/pexels-photo-2983098.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#4B240C",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [23, 84, 29]
   },
   {
     "original_id": 3738755,
@@ -2837,7 +3191,8 @@
     "src": "https://images.pexels.com/photos/3738755/pexels-photo-3738755.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#47270B",
     "cuisine": "mexican",
-    "dishtype": "Beef Carnitas"
+    "dishtype": "Beef Carnitas",
+    "hsb": [28, 85, 28]
   },
   {
     "original_id": 3073970,
@@ -2845,7 +3200,8 @@
     "src": "https://images.pexels.com/photos/3073970/pexels-photo-3073970.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#827A6D",
     "cuisine": "mexican",
-    "dishtype": "Lime Margaritas"
+    "dishtype": "Lime Margaritas",
+    "hsb": [37, 16, 51]
   },
   {
     "original_id": 1590151,
@@ -2853,7 +3209,8 @@
     "src": "https://images.pexels.com/photos/1590151/pexels-photo-1590151.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#5E5C51",
     "cuisine": "mexican",
-    "dishtype": "Lime Margaritas"
+    "dishtype": "Lime Margaritas",
+    "hsb": [51, 14, 37]
   },
   {
     "original_id": 4051401,
@@ -2861,7 +3218,8 @@
     "src": "https://images.pexels.com/photos/4051401/pexels-photo-4051401.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A38C74",
     "cuisine": "mexican",
-    "dishtype": "Lime Margaritas"
+    "dishtype": "Lime Margaritas",
+    "hsb": [31, 29, 64]
   },
   {
     "original_id": 5433722,
@@ -2869,7 +3227,8 @@
     "src": "https://images.pexels.com/photos/5433722/pexels-photo-5433722.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#312D2C",
     "cuisine": "mexican",
-    "dishtype": "Lime Margaritas"
+    "dishtype": "Lime Margaritas",
+    "hsb": [12, 10, 19]
   },
   {
     "original_id": 4051364,
@@ -2877,7 +3236,8 @@
     "src": "https://images.pexels.com/photos/4051364/pexels-photo-4051364.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#A3ACA2",
     "cuisine": "mexican",
-    "dishtype": "Lime Margaritas"
+    "dishtype": "Lime Margaritas",
+    "hsb": [114, 6, 67]
   },
   {
     "original_id": 4051373,
@@ -2885,7 +3245,8 @@
     "src": "https://images.pexels.com/photos/4051373/pexels-photo-4051373.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#CCCBC6",
     "cuisine": "mexican",
-    "dishtype": "Lime Margaritas"
+    "dishtype": "Lime Margaritas",
+    "hsb": [50, 3, 80]
   },
   {
     "original_id": 1132047,
@@ -2893,7 +3254,8 @@
     "src": "https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#AA825A",
     "cuisine": "mexican",
-    "dishtype": "Lime Margaritas"
+    "dishtype": "Lime Margaritas",
+    "hsb": [30, 47, 67]
   },
   {
     "original_id": 1171521,
@@ -2901,7 +3263,8 @@
     "src": "https://images.pexels.com/photos/1171521/pexels-photo-1171521.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#647A1F",
     "cuisine": "mexican",
-    "dishtype": "Lime Margaritas"
+    "dishtype": "Lime Margaritas",
+    "hsb": [75, 75, 48]
   },
   {
     "original_id": 1352295,
@@ -2909,7 +3272,8 @@
     "src": "https://images.pexels.com/photos/1352295/pexels-photo-1352295.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#837952",
     "cuisine": "mexican",
-    "dishtype": "Lime Margaritas"
+    "dishtype": "Lime Margaritas",
+    "hsb": [48, 37, 51]
   },
   {
     "original_id": 1414131,
@@ -2917,6 +3281,7 @@
     "src": "https://images.pexels.com/photos/1414131/pexels-photo-1414131.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "avg_color": "#E6E0B9",
     "cuisine": "mexican",
-    "dishtype": "Lime Margaritas"
+    "dishtype": "Lime Margaritas",
+    "hsb": [52, 20, 90]
   }
 ]

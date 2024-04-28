@@ -22,7 +22,7 @@ struct SeedCommand: AsyncCommand {
         let restaurants = try jsonResource.getRestaurants()
         let allDishes = try jsonResource.getDishes()
         let provincesNames = postalCodes.map({ $0.province.rawValue }).uniqued()
-            .map({ $0 })
+            .map({ $0 }).sorted()
 
         // MARK: Determine density
         let province = console.choose(
@@ -83,7 +83,9 @@ struct SeedCommand: AsyncCommand {
             Image(
                 name: photo.alt,
                 originalId: photo.original_id,
-                avgColor: photo.avg_color
+                h: photo.hsb[0],
+                s: photo.hsb[1],
+                b: photo.hsb[2]
             )
         }
         try await businessImages.create(on: database)
@@ -94,11 +96,29 @@ struct SeedCommand: AsyncCommand {
             Image(
                 name: photo.alt,
                 originalId: photo.original_id,
-                avgColor: photo.avg_color
+                h: photo.hsb[0],
+                s: photo.hsb[1],
+                b: photo.hsb[2]
             )
         }
         try await productImages.create(on: database)
         console.output("Created product images")
+
+        // MARK: Create profile images
+        var profileImages: [Image] = []
+        for originalId in 1...54 {
+            profileImages.append(
+                Image(
+                    name: "Profile \(originalId)",
+                    originalId: originalId,
+                    h: 49,
+                    s: 12,
+                    b: 51
+                )
+            )
+        }
+        try await profileImages.create(on: database)
+        console.output("Created profile images")
 
         // MARK: Create addresses
         var addresses: [Address] = []
@@ -321,6 +341,9 @@ struct SeedCommand: AsyncCommand {
                 .randomSample(count: 2)
 
             for postalArea in randomAreas {
+                let customerImage = profileImages.randomElement()!
+                let courierImage = profileImages.randomElement()!
+
                 // MARK: Create customer
                 let firstName = faker.name.firstName()
                 let lastName = faker.name.lastName()
@@ -332,7 +355,8 @@ struct SeedCommand: AsyncCommand {
                     lastName: lastName,
                     email: email,
                     telephone:
-                        "06\(faker.number.randomInt(min: 12_345_678, max: 98_765_432))"
+                        "06\(faker.number.randomInt(min: 12_345_678, max: 98_765_432))",
+                    imageID: try customerImage.requireID()
                 )
                 try await customer.create(on: database)
 
@@ -355,36 +379,40 @@ struct SeedCommand: AsyncCommand {
                     firstName: faker.name.firstName(),
                     lastName: faker.name.lastName(),
                     telephone:
-                        "06\(faker.number.randomInt(min: 12_345_678, max: 98_765_432))"
+                        "06\(faker.number.randomInt(min: 12_345_678, max: 98_765_432))",
+                    imageID: try courierImage.requireID()
                 )
                 try await courier.save(on: database)
 
-                // MARK: Add orders
+                // MARK: Add order for every delivery step
                 let localBusinesses =
                     businesses.filter { business in
                         business.address.postalArea.$city.id
                             == postalArea.$city.id
                     }
-                    .randomSample(count: 2)
+                    .randomSample(count: 4)
 
-                for business in localBusinesses {
-                    // MARK: Create order
+                for index in localBusinesses.indices {
+                    let business = localBusinesses[index]
                     let order = Order(
                         customerID: try customer.requireID(),
                         businessID: try business.requireID(),
                         addressID: try address.requireID()
                     )
                     let createdAt = faker.date
-                        .backward(days: faker.number.randomInt(min: 3, max: 21))
+                        .backward(days: index)
                         .addingTimeInterval(
                             faker.number.randomDouble(min: 0, max: 60) * 120.0
                         )
                     let sentAt = createdAt.addingTimeInterval(20.0 * 60)
                     order.createdAt = createdAt
                     order.$courier.id = courier.id
-                    order.preparedAt = createdAt.addingTimeInterval(5.0 * 60)
-                    order.sentAt = sentAt
-                    order.deliveredAt = createdAt.addingTimeInterval(30.0 * 60)
+                    order.preparedAt =
+                        index > 0 ? createdAt.addingTimeInterval(5.0 * 60) : nil
+                    order.sentAt = index > 1 ? sentAt : nil
+                    order.deliveredAt =
+                        index > 2
+                        ? createdAt.addingTimeInterval(30.0 * 60) : nil
                     try await order.save(on: database)
                     order.createdAt = createdAt
                     try await order.save(on: database)

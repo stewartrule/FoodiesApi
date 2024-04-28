@@ -7,6 +7,7 @@ struct CreateCustomer: AsyncMigration {
             .field("last_name", .string, .required)
             .field("email", .string, .required)
             .field("telephone", .string, .required)
+            .field("image_id", .uuid, .references(Image.schema, "id"))
             .field("created_at", .datetime).unique(on: "email").create()
     }
 

@@ -57,7 +57,6 @@ final class Business: Model, Content {
 
         return openingHours.contains { today in
             if today.weekday != weekday { return false }
-
             if today.isClosed { return false }
 
             let hour = calendar.component(.hour, from: date)

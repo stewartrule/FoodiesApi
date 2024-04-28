@@ -34,6 +34,7 @@ class JsonResource {
         let src: String
         let avg_color: String
         let cuisine: String
+        let hsb: [Int]
     }
 
     struct DishPhoto: Codable {
@@ -43,6 +44,7 @@ class JsonResource {
         let avg_color: String
         let cuisine: String
         let dishtype: String
+        let hsb: [Int]
     }
 
     private let app: Application

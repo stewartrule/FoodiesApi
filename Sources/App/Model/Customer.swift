@@ -19,6 +19,10 @@ final class Customer: Model, Content {
     @Siblings(through: CustomerAddress.self, from: \.$customer, to: \.$address)
     var addresses: [Address]
 
+    @Children(for: \.$customer) var orders: [Order]
+
+    @OptionalParent(key: "image_id") var image: Image?
+
     init() {}
 
     init(
@@ -26,12 +30,14 @@ final class Customer: Model, Content {
         firstName: String,
         lastName: String,
         email: String,
-        telephone: String
+        telephone: String,
+        imageID: Image.IDValue
     ) {
         self.id = id
         self.firstName = firstName
         self.lastName = lastName
         self.email = email
         self.telephone = telephone
+        self.$image.id = imageID
     }
 }
