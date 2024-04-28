@@ -22,8 +22,30 @@ struct CustomerRepository {
 
     func getOrders(customerID: Customer.IDValue) async throws -> Page<Order> {
         return try await Order.query(on: req.db)
-            .filter(\.$customer.$id == customerID).with(\.$address)
+            .filter(\.$customer.$id == customerID)
+            .with(
+                \.$address,
+                { address in
+                    address.with(
+                        \.$postalArea,
+                        { postalArea in postalArea.with(\.$city) }
+                    )
+                }
+            )
             .with(\.$business).with(\.$customer).with(\.$courier)
+            .with(
+                \.$items,
+                { item in
+                    item.with(\.$product) { product in
+                        product.with(\.$productType).with(\.$discounts)
+                            .with(\.$image)
+                            .with(
+                                \.$products,
+                                { rel in rel.with(\.$productType) }
+                            )
+                    }
+                }
+            )
             .sort(\.$createdAt, .descending).paginate(for: req)
     }
 
@@ -31,13 +53,23 @@ struct CustomerRepository {
         async throws -> Order?
     {
         try await Order.query(on: req.db).filter(\.$id == orderID)
-            .filter(\.$customer.$id == customerID).with(\.$address)
+            .filter(\.$customer.$id == customerID)
+            .with(
+                \.$address,
+                { address in
+                    address.with(
+                        \.$postalArea,
+                        { postalArea in postalArea.with(\.$city) }
+                    )
+                }
+            )
             .with(\.$business).with(\.$customer).with(\.$courier)
             .with(
                 \.$items,
                 { item in
                     item.with(\.$product) { product in
                         product.with(\.$productType).with(\.$discounts)
+                            .with(\.$image)
                             .with(
                                 \.$products,
                                 { rel in rel.with(\.$productType) }

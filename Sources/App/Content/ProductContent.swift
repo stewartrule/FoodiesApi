@@ -15,10 +15,9 @@ struct ProductContent: Content {
             id: try product.requireID(),
             name: product.name,
             description: product.description,
-            products: try (product.products)
-                .map { product in
-                    try ProductContent.from(req: req, product: product)
-                },
+            products: try product.products.map { product in
+                try ProductContent.from(req: req, product: product)
+            },
             productType: product.productType,
             price: product.price,
             discounts: product.discounts,

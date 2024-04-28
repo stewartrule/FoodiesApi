@@ -399,8 +399,7 @@ struct SeedCommand: AsyncCommand {
                         businessID: try business.requireID(),
                         addressID: try address.requireID()
                     )
-                    let createdAt = faker.date
-                        .backward(days: index)
+                    let createdAt = faker.date.backward(days: index)
                         .addingTimeInterval(
                             faker.number.randomDouble(min: 0, max: 60) * 120.0
                         )

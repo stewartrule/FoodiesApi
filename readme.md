@@ -24,19 +24,19 @@ Pick a province.
 
 ```bash
 Province(s)
-1: All
-2: Drenthe
+1: Drenthe
+2: Flevoland
 3: Friesland
 4: Gelderland
 5: Groningen
 6: Limburg
 7: Noord-Brabant
 8: Noord-Holland
-9: Utrecht
-10: Zeeland
-11: Zuid-Holland
-12: Overijssel
-13: Flevoland
+9: Overijssel
+10: Utrecht
+11: Zeeland
+12: Zuid-Holland
+13: All
 >
 ```
 

@@ -2,19 +2,18 @@ import Fluent
 import Vapor
 
 struct BusinessController: RouteCollection {
+    let businessIDParam = "businessID"
+
     struct Filter: Content, Validatable {
-        var postalCode: Int
+        var latitude: Double
+        var longitude: Double
         var distance: Int? = 10
         var limit: Int? = 100
         var offset: Int? = 0
 
         static func validations(_ validations: inout Validations) {
-            validations.add(
-                "postalCode",
-                as: Int.self,
-                is: .range(1000...9999),
-                required: true
-            )
+            validations.add("latitude", as: Double.self, required: true)
+            validations.add("longitude", as: Double.self, required: true)
             validations.add(
                 "distance",
                 as: Int?.self,
@@ -39,14 +38,15 @@ struct BusinessController: RouteCollection {
     func boot(routes: RoutesBuilder) throws {
         let group = routes.grouped(.constant(Business.schema))
         group.get(use: list)
-        group.group(":businessID") { subgroup in
+        group.group(":\(businessIDParam)") { subgroup in
             subgroup.get(use: detail)
             subgroup.get("reviews", use: reviews)
         }
     }
 
     func detail(req: Request) async throws -> BusinessContent {
-        guard let businessID = req.parameters.get("businessID", as: UUID.self)
+        guard
+            let businessID = req.parameters.get(businessIDParam, as: UUID.self)
         else { throw Abort(.badRequest) }
 
         guard
@@ -55,100 +55,49 @@ struct BusinessController: RouteCollection {
             )
         else { throw Abort(.notFound) }
 
-        let now = Date()
-        let image = business.image
-        let isOpen = business.isOpenAt(date: now)
-        let reviewCount = try await req.businessReviewRepository.getCountFor(
-            business: business
-        )
-        let averageRating = try await req.businessReviewRepository
-            .getAverageRatingFor(business: business)
-
-        return BusinessContent(
-            id: try business.requireID(),
-            name: business.name,
-            deliveryCharge: business.deliveryCharge,
-            minimumOrderAmount: business.minimumOrderAmount,
-            address: business.address,
-            image: try ImageContent.from(req: req, image: image),
-            businessType: business.businessType,
-            cuisines: business.cuisines,
-            openingHours: business.openingHours,
-            isOpen: isOpen,
-            distance: 0,
-            reviewCount: reviewCount,
-            averageRating: averageRating,
-            productTypes: business.productTypes,
-            products: try business.products.map { product in
-                try ProductContent.from(req: req, product: product)
-            }
-        )
+        return try await BusinessContent.from(req: req, business: business)
     }
 
     func reviews(req: Request) async throws -> Page<ReviewContent> {
-        guard let businessID = req.parameters.get("businessID", as: UUID.self)
+        guard
+            let businessID = req.parameters.get(businessIDParam, as: UUID.self)
         else { throw Abort(.badRequest) }
 
         let paginator = try await req.businessReviewRepository.paginateFor(
             businessID: businessID
         )
 
-        return paginator.map { review in ReviewContent.from(review: review) }
+        return try paginator.map { review in
+            try ReviewContent.from(review: review)
+        }
     }
 
     func list(req: Request) async throws -> BusinessListingContent {
         try Filter.validate(query: req)
         let filter = try req.query.decode(Filter.self)
-        let postalCode = filter.postalCode
         let distance = filter.distance ?? 10
-
-        guard
-            let postalArea = try await PostalArea.query(on: req.db)
-                .filter(\.$postalCode == postalCode).first()
-        else { throw Abort(.notFound) }
+        let center = CoordinateContent(
+            latitude: filter.latitude,
+            longitude: filter.longitude
+        )
 
         let businesses = try await req.businessRepository.list(
-            near: postalArea,
+            near: center,
             upto: distance
         )
 
-        let now = Date()
         var items: [BusinessContent] = []
         for business in businesses {
-            let image = business.image
-            let isOpen = business.isOpenAt(date: now)
-            let distance = business.address.getDistanceTo(postalArea)
-            let reviewCount = try await req.businessReviewRepository
-                .getCountFor(business: business)
-            let averageRating = try await req.businessReviewRepository
-                .getAverageRatingFor(business: business)
-
-            items.append(
-                BusinessContent(
-                    id: try business.requireID(),
-                    name: business.name,
-                    deliveryCharge: business.deliveryCharge,
-                    minimumOrderAmount: business.minimumOrderAmount,
-                    address: business.address,
-                    image: try ImageContent.from(req: req, image: image),
-                    businessType: business.businessType,
-                    cuisines: business.cuisines,
-                    openingHours: business.openingHours,
-                    isOpen: isOpen,
-                    distance: distance,
-                    reviewCount: reviewCount,
-                    averageRating: averageRating,
-                    productTypes: business.productTypes,
-                    products: []
-                )
+            let content = try await BusinessContent.from(
+                req: req,
+                business: business
             )
+
+            items.append(content)
         }
 
         return BusinessListingContent(
-            center: .init(
-                latitude: postalArea.latitude,
-                longitude: postalArea.longitude
-            ),
+            center: center,
             businesses: items.sorted { lhs, rhs in lhs.distance < rhs.distance }
         )
     }
