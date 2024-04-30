@@ -41,7 +41,9 @@ struct OrderRepository {
                 \.$items,
                 { item in
                     item.with(\.$product) { product in
-                        product.with(\.$productType).with(\.$discounts)
+                        product
+                            .with(\.$productType)
+                            .with(\.$discounts)
                             .with(\.$image)
                             .with(
                                 \.$products,
@@ -70,7 +72,9 @@ struct OrderRepository {
         return try await queryWithBaseRelations()
             .filter(\.$customer.$id == customerID).with(\.$chat)
             .group(.or) { group in
-                group.filter(\.$preparedAt == nil).filter(\.$deliveredAt == nil)
+                group
+                    .filter(\.$preparedAt == nil)
+                    .filter(\.$deliveredAt == nil)
                     .filter(\.$sentAt == nil)
             }
             .sort(\.$createdAt, .descending).all()

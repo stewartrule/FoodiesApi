@@ -32,12 +32,16 @@ struct CustomerRepository {
                     )
                 }
             )
-            .with(\.$business).with(\.$customer).with(\.$courier)
+            .with(\.$business)
+            .with(\.$customer)
+            .with(\.$courier)
             .with(
                 \.$items,
                 { item in
                     item.with(\.$product) { product in
-                        product.with(\.$productType).with(\.$discounts)
+                        product
+                            .with(\.$productType)
+                            .with(\.$discounts)
                             .with(\.$image)
                             .with(
                                 \.$products,
@@ -63,12 +67,16 @@ struct CustomerRepository {
                     )
                 }
             )
-            .with(\.$business).with(\.$customer).with(\.$courier)
+            .with(\.$business)
+            .with(\.$customer)
+            .with(\.$courier)
             .with(
                 \.$items,
                 { item in
                     item.with(\.$product) { product in
-                        product.with(\.$productType).with(\.$discounts)
+                        product
+                            .with(\.$productType)
+                            .with(\.$discounts)
                             .with(\.$image)
                             .with(
                                 \.$products,

@@ -38,6 +38,9 @@ struct BusinessController: RouteCollection {
     func boot(routes: RoutesBuilder) throws {
         let group = routes.grouped(.constant(Business.schema))
         group.get(use: list)
+        group.group("recommendations") { subgroup in
+            subgroup.get(use: recommendations)
+        }
         group.group(":\(businessIDParam)") { subgroup in
             subgroup.get(use: detail)
             subgroup.get("reviews", use: reviews)
@@ -55,7 +58,11 @@ struct BusinessController: RouteCollection {
             )
         else { throw Abort(.notFound) }
 
-        return try await BusinessContent.from(req: req, business: business)
+        return try await BusinessContent.from(
+            req: req,
+            business: business,
+            products: business.products
+        )
     }
 
     func reviews(req: Request) async throws -> Page<ReviewContent> {
@@ -70,6 +77,39 @@ struct BusinessController: RouteCollection {
         return try paginator.map { review in
             try ReviewContent.from(review: review)
         }
+    }
+
+    func recommendations(req: Request) async throws -> BusinessListingContent {
+        try Filter.validate(query: req)
+        let filter = try req.query.decode(Filter.self)
+        let distance = filter.distance ?? 10
+        let center = CoordinateContent(
+            latitude: filter.latitude,
+            longitude: filter.longitude
+        )
+
+        let businesses = try await req.businessRepository.list(
+            near: center,
+            upto: distance
+        )
+
+        let items: [BusinessContent] = try await businesses.concurrentMap {
+            business in
+            let products = try await req.productRepository.getDiscounts(
+                businessId: try business.requireID()
+            )
+            let content = try await BusinessContent.from(
+                req: req,
+                business: business,
+                products: products
+            )
+            return content
+        }
+
+        return BusinessListingContent(
+            center: center,
+            businesses: items.sorted { lhs, rhs in lhs.distance < rhs.distance }
+        )
     }
 
     func list(req: Request) async throws -> BusinessListingContent {
@@ -90,7 +130,8 @@ struct BusinessController: RouteCollection {
         for business in businesses {
             let content = try await BusinessContent.from(
                 req: req,
-                business: business
+                business: business,
+                products: []
             )
 
             items.append(content)

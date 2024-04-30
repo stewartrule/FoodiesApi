@@ -8,7 +8,9 @@ struct CreateCustomer: AsyncMigration {
             .field("email", .string, .required)
             .field("telephone", .string, .required)
             .field("image_id", .uuid, .references(Image.schema, "id"))
-            .field("created_at", .datetime).unique(on: "email").create()
+            .field("created_at", .datetime)
+            .unique(on: "email")
+            .create()
     }
 
     func revert(on database: Database) async throws {

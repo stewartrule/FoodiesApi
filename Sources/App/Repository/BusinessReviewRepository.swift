@@ -17,8 +17,11 @@ struct BusinessReviewRepository {
     func paginateFor(businessID: Business.IDValue) async throws -> Page<
         BusinessReview
     > {
-        return try await query().filter(\.$business.$id == businessID)
-            .with(\.$customer).sort(\.$createdAt).paginate(for: req)
+        return try await query()
+            .filter(\.$business.$id == businessID)
+            .with(\.$customer)
+            .sort(\.$createdAt)
+            .paginate(for: req)
     }
 
     func getCountFor(businessID: Business.IDValue) async throws -> Int {

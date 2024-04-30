@@ -1,6 +1,6 @@
 ## Foodies Api
 
-Trying out [Vapor](https://vapor.codes) as the backend for ... (hopefully soon)
+Trying out [Vapor](https://vapor.codes) as the backend for [Foodies IOS](https://github.com/stewartrule/FoodiesIOS)
 
 ### Setup environment.
 

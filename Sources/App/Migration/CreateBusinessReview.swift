@@ -3,7 +3,8 @@ import Fluent
 struct CreateBusinessReview: AsyncMigration {
     func prepare(on database: Database) async throws {
         try await database.schema(BusinessReview.schema).id()
-            .field("created_at", .datetime).field("rating", .double, .required)
+            .field("created_at", .datetime)
+            .field("rating", .double, .required)
             .field("review", .string, .required)
             .field("is_anonymous", .bool, .required)
             .field(

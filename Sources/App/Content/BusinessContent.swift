@@ -17,7 +17,9 @@ struct BusinessContent: Content {
     let productTypes: [ProductType]
     let products: [ProductContent]
 
-    static func from(req: Request, business: Business) async throws -> Self {
+    static func from(req: Request, business: Business, products: [Product] = [])
+        async throws -> Self
+    {
         let now = Date()
         let image = business.image
         let isOpen = business.isOpenAt(date: now)
@@ -43,10 +45,9 @@ struct BusinessContent: Content {
             reviewCount: reviewCount,
             averageRating: averageRating,
             productTypes: business.productTypes,
-            products: business.$products.value != nil
-                ? try business.products.map { product in
-                    try ProductContent.from(req: req, product: product)
-                } : []
+            products: try products.compactMap({ product in
+                try ProductContent.from(req: req, product: product)
+            })
         )
     }
 }

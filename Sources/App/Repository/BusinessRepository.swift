@@ -13,7 +13,8 @@ struct BusinessRepository {
     func query() -> QueryBuilder<Business> { Business.query(on: req.db) }
 
     func find(businessID: Business.IDValue) async throws -> Business? {
-        return try await query().filter(\.$id == businessID)
+        return try await query()
+            .filter(\.$id == businessID)
             .with(
                 \.$address,
                 { address in
@@ -23,17 +24,26 @@ struct BusinessRepository {
                     )
                 }
             )
-            .with(\.$businessType).with(\.$image).with(\.$openingHours)
-            .with(\.$cuisines).with(\.$productTypes)
+            .with(\.$businessType)
+            .with(\.$image)
+            .with(\.$openingHours)
+            .with(\.$cuisines)
+            .with(\.$productTypes)
             .with(
                 \.$products,
                 { p1 in
-                    p1.with(\.$productType).with(\.$discounts).with(\.$image)
+                    p1
+                        .with(\.$productType)
+                        .with(\.$discounts)
+                        .with(\.$image)
                         .with(
                             \.$products,
                             { p2 in
-                                p2.with(\.$productType).with(\.$products)
-                                    .with(\.$image).with(\.$discounts)
+                                p2
+                                    .with(\.$productType)
+                                    .with(\.$products)
+                                    .with(\.$image)
+                                    .with(\.$discounts)
                             }
                         )
                 }
@@ -60,8 +70,11 @@ struct BusinessRepository {
                 PostalArea.self,
                 on: \Address.$postalArea.$id == \PostalArea.$id
             )
-            .with(\.$image).with(\.$productTypes).with(\.$cuisines)
-            .with(\.$businessType).with(\.$openingHours)
+            .with(\.$image)
+            .with(\.$productTypes)
+            .with(\.$cuisines)
+            .with(\.$businessType)
+            .with(\.$openingHours)
             .with(\.$address) { address in
                 address.with(\.$postalArea) { postalArea in
                     postalArea.with(\.$city)

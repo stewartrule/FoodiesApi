@@ -24,7 +24,6 @@ struct ProfileRepository {
                     )
                 }
             )
-            //            .filter(\.$id == "e02b19ed-8fc8-43c6-8a1f-a407b5c82fdf")
             .sort(\.$createdAt, .ascending).first()
     }
 

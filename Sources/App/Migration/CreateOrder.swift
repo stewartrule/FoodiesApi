@@ -3,8 +3,10 @@ import Fluent
 struct CreateOrder: AsyncMigration {
     func prepare(on database: Database) async throws {
         try await database.schema(Order.schema).id()
-            .field("created_at", .datetime).field("prepared_at", .datetime)
-            .field("sent_at", .datetime).field("delivered_at", .datetime)
+            .field("created_at", .datetime)
+            .field("prepared_at", .datetime)
+            .field("sent_at", .datetime)
+            .field("delivered_at", .datetime)
             .field(
                 "customer_id",
                 .uuid,

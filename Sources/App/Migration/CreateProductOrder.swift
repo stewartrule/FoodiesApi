@@ -3,7 +3,8 @@ import Fluent
 struct CreateProductOrder: AsyncMigration {
     func prepare(on database: Database) async throws {
         try await database.schema(ProductOrder.schema).id()
-            .field("quantity", .int, .required).field("price", .int, .required)
+            .field("quantity", .int, .required)
+            .field("price", .int, .required)
             .field(
                 "order_id",
                 .uuid,

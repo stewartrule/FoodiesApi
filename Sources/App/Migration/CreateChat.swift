@@ -6,7 +6,8 @@ struct CreateChat: AsyncMigration {
             .case("courier").create()
 
         try await database.schema(Chat.schema).id()
-            .field("created_at", .datetime).field("seen_at", .datetime)
+            .field("created_at", .datetime)
+            .field("seen_at", .datetime)
             .field("message", .string, .required)
             .field(
                 "order_id",
@@ -21,7 +22,8 @@ struct CreateChat: AsyncMigration {
                 .references(Customer.schema, "id")
             )
             .field("courier_id", .uuid, .references(Courier.schema, "id"))
-            .field("sender", sender, .required).create()
+            .field("sender", sender, .required)
+            .create()
     }
 
     func revert(on database: Database) async throws {
