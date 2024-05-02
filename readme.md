@@ -51,8 +51,18 @@ Density
 >
 ```
 
-### Run app
+When the seed is done you'll get a list with accounts and a password you can use to log in to the app.
+
+### Run server
 
 ```bash
 swift run App
 ```
+
+You can now run [Foodies IOS](https://github.com/stewartrule/FoodiesIOS)
+
+### Adminer
+
+Adminer is available at http://localhost:8081
+
+You can find the credentials in the [docker-compose file](https://github.com/stewartrule/FoodiesApi/blob/main/docker-compose.yml#L25-L27)

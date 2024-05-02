@@ -26,7 +26,10 @@ struct PostalAreaController: RouteCollection {
         let postalCode = filter.postalCode
 
         return try await PostalArea.query(on: req.db)
-            .filter(\.$postalCode == postalCode).with(\.$city)
-            .sort(\.$postalCode).limit(10).all()
+            .filter(\.$postalCode == postalCode)
+            .with(\.$city)
+            .sort(\.$postalCode)
+            .limit(10)
+            .all()
     }
 }

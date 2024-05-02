@@ -12,9 +12,9 @@ struct ProfileRepository {
 
     func query() -> QueryBuilder<Customer> { Customer.query(on: req.db) }
 
-    func getProfile() async throws -> Customer? {
-        // todo: handle actual login
-        return try await query().with(\.$image)
+    func getProfile(for customer: Customer) async throws -> Customer? {
+        return try await query()
+            .with(\.$image)
             .with(
                 \.$addresses,
                 { addresses in
@@ -24,25 +24,23 @@ struct ProfileRepository {
                     )
                 }
             )
-            .sort(\.$createdAt, .ascending).first()
+            .filter(\.$id == customer.requireID())
+            .first()
     }
 
-    func getOrders() async throws -> Page<Order>? {
-        guard let profile = try await getProfile() else { return nil }
+    func getOrders(for profile: Customer) async throws -> Page<Order>? {
         return try await req.orderRepository.paginateFor(
             customerID: try profile.requireID()
         )
     }
 
-    func getPendingOrders() async throws -> [Order]? {
-        guard let profile = try await getProfile() else { return nil }
+    func getPendingOrders(for profile: Customer) async throws -> [Order]? {
         return try await req.orderRepository.getPendingOrdersFor(
             customerID: try profile.requireID()
         )
     }
 
-    func getOrder(orderID: UUID) async throws -> Order? {
-        guard let profile = try await getProfile() else { return nil }
+    func getOrder(for profile: Customer, orderID: UUID) async throws -> Order? {
         guard
             let order = try await req.orderRepository.findBy(
                 customerID: try profile.requireID(),

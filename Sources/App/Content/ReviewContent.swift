@@ -10,8 +10,8 @@ struct ReviewContent: Content {
     let customer: CustomerContent
 
     static func from(review: BusinessReview) throws -> Self {
-        return ReviewContent(
-            id: try review.requireID(),
+        return try ReviewContent(
+            id: review.requireID(),
             createdAt: review.createdAt ?? Date(),
             isAnonymous: review.isAnonymous,
             businessId: review.$business.id,

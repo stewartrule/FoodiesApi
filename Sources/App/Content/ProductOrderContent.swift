@@ -7,11 +7,11 @@ struct ProductOrderContent: Content {
     let product: ProductContent
 
     static func from(req: Request, item: ProductOrder) throws -> Self {
-        .init(
-            id: try item.requireID(),
+        try .init(
+            id: item.requireID(),
             quantity: item.quantity,
             price: item.price,
-            product: try ProductContent.from(req: req, product: item.product)
+            product: ProductContent.from(req: req, product: item.product)
         )
     }
 }

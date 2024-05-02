@@ -25,20 +25,20 @@ struct OrderContent: Content {
         }
 
         let business = order.business
-        return OrderContent(
-            id: try order.requireID(),
+        return try OrderContent(
+            id: order.requireID(),
             createdAt: order.createdAt,
             preparedAt: order.preparedAt,
             sentAt: order.sentAt,
             deliveredAt: order.deliveredAt,
             address: order.address,
             business: BusinessAddressContent(
-                id: try business.requireID(),
+                id: business.requireID(),
                 name: business.name,
                 address: business.address
             ),
             courier: courierContent,
-            items: try order.items.map {
+            items: order.items.map {
                 try ProductOrderContent.from(req: req, item: $0)
             },
             chat: order.$chat.value != nil ? order.chat : []

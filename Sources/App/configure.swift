@@ -37,13 +37,29 @@ public func configure(_ app: Application) async throws {
     app.asyncCommands.use(SeedCommand(), as: "seed")
 
     let migrations: [AsyncMigration] = [
-        CreateImage(), CreateBusinessType(), CreateCuisine(), CreateProvince(),
-        CreateCity(), CreatePostalArea(), CreateAddress(), CreateBusiness(),
-        CreateProductType(), CreateBusinessCuisine(), CreateProduct(),
-        CreateProductCombo(), CreateCustomer(), CreateCustomerAddress(),
-        CreateCourier(), CreateOrder(), CreateProductOrder(),
-        CreateBusinessReview(), CreateOpeningHours(), CreateDiscount(),
-        CreateProductDiscount(), CreateChat(),
+        CreateImage(),
+        CreateBusinessType(),
+        CreateCuisine(),
+        CreateProvince(),
+        CreateCity(),
+        CreatePostalArea(),
+        CreateAddress(),
+        CreateBusiness(),
+        CreateProductType(),
+        CreateBusinessCuisine(),
+        CreateProduct(),
+        CreateProductCombo(),
+        CreateCustomer(),
+        CreateCustomerAddress(),
+        CreateCourier(),
+        CreateOrder(),
+        CreateProductOrder(),
+        CreateBusinessReview(),
+        CreateOpeningHours(),
+        CreateDiscount(),
+        CreateProductDiscount(),
+        CreateChat(),
+        CreateCustomerToken(),
     ]
 
     for migration in migrations { app.migrations.add(migration) }

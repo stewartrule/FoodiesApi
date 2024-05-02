@@ -12,6 +12,9 @@ struct SeedCommand: AsyncCommand {
         let app = context.application
         let database = app.db
         let console = context.console
+        let password = "foodies"
+        let passwordHash = try Bcrypt.hash(password)
+        var users: [(email: String, area: PostalArea)] = []
 
         // MARK: Gather input data
         let jsonResource = JsonResource(
@@ -126,13 +129,13 @@ struct SeedCommand: AsyncCommand {
         for postalArea in postalAreas {
             let latitude = postalArea.latitude
             let longitude = postalArea.longitude
-            let address = Address(
+            let address = try Address(
                 street: faker.address.streetName(),
                 postalCodeSuffix: String(letters.randomSample(count: 2)),
                 houseNumber: faker.number.randomInt(min: 4, max: 200),
                 latitude: latitude,
                 longitude: longitude,
-                postalAreaID: try postalArea.requireID()
+                postalAreaID: postalArea.requireID()
             )
             addresses.append(address)
         }
@@ -170,16 +173,16 @@ struct SeedCommand: AsyncCommand {
             let image = businessImages.first(where: {
                 $0.originalId == photo.original_id
             })!
-            let business = Business(
+            let business = try Business(
                 name:
                     "\(cuisine.name.capitalized) \(businessType.name.lowercased())",
                 description: photo.alt,
                 deliveryCharge: faker.number.randomInt(min: 2, max: 7) * 50,
                 minimumOrderAmount: faker.number.randomInt(min: 1, max: 4)
                     * 500,
-                addressID: try address.requireID(),
-                businessTypeID: try businessType.requireID(),
-                imageID: try image.requireID()
+                addressID: address.requireID(),
+                businessTypeID: businessType.requireID(),
+                imageID: image.requireID()
             )
 
             // MARK: Set cuisine
@@ -215,9 +218,12 @@ struct SeedCommand: AsyncCommand {
         progressBar.succeed()
 
         let businesses: [Business] = try await Business.query(on: database)
-            .with(\.$cuisines).with(\.$products)
+            .with(\.$cuisines)
+            .with(\.$products)
             .with(\.$address) { a in
-                a.with(\.$postalArea) { p in p.with(\.$city) }
+                a.with(\.$postalArea) { p in
+                    p.with(\.$city)
+                }
             }
             .all()
 
@@ -239,8 +245,9 @@ struct SeedCommand: AsyncCommand {
 
             // Gather dishes for cuisine
             let cuisines = business.cuisines
-            let dishes = allDishes.filter({ $0.cuisine == cuisines.first?.name }
-            )
+            let dishes =
+                allDishes
+                .filter({ $0.cuisine == cuisines.first?.name })
 
             // Add product types to business
             let productTypes = try dishes.uniqued(on: { $0.dishtype })
@@ -261,14 +268,14 @@ struct SeedCommand: AsyncCommand {
                 if let productType = productTypes.first(where: {
                     $0.name == dish.dishtype
                 }) {
-                    return Product(
+                    return try Product(
                         name: productType.name,
                         description: dish.alt,
                         price: (faker.number.randomInt(min: 3, max: 21) * 100)
                             + 99,
-                        businessID: try business.requireID(),
-                        productTypeID: try productType.requireID(),
-                        imageID: try image.requireID()
+                        businessID: business.requireID(),
+                        productTypeID: productType.requireID(),
+                        imageID: image.requireID()
                     )
                 }
 
@@ -291,9 +298,9 @@ struct SeedCommand: AsyncCommand {
                     faker.number.randomInt(min: 1, max: 7) == 3
                 })
                 .map { product in
-                    ProductDiscount(
-                        productID: try product.requireID(),
-                        discountID: try discount.requireID()
+                    try ProductDiscount(
+                        productID: product.requireID(),
+                        discountID: discount.requireID()
                     )
                 }
             try await discounted.create(on: database)
@@ -350,24 +357,28 @@ struct SeedCommand: AsyncCommand {
                 let domain = faker.internet.domainName(true)
                 let email =
                     "\(firstName.lowercased()).\(lastName.lowercased()).\(postalArea.postalCode)@\(domain)"
-                let customer = Customer(
+                let customer = try Customer(
                     firstName: firstName,
                     lastName: lastName,
                     email: email,
                     telephone:
                         "06\(faker.number.randomInt(min: 12_345_678, max: 98_765_432))",
-                    imageID: try customerImage.requireID()
+                    passwordHash: passwordHash,
+                    imageID: customerImage.requireID()
                 )
                 try await customer.create(on: database)
 
+                // Add user for login.
+                users.append((email, postalArea))
+
                 // Add one address to each customer
-                let address = Address(
+                let address = try Address(
                     street: faker.address.streetName(),
                     postalCodeSuffix: String(letters.randomSample(count: 2)),
                     houseNumber: faker.number.randomInt(min: 4, max: 200),
                     latitude: postalArea.latitude,
                     longitude: postalArea.longitude,
-                    postalAreaID: try postalArea.requireID()
+                    postalAreaID: postalArea.requireID()
                 )
                 try await address.save(on: database)
                 try await customer.$addresses.attach([address], on: database)
@@ -390,14 +401,14 @@ struct SeedCommand: AsyncCommand {
                         business.address.postalArea.$city.id
                             == postalArea.$city.id
                     }
-                    .randomSample(count: 4)
+                    .randomSample(count: 5)
 
                 for index in localBusinesses.indices {
                     let business = localBusinesses[index]
-                    let order = Order(
-                        customerID: try customer.requireID(),
-                        businessID: try business.requireID(),
-                        addressID: try address.requireID()
+                    let order = try Order(
+                        customerID: customer.requireID(),
+                        businessID: business.requireID(),
+                        addressID: address.requireID()
                     )
                     let createdAt = faker.date.backward(days: index)
                         .addingTimeInterval(
@@ -419,32 +430,32 @@ struct SeedCommand: AsyncCommand {
                     // MARK: Add products to order
                     let selection = products.randomSample(count: 5)
                     for product in selection {
-                        let orderedProduct = ProductOrder(
+                        let orderedProduct = try ProductOrder(
                             quantity: faker.number.randomInt(min: 1, max: 4),
                             price: product.price,
-                            productID: try product.requireID(),
-                            orderID: try order.requireID()
+                            productID: product.requireID(),
+                            orderID: order.requireID()
                         )
                         try await orderedProduct.save(on: database)
                     }
 
                     // MARK: Add review for every order
-                    let review = BusinessReview(
+                    let review = try BusinessReview(
                         review: faker.lorem.paragraph(sentencesAmount: 2),
                         rating: Double(faker.number.randomInt(min: 1, max: 5)),
                         isAnonymous: faker.number.randomBool(),
-                        businessID: try business.requireID(),
-                        customerID: try customer.requireID(),
-                        orderID: try order.requireID()
+                        businessID: business.requireID(),
+                        customerID: customer.requireID(),
+                        orderID: order.requireID()
                     )
                     try await review.save(on: database)
 
                     // MARK: Add chat conversation
                     for i in 0...3 {
-                        let chat = Chat(
-                            orderID: try order.requireID(),
-                            customerID: try customer.requireID(),
-                            courierID: try courier.requireID(),
+                        let chat = try Chat(
+                            orderID: order.requireID(),
+                            customerID: customer.requireID(),
+                            courierID: courier.requireID(),
                             message: faker.lorem.sentence(),
                             sender: i % 2 == 0 ? .customer : .courier
                         )
@@ -466,5 +477,19 @@ struct SeedCommand: AsyncCommand {
             counter += 1
         }
         progressBar.succeed()
+
+        // MARK: Finish up
+        console.output("You can now log in with one of the following accounts:")
+        for user in users.enumerated()
+            .filter({ index, user in index % 20 == 0 }).map({ $1 })
+        {
+            let city = try await user.area.$city.get(on: database)
+            console.output(
+                "\(user.email) (\(city.name))",
+                style: .info,
+                newLine: true
+            )
+        }
+        console.output("Your password: \(password)", style: .success)
     }
 }

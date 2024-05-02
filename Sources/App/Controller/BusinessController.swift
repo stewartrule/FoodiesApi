@@ -38,12 +38,12 @@ struct BusinessController: RouteCollection {
     func boot(routes: RoutesBuilder) throws {
         let group = routes.grouped(.constant(Business.schema))
         group.get(use: list)
-        group.group("recommendations") { subgroup in
-            subgroup.get(use: recommendations)
+        group.group("recommendations") { group in
+            group.get(use: recommendations)
         }
-        group.group(":\(businessIDParam)") { subgroup in
-            subgroup.get(use: detail)
-            subgroup.get("reviews", use: reviews)
+        group.group(":\(businessIDParam)") { group in
+            group.get(use: detail)
+            group.get("reviews", use: reviews)
         }
     }
 
@@ -96,7 +96,7 @@ struct BusinessController: RouteCollection {
         let items: [BusinessContent] = try await businesses.concurrentMap {
             business in
             let products = try await req.productRepository.getDiscounts(
-                businessId: try business.requireID()
+                businessId: business.requireID()
             )
             let content = try await BusinessContent.from(
                 req: req,

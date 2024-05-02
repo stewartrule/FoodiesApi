@@ -29,13 +29,13 @@ struct BusinessContent: Content {
         let averageRating = try await req.businessReviewRepository
             .getAverageRatingFor(business: business)
 
-        return .init(
-            id: try business.requireID(),
+        return try .init(
+            id: business.requireID(),
             name: business.name,
             deliveryCharge: business.deliveryCharge,
             minimumOrderAmount: business.minimumOrderAmount,
             address: business.address,
-            image: try ImageContent.from(req: req, image: image),
+            image: ImageContent.from(req: req, image: image),
             businessType: business.businessType,
             cuisines: business.cuisines,
             openingHours: business.$openingHours.value != nil
@@ -45,7 +45,7 @@ struct BusinessContent: Content {
             reviewCount: reviewCount,
             averageRating: averageRating,
             productTypes: business.productTypes,
-            products: try products.compactMap({ product in
+            products: products.compactMap({ product in
                 try ProductContent.from(req: req, product: product)
             })
         )

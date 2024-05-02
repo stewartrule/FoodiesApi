@@ -3,21 +3,35 @@ import Vapor
 
 struct ProfileController: RouteCollection {
     func boot(routes: RoutesBuilder) throws {
-        let group = routes.grouped(.constant("profile"))
-        group.get(use: profile)
-        group.group("orders") { subgroup in
-            subgroup.get(use: orders)
-            subgroup.get(":orderID", use: order)
+        let tokenProtected = routes.grouped(CustomerToken.authenticator())
+        let routes = tokenProtected.grouped(.constant("profile"))
+
+        routes.get(use: profile)
+        routes.group("orders") { routes in
+            routes.get(use: orders)
+            routes.get(":orderID", use: order)
         }
     }
 
-    // todo: handle login
+    private func getProfile(req: Request) async throws -> Customer? {
+        let customer = try req.auth.require(Customer.self)
+        return try await req.profileRepository.getProfile(
+            for: customer
+        )
+    }
+
     func profile(req: Request) async throws -> ProfileContent {
-        guard let profile = try await req.profileRepository.getProfile() else {
+        guard let profile = try await getProfile(req: req) else {
+            throw Abort(.unauthorized)
+        }
+
+        guard
+            let orders = try await req.profileRepository.getPendingOrders(
+                for: profile
+            )
+        else {
             throw Abort(.notFound)
         }
-        guard let orders = try await req.profileRepository.getPendingOrders()
-        else { throw Abort(.notFound) }
 
         return try await ProfileContent.from(
             req: req,
@@ -28,9 +42,14 @@ struct ProfileController: RouteCollection {
         )
     }
 
-    // todo: handle login
     func orders(req: Request) async throws -> Page<OrderContent> {
-        guard let orders = try await req.profileRepository.getOrders() else {
+        guard let profile = try await getProfile(req: req) else {
+            throw Abort(.unauthorized)
+        }
+
+        guard
+            let orders = try await req.profileRepository.getOrders(for: profile)
+        else {
             throw Abort(.notFound)
         }
 
@@ -39,14 +58,18 @@ struct ProfileController: RouteCollection {
         }
     }
 
-    // todo: handle login
     func order(req: Request) async throws -> OrderContent {
+        guard let profile = try await getProfile(req: req) else {
+            throw Abort(.unauthorized)
+        }
+
         guard let orderID = req.parameters.get("orderID", as: UUID.self) else {
             throw Abort(.badRequest)
         }
 
         guard
             let order = try await req.profileRepository.getOrder(
+                for: profile,
                 orderID: orderID
             )
         else { throw Abort(.notFound) }

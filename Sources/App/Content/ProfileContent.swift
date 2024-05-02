@@ -24,9 +24,9 @@ struct ProfileContent: Content {
             imageContent = try ImageContent.from(req: req, image: image)
         }
 
-        return .init(
+        return try .init(
             profile: Profile(
-                id: try profile.requireID(),
+                id: profile.requireID(),
                 firstName: profile.firstName,
                 lastName: profile.lastName,
                 telephone: profile.telephone,
