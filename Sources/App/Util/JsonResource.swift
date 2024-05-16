@@ -35,6 +35,10 @@ class JsonResource {
         let avg_color: String
         let cuisine: String
         let hsb: [Int]
+
+        var filename: String {
+            "\(original_id).webp"
+        }
     }
 
     struct DishPhoto: Codable {
@@ -45,6 +49,10 @@ class JsonResource {
         let cuisine: String
         let dishtype: String
         let hsb: [Int]
+
+        var filename: String {
+            "\(original_id).webp"
+        }
     }
 
     private let app: Application
@@ -55,7 +63,7 @@ class JsonResource {
         self.fileManager = fileManager
     }
 
-    func getPostalCode() throws -> [PostalCode] { try load("postalCodes") }
+    func getPostalCodes() throws -> [PostalCode] { try load("postalCodes") }
 
     func getRestaurants() throws -> [RestaurantPhoto] {
         try load("restaurants")

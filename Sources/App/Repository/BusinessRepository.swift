@@ -53,8 +53,8 @@ struct BusinessRepository {
 
     func list(
         near location: Locatable,
-        upto distance: Int = 5,
-        with limit: Int = 100
+        distance: Int = 5,
+        limit: Int = 100
     ) async throws -> [Business] {
         let kmInDegree = 111.0
         let offset = 1.0 / (kmInDegree / Double(distance))

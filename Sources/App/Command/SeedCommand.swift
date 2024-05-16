@@ -21,7 +21,7 @@ struct SeedCommand: AsyncCommand {
             app: app,
             fileManager: FileManager.default
         )
-        var postalCodes = try jsonResource.getPostalCode()
+        var postalCodes = try jsonResource.getPostalCodes()
         let restaurants = try jsonResource.getRestaurants()
         let allDishes = try jsonResource.getDishes()
         let provincesNames = postalCodes.map({ $0.province.rawValue }).uniqued()
@@ -85,7 +85,7 @@ struct SeedCommand: AsyncCommand {
         let businessImages = restaurants.map { photo in
             Image(
                 name: photo.alt,
-                originalId: photo.original_id,
+                src: photo.filename,
                 h: photo.hsb[0],
                 s: photo.hsb[1],
                 b: photo.hsb[2]
@@ -98,7 +98,7 @@ struct SeedCommand: AsyncCommand {
         let productImages = allDishes.map { photo in
             Image(
                 name: photo.alt,
-                originalId: photo.original_id,
+                src: photo.filename,
                 h: photo.hsb[0],
                 s: photo.hsb[1],
                 b: photo.hsb[2]
@@ -113,7 +113,7 @@ struct SeedCommand: AsyncCommand {
             profileImages.append(
                 Image(
                     name: "Profile \(originalId)",
-                    originalId: originalId,
+                    src: "\(originalId).webp",
                     h: 49,
                     s: 12,
                     b: 51
@@ -171,7 +171,7 @@ struct SeedCommand: AsyncCommand {
             let photo = restaurants.filter({ $0.cuisine == cuisine.name })
                 .randomElement()!
             let image = businessImages.first(where: {
-                $0.originalId == photo.original_id
+                $0.src == photo.filename
             })!
             let business = try Business(
                 name:
@@ -262,7 +262,7 @@ struct SeedCommand: AsyncCommand {
             // Add products to business.
             let products = try dishes.compactMap { dish in
                 let image = productImages.first(where: {
-                    $0.originalId == dish.original_id
+                    $0.src == dish.filename
                 })!
 
                 if let productType = productTypes.first(where: {
@@ -440,7 +440,7 @@ struct SeedCommand: AsyncCommand {
                     }
 
                     // MARK: Add review for every order
-                    let review = try BusinessReview(
+                    let review = try OrderReview(
                         review: faker.lorem.paragraph(sentencesAmount: 2),
                         rating: Double(faker.number.randomInt(min: 1, max: 5)),
                         isAnonymous: faker.number.randomBool(),

@@ -35,8 +35,18 @@ struct OrderRepository {
                     )
                 }
             )
-            .with(\.$customer, { customer in customer.with(\.$image) })
-            .with(\.$courier, { courier in courier.with(\.$image) })
+            .with(
+                \.$customer,
+                { customer in
+                    customer.with(\.$image)
+                }
+            )
+            .with(
+                \.$courier,
+                { courier in
+                    courier.with(\.$image)
+                }
+            )
             .with(
                 \.$items,
                 { item in
@@ -57,34 +67,42 @@ struct OrderRepository {
     func paginateFor(businessID: Business.IDValue) async throws -> Page<Order> {
         return try await queryWithBaseRelations()
             .filter(\.$business.$id == businessID)
-            .sort(\.$createdAt, .descending).paginate(for: req)
+            .sort(\.$createdAt, .descending)
+            .paginate(for: req)
     }
 
     func paginateFor(customerID: Customer.IDValue) async throws -> Page<Order> {
         return try await queryWithBaseRelations()
             .filter(\.$customer.$id == customerID)
-            .sort(\.$createdAt, .descending).paginate(for: req)
+            .sort(\.$createdAt, .descending)
+            .paginate(for: req)
     }
 
     func getPendingOrdersFor(customerID: Customer.IDValue) async throws
         -> [Order]
     {
         return try await queryWithBaseRelations()
-            .filter(\.$customer.$id == customerID).with(\.$chat)
+            .filter(\.$customer.$id == customerID)
+            .with(\.$chat)
             .group(.or) { group in
                 group
                     .filter(\.$preparedAt == nil)
                     .filter(\.$deliveredAt == nil)
                     .filter(\.$sentAt == nil)
             }
-            .sort(\.$createdAt, .descending).all()
+            .sort(\.$createdAt, .descending)
+            .all()
     }
 
-    func findBy(customerID: Customer.IDValue, orderId: Order.IDValue)
+    func firstBy(customerID: Customer.IDValue, orderID: Order.IDValue)
         async throws -> Order?
     {
         return try await queryWithBaseRelations()
-            .filter(\.$customer.$id == customerID).with(\.$chat)
-            .filter(\.$id == orderId).sort(\.$createdAt, .descending).first()
+            .filter(\.$customer.$id == customerID)
+            .filter(\.$id == orderID)
+            .with(\.$chat)
+            .with(\.$courier)
+            .sort(\.$createdAt, .descending)
+            .first()
     }
 }

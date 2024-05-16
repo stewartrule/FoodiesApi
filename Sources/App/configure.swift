@@ -54,7 +54,7 @@ public func configure(_ app: Application) async throws {
         CreateCourier(),
         CreateOrder(),
         CreateProductOrder(),
-        CreateBusinessReview(),
+        CreateOrderReview(),
         CreateOpeningHours(),
         CreateDiscount(),
         CreateProductDiscount(),

@@ -12,7 +12,7 @@ struct ImageContent: Content {
         .init(
             id: try image.requireID(),
             name: image.name,
-            src: "\(req.baseUrl)/images/\(image.originalId).webp",
+            src: "\(req.baseUrl)/images/\(image.src)",
             h: image.h,
             s: image.s,
             b: image.b

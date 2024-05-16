@@ -9,7 +9,7 @@ struct ReviewContent: Content {
     let rating: Double
     let customer: CustomerContent
 
-    static func from(review: BusinessReview) throws -> Self {
+    static func from(review: OrderReview) throws -> Self {
         return try ReviewContent(
             id: review.requireID(),
             createdAt: review.createdAt ?? Date(),
@@ -17,7 +17,9 @@ struct ReviewContent: Content {
             businessId: review.$business.id,
             review: review.review,
             rating: review.rating,
-            customer: CustomerContent.from(customer: review.customer)
+            customer: review.isAnonymous
+                ? CustomerContent(firstName: "", lastName: "")
+                : CustomerContent.from(customer: review.customer)
         )
     }
 }

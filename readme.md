@@ -5,7 +5,7 @@ Trying out [Vapor](https://vapor.codes) as the backend for [Foodies IOS](https:/
 ### Setup environment.
 
 ```bash
-docker-compose build --build
+docker-compose up --build
 ```
 
 ### Setup database

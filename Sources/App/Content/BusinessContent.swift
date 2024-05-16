@@ -23,11 +23,11 @@ struct BusinessContent: Content {
         let now = Date()
         let image = business.image
         let isOpen = business.isOpenAt(date: now)
-        let reviewCount = try await req.businessReviewRepository.getCountFor(
-            business: business
+        let reviewCount = try await req.orderReviewRepository.getCount(
+            for: business
         )
-        let averageRating = try await req.businessReviewRepository
-            .getAverageRatingFor(business: business)
+        let averageRating = try await req.orderReviewRepository
+            .getAverageRating(for: business)
 
         return try .init(
             id: business.requireID(),

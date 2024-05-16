@@ -17,8 +17,11 @@ struct OrderContent: Content {
     let courier: CourierContent?
     let items: [ProductOrderContent]
     let chat: [Chat]
+    let reviews: [ReviewContent]
 
-    static func from(req: Request, order: Order) async throws -> Self {
+    static func from(req: Request, order: Order, reviews: [OrderReview])
+        async throws -> Self
+    {
         var courierContent: CourierContent?
         if order.$courier.value != nil, let courier = order.courier {
             courierContent = try CourierContent.from(req: req, courier: courier)
@@ -41,7 +44,10 @@ struct OrderContent: Content {
             items: order.items.map {
                 try ProductOrderContent.from(req: req, item: $0)
             },
-            chat: order.$chat.value != nil ? order.chat : []
+            chat: order.$chat.value != nil ? order.chat : [],
+            reviews: reviews.map({ review in
+                try ReviewContent.from(review: review)
+            })
         )
     }
 }

@@ -42,9 +42,9 @@ struct ProfileRepository {
 
     func getOrder(for profile: Customer, orderID: UUID) async throws -> Order? {
         guard
-            let order = try await req.orderRepository.findBy(
+            let order = try await req.orderRepository.firstBy(
                 customerID: try profile.requireID(),
-                orderId: orderID
+                orderID: orderID
             )
         else { return nil }
         return order

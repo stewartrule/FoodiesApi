@@ -9,7 +9,7 @@ struct CustomerOrdersContent: Content {
     let addresses: [Address]
     let orders: [OrderContent]
 
-    static func from(req: Request, customer: Customer) async throws -> Self {
+    static func from(req: Request, customer: Customer, reviews: [OrderReview] = []) async throws -> Self {
         try CustomerOrdersContent(
             id: customer.requireID(),
             firstName: customer.firstName,
@@ -18,7 +18,7 @@ struct CustomerOrdersContent: Content {
             telephone: customer.telephone,
             addresses: customer.addresses,
             orders: await customer.orders.asyncMap {
-                try await OrderContent.from(req: req, order: $0)
+                try await OrderContent.from(req: req, order: $0, reviews: reviews)
             }
         )
     }

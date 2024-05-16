@@ -4,37 +4,6 @@ import Vapor
 struct BusinessController: RouteCollection {
     let businessIDParam = "businessID"
 
-    struct Filter: Content, Validatable {
-        var latitude: Double
-        var longitude: Double
-        var distance: Int? = 10
-        var limit: Int? = 100
-        var offset: Int? = 0
-
-        static func validations(_ validations: inout Validations) {
-            validations.add("latitude", as: Double.self, required: true)
-            validations.add("longitude", as: Double.self, required: true)
-            validations.add(
-                "distance",
-                as: Int?.self,
-                is: .nil || .range(2...20),
-                required: false
-            )
-            validations.add(
-                "limit",
-                as: Int?.self,
-                is: .nil || .range(1...100),
-                required: false
-            )
-            validations.add(
-                "offset",
-                as: Int?.self,
-                is: .nil || .range(1...100),
-                required: false
-            )
-        }
-    }
-
     func boot(routes: RoutesBuilder) throws {
         let group = routes.grouped(.constant(Business.schema))
         group.get(use: list)
@@ -70,8 +39,8 @@ struct BusinessController: RouteCollection {
             let businessID = req.parameters.get(businessIDParam, as: UUID.self)
         else { throw Abort(.badRequest) }
 
-        let paginator = try await req.businessReviewRepository.paginateFor(
-            businessID: businessID
+        let paginator = try await req.orderReviewRepository.paginate(
+            for: businessID
         )
 
         return try paginator.map { review in
@@ -80,8 +49,8 @@ struct BusinessController: RouteCollection {
     }
 
     func recommendations(req: Request) async throws -> BusinessListingContent {
-        try Filter.validate(query: req)
-        let filter = try req.query.decode(Filter.self)
+        try BusinessFilter.validate(query: req)
+        let filter = try req.query.decode(BusinessFilter.self)
         let distance = filter.distance ?? 10
         let center = CoordinateContent(
             latitude: filter.latitude,
@@ -90,7 +59,7 @@ struct BusinessController: RouteCollection {
 
         let businesses = try await req.businessRepository.list(
             near: center,
-            upto: distance
+            distance: distance
         )
 
         let items: [BusinessContent] = try await businesses.concurrentMap {
@@ -113,8 +82,8 @@ struct BusinessController: RouteCollection {
     }
 
     func list(req: Request) async throws -> BusinessListingContent {
-        try Filter.validate(query: req)
-        let filter = try req.query.decode(Filter.self)
+        try BusinessFilter.validate(query: req)
+        let filter = try req.query.decode(BusinessFilter.self)
         let distance = filter.distance ?? 10
         let center = CoordinateContent(
             latitude: filter.latitude,
@@ -123,18 +92,15 @@ struct BusinessController: RouteCollection {
 
         let businesses = try await req.businessRepository.list(
             near: center,
-            upto: distance
+            distance: distance
         )
 
-        var items: [BusinessContent] = []
-        for business in businesses {
-            let content = try await BusinessContent.from(
+        let items = try await businesses.concurrentMap { business in
+            try await BusinessContent.from(
                 req: req,
                 business: business,
                 products: []
             )
-
-            items.append(content)
         }
 
         return BusinessListingContent(

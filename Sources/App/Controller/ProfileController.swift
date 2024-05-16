@@ -36,8 +36,8 @@ struct ProfileController: RouteCollection {
         return try await ProfileContent.from(
             req: req,
             profile: profile,
-            pendingOrders: orders.asyncMap({ order in
-                try await OrderContent.from(req: req, order: order)
+            pendingOrders: orders.concurrentMap({ order in
+                try await OrderContent.from(req: req, order: order, reviews: [])
             })
         )
     }
@@ -53,8 +53,15 @@ struct ProfileController: RouteCollection {
             throw Abort(.notFound)
         }
 
-        return try await orders.asyncMap { order in
-            try await OrderContent.from(req: req, order: order)
+        return try await orders.concurrentMap { order in
+            let reviews = try await req.orderReviewRepository.allBy(
+                order: order
+            )
+            return try await OrderContent.from(
+                req: req,
+                order: order,
+                reviews: reviews
+            )
         }
     }
 
@@ -74,6 +81,15 @@ struct ProfileController: RouteCollection {
             )
         else { throw Abort(.notFound) }
 
-        return try await OrderContent.from(req: req, order: order)
+        let reviews = try await req.orderReviewRepository.allBy(order: order)
+        return try await OrderContent.from(
+            req: req,
+            order: order,
+            reviews: reviews
+        )
+    }
+
+    func addReview(req: Request) {
+
     }
 }

@@ -1,8 +1,8 @@
 import Fluent
 
-struct CreateBusinessReview: AsyncMigration {
+struct CreateOrderReview: AsyncMigration {
     func prepare(on database: Database) async throws {
-        try await database.schema(BusinessReview.schema).id()
+        try await database.schema(OrderReview.schema).id()
             .field("created_at", .datetime)
             .field("rating", .double, .required)
             .field("review", .string, .required)
@@ -25,10 +25,11 @@ struct CreateBusinessReview: AsyncMigration {
                 .required,
                 .references(Order.schema, "id")
             )
-            .unique(on: "business_id", "customer_id", "order_id").create()
+            .unique(on: "business_id", "customer_id", "order_id")
+            .create()
     }
 
     func revert(on database: Database) async throws {
-        try await database.schema(BusinessReview.schema).delete()
+        try await database.schema(OrderReview.schema).delete()
     }
 }

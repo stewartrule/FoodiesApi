@@ -8,7 +8,7 @@ final class Image: Model, Content {
 
     @Field(key: "name") var name: String
 
-    @Field(key: "original_id") var originalId: Int
+    @Field(key: "src") var src: String
 
     @Field(key: "h") var h: Int
 
@@ -21,14 +21,14 @@ final class Image: Model, Content {
     init(
         id: UUID? = nil,
         name: String,
-        originalId: Int,
+        src: String,
         h: Int = 0,
         s: Int = 0,
         b: Int = 0
     ) {
         self.id = id
         self.name = name
-        self.originalId = originalId
+        self.src = src
         self.h = h
         self.s = s
         self.b = b

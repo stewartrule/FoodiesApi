@@ -1,8 +1,8 @@
 import Fluent
 import Vapor
 
-final class BusinessReview: Model, Content {
-    static let schema = "business_review"
+final class OrderReview: Model, Content {
+    static let schema = "order_review"
 
     @ID(key: .id) var id: UUID?
 
